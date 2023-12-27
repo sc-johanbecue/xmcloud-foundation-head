@@ -1,0 +1,35 @@
+﻿---
+ID: "cb563e88-c831-48e4-9c5b-cd64e7548b1c"
+Parent: "d7514b2e-0319-4c1c-930d-53a0048d00d3"
+Template: "d7514b2e-0319-4c1c-930d-53a0048d00d3"
+Path: /sitecore/templates/Foundation/Translation/Datasources/Settings/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{E1D5A9B0-5BB0-4804-B2B4-44C58E8E4668}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221222T083702Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed70f8ca-9cb0-4f0f-acda-f279b46483fc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tzoxyd3zg1
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231012T165807Z

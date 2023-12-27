@@ -1,7 +1,10 @@
 {
   "$schema": "./.sitecore/schemas/RootConfigurationFile.schema.json",
   "modules": [
-    "src/*.module.json"
+    "src/*.module.json",
+    "src/Foundation/*/foundation.*.module.json",
+    "src/Feature/*/feature.*.module.json",
+    "src/Project/*/project.*.module.json"
   ],
   "plugins": [
     "Sitecore.DevEx.Extensibility.Serialization@5.2.113",
