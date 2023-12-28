@@ -25,6 +25,7 @@
             "modules": [
               "Foundation.Globals",
               "Foundation.Translation",
+              "Foundation.AI",
               "Feature.Assets",
               "Feature.Authentication",
               "Feature.Content",
