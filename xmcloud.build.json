@@ -21,6 +21,19 @@
               "/sitecore/client/Applications/Launchpad"
             ]
           },
+          "scsModules": {
+            "modules": [
+              "Foundation.Globals",
+              "Foundation.Translation",
+              "Feature.Assets",
+              "Feature.Authentication",
+              "Feature.Content",
+              "Feature.Forms",
+              "Feature.News",
+              "Feature.Products",
+              "Feature.Seo"
+            ]
+          },
           "populateSchema": {
             "indexNames": []
           },
