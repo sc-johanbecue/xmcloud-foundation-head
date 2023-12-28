@@ -1,0 +1,31 @@
+﻿---
+ID: "eee95993-2c12-4d20-b4cc-e9d066534139"
+Parent: "62f56e72-f8b6-4d66-bc6c-ec0b3165380d"
+Template: "62f56e72-f8b6-4d66-bc6c-ec0b3165380d"
+Path: /sitecore/templates/Feature/Products/Rendering Parameters/Profile Personal Preferences/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221201T141403Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f7e6131-d9d3-46ca-bbff-a65b20b4ff66"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230313T192622Z

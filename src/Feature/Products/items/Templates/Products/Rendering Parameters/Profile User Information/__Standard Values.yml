@@ -1,0 +1,31 @@
+﻿---
+ID: "2d3a5d86-4bc4-43ff-bbbb-e5d4b1a8e5a7"
+Parent: "894e4918-388c-4e4f-bec5-bc2136d850f9"
+Template: "894e4918-388c-4e4f-bec5-bc2136d850f9"
+Path: /sitecore/templates/Feature/Products/Rendering Parameters/Profile User Information/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221201T141403Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "37a02657-120f-4764-8e15-988d9e010451"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230313T122700Z
