@@ -1,0 +1,31 @@
+﻿---
+ID: "6ad90da1-f58e-418c-a219-f45a613f31f3"
+Parent: "151af166-621a-4f63-83bb-5d2061afbc15"
+Template: "ab154d3d-1126-4ab4-ac21-8b86e6bd70ea"
+Path: /sitecore/system/Modules/PowerShell/Script Library/Feature/Products/Functions
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T072856Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c9b8c1f-4b8e-4deb-af23-5497339b0d5e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T072856Z

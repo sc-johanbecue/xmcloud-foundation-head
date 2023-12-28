@@ -1,0 +1,47 @@
+﻿---
+ID: "a288ea33-fc54-4249-8cfe-77638eee5f15"
+Parent: "51deb551-1ab9-44fc-ad27-21d149b6c8bf"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Feature/Content/Youtube Video
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: Youtube
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Multimedia/32x32/split_video_h.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/Content/Datasources/Youtube
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{FC1BF66E-424E-4FEF-ACEF-0B8F5878CD3F}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Global Youtube Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Global Youtube Folder']"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221202T105108Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "15c0784e-b509-4e8c-8c98-5160e8b20f1d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231228T081138Z

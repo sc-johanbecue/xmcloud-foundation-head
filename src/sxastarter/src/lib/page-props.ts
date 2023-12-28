@@ -5,6 +5,7 @@ import {
   SiteInfo,
   HTMLLink,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Session } from 'next-auth';
 
 /**
  * Sitecore page props
@@ -17,4 +18,5 @@ export type SitecorePageProps = {
   notFound: boolean;
   layoutData: LayoutServiceData;
   headLinks: HTMLLink[];
+  session: Session;
 };

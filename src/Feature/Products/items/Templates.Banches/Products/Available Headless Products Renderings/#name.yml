@@ -1,0 +1,42 @@
+﻿---
+ID: "f97ce740-8aed-4631-8f07-c2c7919202af"
+Parent: "8a53f873-4ee5-4b0b-86d3-f73d9f6b198c"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/Products/Available Headless Products Renderings/$name
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {7892ACB1-05DD-4E7D-B57F-725C45D7E993}
+    {C56EDF8D-948B-46A3-9B92-35332F5B96EF}
+    {1B5D864A-7BC5-4F81-AB1D-16D743C797C1}
+    {4D5C3960-9E03-4FF7-BC3F-5ED13D20E578}
+    {A5AD4823-1EF3-4E30-8E40-7562B68174DF}
+    {03C6F3DB-6318-4388-A79F-AA853C8954C0}
+    {175BCA6D-552A-4CDC-8DD2-622BF99D37FD}
+    {CB6FF6A5-C519-47B7-95D5-3054FDE11059}
+    {E10D924B-DA69-403A-AC3D-B01154FA72BA}
+    {AACABAB3-8F0C-4862-AAE1-C63CBDB7E150}
+    {80EB582C-CE2B-4D6E-B6C6-E3F84383489A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211028T135230Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d822bed-0b4e-43bf-8050-9ebf93803f58"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T111342Z

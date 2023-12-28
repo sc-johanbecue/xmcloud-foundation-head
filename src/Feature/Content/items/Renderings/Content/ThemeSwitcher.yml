@@ -1,0 +1,47 @@
+﻿---
+ID: "fd99b656-9360-4ea8-8f1c-3a8a38eea861"
+Parent: "51deb551-1ab9-44fc-ad27-21d149b6c8bf"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Feature/Content/ThemeSwitcher
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: ThemeSwitcher
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Imaging/32x32/palette.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: 
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{42DE2F54-99B2-4942-BF66-7A1B7AF4D2A4}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221202T105108Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d21d234-abfe-4803-88f0-9dd06a36d643"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231228T081237Z

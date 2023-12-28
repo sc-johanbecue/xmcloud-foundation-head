@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Feature.Products",
+  "references": [ "Foundation.Globals", "Feature.Authentication" ],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Products"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Feature/Products"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Products"
+      },
+      {
+        "name": "System",
+        "path": "/sitecore/system/Settings/Feature/Products"
+      },
+      {
+        "name": "Templates.Banches",
+        "path": "/sitecore/templates/Branches/Feature/Products"
+      },
+	  {
+        "name": "SPE",
+        "path": "/sitecore/system/Modules/PowerShell/Script Library/Feature/Products"
+      }
+    ]
+  }
+}

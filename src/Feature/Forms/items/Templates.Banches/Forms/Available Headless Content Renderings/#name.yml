@@ -1,0 +1,31 @@
+﻿---
+ID: "b063c883-b83a-4071-b0c3-8b788233a295"
+Parent: "87ad1eb1-b282-4d42-82f1-f65e983f639a"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/Forms/Available Headless Content Renderings/$name
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: "{32029C6E-37A7-4334-A277-4F7442B5CF47}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211028T135230Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e4ee53db-1379-44ab-b522-c38fb93a9182"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221209T115656Z

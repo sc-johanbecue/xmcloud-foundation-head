@@ -1,0 +1,34 @@
+﻿---
+ID: "46b7bf9c-df6f-4b80-acf9-4dfeff1c5015"
+Parent: "b87f08ea-ecee-46f7-8031-3f0c396ae43b"
+Template: "b87f08ea-ecee-46f7-8031-3f0c396ae43b"
+Path: /sitecore/templates/Feature/Authentication/Datasources/Logout Module/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221231T111933Z
+    - ID: "4647f3ca-11fe-49f0-9df4-b21c1362ebde"
+      Hint: Title
+      Value: $name
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "40b6c991-0ba5-4159-a670-5da221226a77"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230115T112314Z

@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Feature.Assets",
+  "references": [ "Foundation.Globals", "Feature.Authentication" ],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Assets"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Feature/Assets"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Assets"
+      },
+      {
+        "name": "System",
+        "path": "/sitecore/system/Settings/Feature/Assets"
+      },
+      {
+        "name": "Templates.Banches",
+        "path": "/sitecore/templates/Branches/Feature/Assets"
+      }
+    ]
+  }
+}

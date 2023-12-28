@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Christian Hahn",
+    "email": "christian-hahn1@gmx.net",
+    "password": 1234,
+    "Role": "Admin",
+    "image": "https://ch-ha-composable-chub.sitecoresandbox.cloud/api/public/content/5b1649e4934f4a39915fac60ad046f34?v=6fdc2df5",
+    "OCEmail": "christian-hahn1@gmx.net",
+    "OCPassword": "Sitecore1234",
+    "CHubEmail": "christian-hahn1@gmx.net",
+    "CHubPassword": "Sitecore12345"
+  },
+  {
+    "id": "2",
+    "name": "Test User",
+    "email": "test@test.de",
+    "password": 1234,
+    "role": "User",
+    "image": "https://ch-ha-composable-chub.sitecoresandbox.cloud/api/public/content/a27052e59be34086b768363fbb8ea894?v=20cfe398",
+    "OCEmail": "",
+    "OCPassword": "",
+    "CHubEmail": "",
+    "CHubPassword": ""
+  }
+]

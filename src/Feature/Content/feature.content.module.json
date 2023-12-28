@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Feature.Content",
+  "references": ["Foundation.Globals"],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Content"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Feature/Content"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Content"
+      },
+      {
+        "name": "System",
+        "path": "/sitecore/system/Settings/Feature/Content"
+      },
+      {
+        "name": "Templates.Banches",
+        "path": "/sitecore/templates/Branches/Feature/Content"
+      },
+	  {
+        "name": "Placeholder",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/Content"
+      },
+	  {
+        "name": "Webhooks.AnswerFaq",
+        "path": "/sitecore/system/Webhooks/Answer FAQ"
+      },
+
+	   {
+        "name": "Workflows.Faq",
+        "path": "/sitecore/system/Workflows/FAQ Workflow"
+      },
+	  {
+        "name": "Workflows.CommentWorkflow",
+        "path": "/sitecore/system/Workflows/Comment Workflow",
+		"allowedPushOperations": "createOnly"
+      },
+    ]
+  }
+}

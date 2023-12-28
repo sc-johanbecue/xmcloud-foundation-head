@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Feature.Forms",
+  "references": ["Foundation.Globals"],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Forms"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Feature/Forms"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Forms"
+      },
+      {
+        "name": "System",
+        "path": "/sitecore/system/Settings/Feature/Forms"
+      },
+      {
+        "name": "Templates.Banches",
+        "path": "/sitecore/templates/Branches/Feature/Forms"
+      }
+    ]
+  }
+}
