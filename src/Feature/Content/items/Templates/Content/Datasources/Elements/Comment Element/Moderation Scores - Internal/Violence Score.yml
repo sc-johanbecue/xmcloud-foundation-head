@@ -1,15 +1,15 @@
 ﻿---
-ID: "044ade67-9816-4f2c-9b5a-843c3cdc3875"
+ID: "258dcced-16d2-4dfa-a7a7-908687d79084"
 Parent: "f1ef055b-e3ef-4081-ad67-60b784a21890"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Feature/Content/Datasources/Elements/Comment/Moderation Scores - Internal/Hate Threatening Score"
+Path: "/sitecore/templates/Feature/Content/Datasources/Elements/Comment Element/Moderation Scores - Internal/Violence Score"
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 700
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -28,7 +28,7 @@ Languages:
         sitecore\christian.hahn@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8c6bcd06-e807-4a22-9bcb-ea022e8424bb"
+      Value: "77ca2126-d982-462f-b327-49eda4b8b08d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

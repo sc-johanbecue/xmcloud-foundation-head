@@ -1,12 +1,8 @@
 ﻿---
-ID: "529895a2-f85f-4926-a9cb-98f93a56e7da"
+ID: "86953607-2dfb-4ef0-8ff5-31756f593fb2"
 Parent: "47cf84b9-aeb6-48ce-894b-9380e4ddef60"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Content/Datasources/Elements/Comment/Moderation
-SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 200
+Path: /sitecore/templates/Feature/Content/Datasources/Elements/Comment Element/Comment Data
 Languages:
 - Language: en
   Versions:
@@ -25,7 +21,7 @@ Languages:
         sitecore\christian.hahn@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b89f1d06-a2e3-490e-9464-13b39b4f6b50"
+      Value: "571756a1-dda4-46da-8771-8689b84ac7d1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

@@ -1,15 +1,15 @@
 ﻿---
-ID: "df1f29b5-6b35-47d2-b153-dac6cc6e4d1e"
+ID: "507432f8-5a9d-4b3b-b79c-7a6b8d81f88a"
 Parent: "529895a2-f85f-4926-a9cb-98f93a56e7da"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Content/Datasources/Elements/Comment/Moderation/Violence Graphic
+Path: /sitecore/templates/Feature/Content/Datasources/Elements/Comment Element/Moderation/Sexual Minors
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Checkbox
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 600
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -28,7 +28,7 @@ Languages:
         sitecore\christian.hahn@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d6f74352-3462-443d-a9fe-5e2d49710276"
+      Value: "a7fa7d8d-98bd-4723-ab37-9ed2ca1cd7af"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

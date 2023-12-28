@@ -2,7 +2,7 @@
 ID: "3626d4ab-b33d-43cc-b06f-cae3d9de2eb6"
 Parent: "86953607-2dfb-4ef0-8ff5-31756f593fb2"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Content/Datasources/Elements/Comment/Comment Data/User
+Path: /sitecore/templates/Feature/Content/Datasources/Elements/Comment Element/Comment Data/User
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
