@@ -1,0 +1,26 @@
+.hero-banner {
+  .component-content {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+    @include respond-to(mobile-large) {
+      height: 300px;
+    }
+  }
+  .sc-image-wrapper {
+    opacity: 0;
+  }
+}
+
+.youtube-thumbnail{
+  width: inherit;
+  height: auto;
+}
+
+.lightbox-image{
+  max-height: 256px;
+  overflow: hidden;
+  margin-bottom: 11px;
+}

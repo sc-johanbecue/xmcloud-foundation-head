@@ -1,10 +1,11 @@
-@import "@sass/abstracts/vars/colors";
-@import "@sass/abstracts/mixins";
-@import "variables";
+@import '@sass/abstracts/vars/colors';
+@import '@sass/abstracts/mixins';
+@import 'variables';
 
 .prod-mode {
   #header {
     display: flex;
+    flex-direction: column;
 
     @include respond-to(mobile-large) {
       padding-bottom: 0;
@@ -13,37 +14,99 @@
   }
 }
 
-header {
-  #header {
-    .bs-title {
-      padding-left: 50px;
+.chakra-ui-dark {
+  header {
+    background-color: var(--chakra-colors-HeaderColor-900);
+    margin-bottom: 2rem;
 
-      h1 {
-        font-size: $text-size-24;
-        font-weight: 600;
-        line-height: 18px;
-        padding-top: 40px;
-        margin: 0;
+    #header {
+      img {
+        margin: 10px 30px;
       }
-    }
-
-    @include respond-to(mobile-large) {
-      padding-bottom: 0;
-      padding-top: 0;
-      flex-direction: column-reverse;
-
       .bs-title {
-        padding-left: 0;
-        text-align: center;
-        margin-top: -5px;
+        padding-left: 50px;
 
         h1 {
-          font-weight: 500;
-          line-height: 29px;
-          padding-top: 0;
-          margin-bottom: 10px;
+          font-size: $text-size-24;
+          font-weight: 600;
+          line-height: 18px;
+          padding-top: 1rem;
+          margin: 0;
+          color: var(--chakra-colors-BrandedTextColor-100);
+        }
+
+        a {
+          color: var(--chakra-colors-BrandedTextColor-100);
+        }
+      }
+
+      @include respond-to(mobile-large) {
+        padding-bottom: 0;
+        padding-top: 0;
+        flex-direction: column-reverse;
+
+        .bs-title {
+          padding-left: 0;
+          text-align: center;
+          margin-top: -5px;
+
+          h1 {
+            font-weight: 500;
+            line-height: 29px;
+            padding-top: 0;
+            margin-bottom: 10px;
+          }
         }
       }
     }
   }
 }
+
+.chakra-ui-light {
+  header {
+    background-color: var(--chakra-colors-HeaderColor-100);
+    margin-bottom: 2rem;
+
+    #header {
+      img {
+        margin: 10px 30px;
+      }
+      .bs-title {
+        padding-left: 50px;
+
+        h1 {
+          font-size: $text-size-24;
+          font-weight: 600;
+          line-height: 18px;
+          padding-top: 1rem;
+          margin: 0;
+          color: var(--chakra-colors-BrandedTextColor-900);
+        }
+      }
+
+      a {
+        color: var(--chakra-colors-BrandedTextColor-900);
+      }
+
+      @include respond-to(mobile-large) {
+        padding-bottom: 0;
+        padding-top: 0;
+        flex-direction: column-reverse;
+
+        .bs-title {
+          padding-left: 0;
+          text-align: center;
+          margin-top: -5px;
+
+          h1 {
+            font-weight: 500;
+            line-height: 29px;
+            padding-top: 0;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+

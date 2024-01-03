@@ -2,19 +2,19 @@
 $bg-transparent:transparent !default;
 $bg-basic-color:#FFFFFF !default;
 $bg-basic-color-active: #cccccc !default;
-$bg-light-gray: #f7f7f7 !default;
+$bg-light-gray: #E7E7E7 !default;
 $bg-light-gray-active: #dadada !default;
-$bg-blue:#89C6CC;
+$bg-blue:#999999;
 $bg-blue-active: #15909c !default;
 $bg-submenu:#edebeb !default;
 $bg-submenu-active:#f6f6f6 !default;
 $bg-black:#000;
-$bg-black-active:#3d3d3d;
+$bg-black-active:#2B2B2B;
 $bg-dark-gray: #262626;
 //Text colors
 $text-white:#fff !default;
 $text-heading-color: #222 !default;
-$text-basic:#747474 !default;
+$text-basic:gray !default;
 $text-basic-active:#878787 !default;
 $text-blue:#89C6CC !default;
 $text-blue-active:#15909c !default;
@@ -159,7 +159,7 @@ $promo-shadow-border:$border-basic-color;
 $rich-content-bg:transparent;
 $rich-content-color:$text-basic;
 $rich-content-border:transparent;
-$rich-content-link-color:$text-red;
+$rich-content-link-color:inherit;
 $rich-content-link-color-active:$text-basic-active;
 //Search
 $search-filter:$text-basic;
@@ -169,7 +169,7 @@ $menu-hover-color:#1b809e;
 $menu-active-color:#176f89;
 //Navigation
 $nav-bg:transparent;
-$nav-color-root:$text-basic;
+$nav-color-root:$text-white;
 $nav-color-root-active:$text-basic;
 $nav-border-root:$border-basic-color;
 $nav-border-root-active:$border-basic-color;

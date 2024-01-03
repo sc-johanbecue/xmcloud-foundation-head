@@ -1,11 +1,11 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $text-heading-color;
-}
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   color: $text-heading-color;
+// }
 h1,
 h2 {
   margin: $small-margin 0;
@@ -46,7 +46,7 @@ ol {
 }
 a {
   color: $rich-content-link-color;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 1em;
   &:hover {
     color: $rich-content-link-color-active;
