@@ -6,7 +6,7 @@ Path: /sitecore/layout/Placeholder Settings/Feature/Content/Accordion Elements
 SharedFields:
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
   Hint: Placeholder Key
-  Value: "accordionelements-{*}"
+  Value: "accordionelement-{*}"
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
   Value: 
@@ -28,11 +28,11 @@ Languages:
         sitecore\christian.hahn@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ef1fea20-85c9-48bf-a056-12aff8cd8920"
+      Value: "7223ca35-cb62-40ea-aa58-fbbe9640040e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\christian.hahn@sitecore.com
+        sitecore\tzoxyd3zg1
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230728T115655Z
+      Value: 20240103T104856Z
