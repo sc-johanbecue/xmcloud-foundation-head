@@ -34,15 +34,15 @@ export default function NewsTeaser(props: {
     <div className={'component promo'}>
       <div className="component-content">
         <div className="field-promoicon">
-          <Image src={props.Image.src} />
+          <Image src={props?.Image?.src} />
         </div>
         <div className="promo-text">
-          <Heading>{props.Title}</Heading>
+          <Heading>{props?.Title}</Heading>
           <div>
             <Badge>{tagItem?.item?.title?.jsonValue?.value}</Badge>
           </div>
-          <div>{mappedPublicationDate.toLocaleDateString()}</div>
-          <Text>{props.Abstract}</Text>
+          <div>{mappedPublicationDate?.toLocaleDateString()}</div>
+          <Text>{props?.Abstract}</Text>
           <div className="field-promolink">{/* <a href={props.fields.Url}>DETAILS</a> */}</div>
         </div>
       </div>
