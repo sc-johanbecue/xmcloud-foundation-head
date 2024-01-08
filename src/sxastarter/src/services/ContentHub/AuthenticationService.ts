@@ -1,4 +1,4 @@
-import { CONTENTHUB_TOKEN_COOKIE_KEY, CONTENTHUB_URL } from './Constants';
+import { CONTENTHUB_TOKEN_COOKIE_KEY } from './Constants';
 import Cookies from 'universal-cookie';
 import { Session } from 'next-auth';
 
@@ -17,7 +17,7 @@ export async function Login(username: string, password: string): Promise<string>
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ user_name: username, password: password }),
   };
-  const authenticateUrl = CONTENTHUB_URL + '/api/authenticate';
+  const authenticateUrl = process.env.NEXT_PUBLIC_CONTENTHUB_DAM_URL + '/api/authenticate';
   const response = await fetch(authenticateUrl, requestOptions);
   const jsonResponse = await response.json();
   const token = jsonResponse?.token ?? '';

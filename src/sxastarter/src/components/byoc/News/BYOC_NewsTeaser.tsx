@@ -1,9 +1,8 @@
-import { Badge, Heading } from '@chakra-ui/react';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
 import { useEffect, useState } from 'react';
 import { GetTagItem, TagItem } from 'src/services/XMCloud/TagService';
-import { Text, Image } from '@chakra-ui/react';
 import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
+import { SharedNewsTeaser } from 'components/shared/_newsTeaser';
 export default function NewsTeaser(props: {
   Title: string;
   Content: string;
@@ -18,7 +17,6 @@ export default function NewsTeaser(props: {
   // const datasource = props?.datasources ? Object.values(props?.datasources)[0] : undefined;
   const { sitecoreContext } = useSitecoreContext();
   const language = sitecoreContext?.language ?? 'en';
-  const mappedPublicationDate = new Date(props.PublicationDate);
   const [tagItem, setTagItem] = useState<TagItem>();
   useEffect(() => {
     async function loadTagItem() {
@@ -28,25 +26,19 @@ export default function NewsTeaser(props: {
       }
     }
     loadTagItem();
-  }, []);
+  }, [language, props?.Tag]);
 
   return (
-    <div className={'component promo'}>
-      <div className="component-content">
-        <div className="field-promoicon">
-          <Image src={props?.Image?.src} />
-        </div>
-        <div className="promo-text">
-          <Heading>{props?.Title}</Heading>
-          <div>
-            <Badge>{tagItem?.item?.title?.jsonValue?.value}</Badge>
-          </div>
-          <div>{mappedPublicationDate?.toLocaleDateString()}</div>
-          <Text>{props?.Abstract}</Text>
-          <div className="field-promolink">{/* <a href={props.fields.Url}>DETAILS</a> */}</div>
-        </div>
-      </div>
-    </div>
+    <>
+      <SharedNewsTeaser
+        publicationDate={props.PublicationDate}
+        abstract={props.Abstract}
+        image={props?.Image?.src}
+        tag={tagItem?.item?.title?.jsonValue?.value ?? props?.Tag}
+        title={props?.Title}
+      />
+      <pre>{JSON.stringify(props.datasources, null, 2)}</pre>
+    </>
   );
 }
 FEAAS.registerComponent(NewsTeaser, {

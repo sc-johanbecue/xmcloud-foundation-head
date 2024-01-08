@@ -29,7 +29,6 @@ import {
   MediaSearchResponse,
   UploadMedia,
 } from 'src/services/ContentHub/MediaService';
-import { CONTENTHUB_URL } from 'src/services/ContentHub/Constants';
 import { AiOutlineFileImage, AiFillFileWord, AiOutlineQuestionCircle } from 'react-icons/ai';
 import { IconType } from 'react-icons';
 import { useSession } from 'next-auth/react';
@@ -246,7 +245,11 @@ export const Default = (props: PersonalAssetsProps): JSX.Element => {
                               }
                               type={element.properties.FileProperties.properties.extension?.toUpperCase()}
                               url={element.renditions.downloadOriginal[0].href}
-                              chubUrl={CONTENTHUB_URL + '/en-us/asset/' + element.id}
+                              chubUrl={
+                                process.env.NEXT_PUBLIC_CONTENTHUB_DAM_URL +
+                                '/en-us/asset/' +
+                                element.id
+                              }
                             />
                           </>
                         );
