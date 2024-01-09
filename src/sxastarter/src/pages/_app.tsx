@@ -53,6 +53,7 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
     <WidgetsProvider
       env={(process?.env?.NEXT_PUBLIC_SEARCH_ENVIRONMENT ?? 'dev') as Environment}
       customerKey={process.env.NEXT_PUBLIC_SEARCH_CUSTOMERKEY}
+      apiKey={process.env.NEXT_PUBLIC_SEARCH_APIKEY}
     >
       <I18nProvider lngDict={dictionary} locale={pageProps.locale}>
         <ChakraProvider colorModeManager={localStorageManager} theme={currenttheme}>
