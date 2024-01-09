@@ -5,8 +5,6 @@ import type { PreviewSearchInitialState } from '@sitecore-search/react';
 import { WidgetDataType, usePreviewSearch, widget } from '@sitecore-search/react';
 import { ArticleCard, Presence, PreviewSearch } from '@sitecore-search/ui';
 
-import './styles.css';
-
 type ArticleModel = {
   id: string;
   name: string;
