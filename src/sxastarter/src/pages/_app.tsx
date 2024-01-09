@@ -14,6 +14,8 @@ import { CONTENTHUB_TOKEN_COOKIE_KEY } from 'src/services/ContentHub/Constants';
 import { Session } from 'next-auth';
 import { getCurrentTheme } from 'src/services/Head/ThemeService';
 
+import { Environment, WidgetsProvider } from '@sitecore-search/react';
+
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { session, dictionary, ...rest } = pageProps;
   const [newSession, setNewSession] = useState<Session>(session);
@@ -48,13 +50,18 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
     // Use the next-localization (w/ rosetta) library to provide our translation dictionary to the app.
     // Note Next.js does not (currently) provide anything for translation, only i18n routing.
     // If your app is not multilingual, next-localization and references to it can be removed.
-    <I18nProvider lngDict={dictionary} locale={pageProps.locale}>
-      <ChakraProvider colorModeManager={localStorageManager} theme={currenttheme}>
-        <SessionProvider session={newSession}>
-          <Component {...rest} />
-        </SessionProvider>
-      </ChakraProvider>
-    </I18nProvider>
+    <WidgetsProvider
+      env={(process?.env?.NEXT_PUBLIC_SEARCH_ENVIRONMENT ?? 'dev') as Environment}
+      customerKey={process.env.NEXT_PUBLIC_SEARCH_CUSTOMERKEY}
+    >
+      <I18nProvider lngDict={dictionary} locale={pageProps.locale}>
+        <ChakraProvider colorModeManager={localStorageManager} theme={currenttheme}>
+          <SessionProvider session={newSession}>
+            <Component {...rest} />
+          </SessionProvider>
+        </ChakraProvider>
+      </I18nProvider>
+    </WidgetsProvider>
   );
 }
 
