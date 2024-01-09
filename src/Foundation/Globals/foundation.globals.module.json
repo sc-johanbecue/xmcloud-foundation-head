@@ -4,11 +4,6 @@
   "items": {
     "includes": [
 	  {
-        "name": "Workflows.CommentWorkflow",
-        "path": "/sitecore/system/Workflows/Comment Workflow",
-		"allowedPushOperations": "createOnly"
-      },
-	  {
         "name": "Workflows.ExtendedWorkflow",
         "path": "/sitecore/system/Workflows/Extended Workflow",
 		"allowedPushOperations": "createOnly"
