@@ -1,16 +1,24 @@
-import { Box } from '@chakra-ui/react';
+import { Box, Heading } from '@chakra-ui/react';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
-import { MyPreviewSearchCli } from 'components/shared/search/MyPreviewSearchManual';
+import { MyPreviewSearchManual } from 'components/shared/search/MyPreviewSearchManual';
 export default function PreviewSearchManual(props: {
   rfkId: string;
+  title: string;
   datasources?: FEAAS.DataScopes;
 }) {
   // const datasource = props?.datasources ? Object.values(props?.datasources)[0] : undefined;
 
   return (
-    <>
-      {props?.rfkId ? <MyPreviewSearchCli rfkId={props.rfkId} /> : <Box>Please add some rfkId</Box>}
-    </>
+    <Box>
+      <Box>
+        <Heading>{props.title}</Heading>
+      </Box>
+      {props?.rfkId ? (
+        <MyPreviewSearchManual rfkId={props.rfkId} />
+      ) : (
+        <Box>Please add some rfkId</Box>
+      )}
+    </Box>
   );
 }
 FEAAS.registerComponent(PreviewSearchManual, {
@@ -21,6 +29,7 @@ FEAAS.registerComponent(PreviewSearchManual, {
   group: 'Search',
   required: [],
   properties: {
+    title: { type: 'string', title: 'Title' },
     rfkId: { type: 'string', title: 'rfkId' },
   },
   ui: {},

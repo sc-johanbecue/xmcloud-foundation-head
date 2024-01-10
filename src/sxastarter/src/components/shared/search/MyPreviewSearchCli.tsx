@@ -117,5 +117,5 @@ export const PreviewSearchCli = ({ defaultItemsPerPage = 6 }) => {
     </PreviewSearch.Root>
   );
 };
-const MyPreviewSearch = widget(PreviewSearchCli, WidgetDataType.PREVIEW_SEARCH, 'content');
-export default MyPreviewSearch;
+const MyPreviewSearchCli = widget(PreviewSearchCli, WidgetDataType.PREVIEW_SEARCH, 'content');
+export default MyPreviewSearchCli;

@@ -20,7 +20,7 @@ interface PreviewSearchRequestModel {
   rfkId: string;
 }
 
-export const MyPreviewSearchCli = ({ rfkId }: PreviewSearchRequestModel) => {
+export const MyPreviewSearchManual = ({ rfkId }: PreviewSearchRequestModel) => {
   const country = 'ae';
   const language = 'en';
   const [searchResults, setSearchResults] = useState<SearchResult>();
