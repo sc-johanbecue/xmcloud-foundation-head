@@ -13,11 +13,13 @@ import {
   Center,
   Spinner,
   Divider,
+  Link,
 } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
 import { Search, SearchResult } from 'src/services/Search/SearchService';
 import { SearchRequestModel } from './types/searchRequestModel';
 import { useRouter } from 'next/router';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 interface PreviewSearchRequestModel {
   rfkId: string;
@@ -192,13 +194,18 @@ export const MyPreviewSearchManual = ({
                       </CardBody>
 
                       <CardFooter>
-                        <Button
+                        <Link href={element.url} isExternal>
+                          Read More <ExternalLinkIcon mx="2px" />
+                        </Link>
+                        {/* <Button
                           variant="solid"
                           colorScheme="blue"
-                          onClick={router.push(element.url)}
+                          onClick={() => {
+                            router.push(element.url);
+                          }}
                         >
                           DETAILS
-                        </Button>
+                        </Button> */}
                       </CardFooter>
                     </Stack>
                   </Card>
