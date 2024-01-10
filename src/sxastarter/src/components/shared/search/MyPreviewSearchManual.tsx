@@ -147,7 +147,7 @@ export const MyPreviewSearchManual = ({
           </Box>
         ) : searchResults?.widgets?.at(0)?.content ? (
           <>
-            <SimpleGrid columns={{ base: 3, sm: 1, md: 2, lg: 2, xl: 3 }} spacing={10}>
+            <SimpleGrid columns={{ base: 1, sm: 1, md: 2, lg: 2, xl: 3 }} spacing={10}>
               {searchResults?.widgets?.at(0)?.content?.map((element, key) => {
                 return (
                   <Card
