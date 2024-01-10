@@ -4,6 +4,7 @@ import { MyPreviewSearchManual } from 'components/shared/search/MyPreviewSearchM
 export default function PreviewSearchManual(props: {
   rfkId: string;
   title: string;
+  numberOfResultsPerPage: number;
   datasources?: FEAAS.DataScopes;
 }) {
   // const datasource = props?.datasources ? Object.values(props?.datasources)[0] : undefined;
@@ -14,7 +15,10 @@ export default function PreviewSearchManual(props: {
         <Heading>{props.title}</Heading>
       </Box>
       {props?.rfkId ? (
-        <MyPreviewSearchManual rfkId={props.rfkId} />
+        <MyPreviewSearchManual
+          rfkId={props.rfkId}
+          numberOfResultsPerPage={props.numberOfResultsPerPage}
+        />
       ) : (
         <Box>Please add some rfkId</Box>
       )}
@@ -30,6 +34,7 @@ FEAAS.registerComponent(PreviewSearchManual, {
   required: [],
   properties: {
     title: { type: 'string', title: 'Title' },
+    numberOfResultsPerPage: { type: 'number', title: 'Number of Results per Page' },
     rfkId: { type: 'string', title: 'rfkId' },
   },
   ui: {},

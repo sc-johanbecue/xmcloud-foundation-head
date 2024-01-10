@@ -19,15 +19,32 @@ import { SearchRequestModel } from './types/searchRequestModel';
 
 interface PreviewSearchRequestModel {
   rfkId: string;
+  numberOfResultsPerPage: number;
 }
 
-export const MyPreviewSearchManual = ({ rfkId }: PreviewSearchRequestModel) => {
+export const MyPreviewSearchManual = ({
+  rfkId,
+  numberOfResultsPerPage,
+}: PreviewSearchRequestModel) => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const country = 'ae';
   const language = 'en';
+  const overwrittenNumberOfResultsPerPage = numberOfResultsPerPage ?? 9;
   const [searchResults, setSearchResults] = useState<SearchResult>();
+  const [query, setQuery] = useState<string>();
+  const [page, setPage] = useState<number>();
 
-  async function DoSearch(overwrittenQuery: string) {
+  async function DoSearch(
+    overwrittenQuery: string | undefined,
+    overwrittenPage: number | undefined
+  ) {
+    if (!overwrittenPage) {
+      overwrittenPage = page ?? 1;
+    }
+    if (!overwrittenQuery) {
+      overwrittenQuery = query ?? '';
+    }
+
     setIsLoading(true);
     if (overwrittenQuery.length <= 3) {
       overwrittenQuery = '';
@@ -46,6 +63,8 @@ export const MyPreviewSearchManual = ({ rfkId }: PreviewSearchRequestModel) => {
             entity: 'content',
             rfk_id: rfkId,
             search: {
+              offset: (overwrittenPage - 1) * overwrittenNumberOfResultsPerPage,
+              limit: overwrittenNumberOfResultsPerPage,
               content: {},
             },
           },
@@ -67,6 +86,8 @@ export const MyPreviewSearchManual = ({ rfkId }: PreviewSearchRequestModel) => {
             rfk_id: rfkId,
             search: {
               content: {},
+              offset: (overwrittenPage - 1) * overwrittenNumberOfResultsPerPage,
+              limit: overwrittenNumberOfResultsPerPage,
               query: {
                 keyphrase: overwrittenQuery,
               },
@@ -86,7 +107,7 @@ export const MyPreviewSearchManual = ({ rfkId }: PreviewSearchRequestModel) => {
   }
 
   useEffect(() => {
-    DoSearch('');
+    DoSearch('', 0);
   }, []);
 
   return (
@@ -94,9 +115,20 @@ export const MyPreviewSearchManual = ({ rfkId }: PreviewSearchRequestModel) => {
       <Box>
         <Input
           variant="outline"
-          placeholder="Outline"
+          placeholder="Enter Search Term"
           onChange={(e) => {
-            DoSearch(e.target.value);
+            setQuery(e.target.value);
+            DoSearch(e.target.value, page);
+          }}
+        />
+        <Input
+          marginTop={4}
+          variant="outline"
+          placeholder="Which page?"
+          type="number"
+          onChange={(e) => {
+            setPage(Number(e.target.value));
+            DoSearch(e.target.value, Number(e.target.value));
           }}
         />
       </Box>

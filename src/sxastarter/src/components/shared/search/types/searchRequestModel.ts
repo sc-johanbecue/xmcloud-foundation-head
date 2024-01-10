@@ -15,6 +15,8 @@ interface WidgetRequest {
   rfk_id: string;
   search: {
     content: object;
+    offset: number;
+    limit: number;
     query?: {
       keyphrase: string;
     };
