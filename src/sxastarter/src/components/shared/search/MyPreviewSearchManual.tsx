@@ -12,10 +12,12 @@ import {
   Text,
   Center,
   Spinner,
+  Divider,
 } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
 import { Search, SearchResult } from 'src/services/Search/SearchService';
 import { SearchRequestModel } from './types/searchRequestModel';
+import { useRouter } from 'next/router';
 
 interface PreviewSearchRequestModel {
   rfkId: string;
@@ -29,86 +31,103 @@ export const MyPreviewSearchManual = ({
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const country = 'ae';
   const language = 'en';
-  const overwrittenNumberOfResultsPerPage = numberOfResultsPerPage ?? 9;
   const [searchResults, setSearchResults] = useState<SearchResult>();
   const [query, setQuery] = useState<string>();
   const [page, setPage] = useState<number>();
-
-  async function DoSearch(
-    overwrittenQuery: string | undefined,
-    overwrittenPage: number | undefined
-  ) {
-    if (!overwrittenPage) {
-      overwrittenPage = page ?? 1;
-    }
-    if (!overwrittenQuery) {
-      overwrittenQuery = query ?? '';
-    }
-
-    setIsLoading(true);
-    if (overwrittenQuery.length <= 3) {
-      overwrittenQuery = '';
-    }
-
-    const searchRequestModelWithoutQuery: SearchRequestModel = {
-      context: {
-        locale: {
-          country: country,
-          language: language,
-        },
-      },
-      widget: {
-        items: [
-          {
-            entity: 'content',
-            rfk_id: rfkId,
-            search: {
-              offset: (overwrittenPage - 1) * overwrittenNumberOfResultsPerPage,
-              limit: overwrittenNumberOfResultsPerPage,
-              content: {},
-            },
-          },
-        ],
-      },
-    };
-
-    const searchRequestModel: SearchRequestModel = {
-      context: {
-        locale: {
-          country: country,
-          language: language,
-        },
-      },
-      widget: {
-        items: [
-          {
-            entity: 'content',
-            rfk_id: rfkId,
-            search: {
-              content: {},
-              offset: (overwrittenPage - 1) * overwrittenNumberOfResultsPerPage,
-              limit: overwrittenNumberOfResultsPerPage,
-              query: {
-                keyphrase: overwrittenQuery,
-              },
-            },
-          },
-        ],
-      },
-    };
-    const searchResult = await Search(
-      overwrittenQuery ? searchRequestModel : searchRequestModelWithoutQuery
-    );
-    if (searchResult) {
-      setSearchResults(searchResult);
-    }
-
-    setIsLoading(false);
-  }
+  const initialNumberResultsPerPage = numberOfResultsPerPage ?? 9;
+  const [usedNumberResultsPerPage, setUsedNumberResultsPerPage] = useState<number>(
+    numberOfResultsPerPage ?? 9
+  );
+  const [loadMoreTriggered, setLoadMoreTriggered] = useState<boolean>(false);
+  const router = useRouter();
 
   useEffect(() => {
-    DoSearch('', 0);
-  }, []);
+    async function DoSearch(
+      overwrittenQuery: string | undefined,
+      overwrittenPage: number | undefined,
+      overwrittenNumberResultsPerPage: number | undefined
+    ) {
+      if (!overwrittenNumberResultsPerPage) {
+        overwrittenNumberResultsPerPage = usedNumberResultsPerPage ?? 9;
+      }
+      if (!overwrittenPage) {
+        overwrittenPage = page ?? 1;
+      }
+      if (!overwrittenQuery) {
+        overwrittenQuery = query ?? '';
+      }
+
+      setIsLoading(true);
+      if (overwrittenQuery.length <= 3) {
+        overwrittenQuery = '';
+      }
+
+      const searchRequestModelWithoutQuery: SearchRequestModel = {
+        context: {
+          locale: {
+            country: country,
+            language: language,
+          },
+        },
+        widget: {
+          items: [
+            {
+              entity: 'content',
+              rfk_id: rfkId,
+              search: {
+                offset: (overwrittenPage - 1) * overwrittenNumberResultsPerPage,
+                limit: overwrittenNumberResultsPerPage,
+                content: {},
+              },
+            },
+          ],
+        },
+      };
+
+      const searchRequestModel: SearchRequestModel = {
+        context: {
+          locale: {
+            country: country,
+            language: language,
+          },
+        },
+        widget: {
+          items: [
+            {
+              entity: 'content',
+              rfk_id: rfkId,
+              search: {
+                content: {},
+                offset: (overwrittenPage - 1) * overwrittenNumberResultsPerPage,
+                limit: overwrittenNumberResultsPerPage,
+                query: {
+                  keyphrase: overwrittenQuery,
+                },
+              },
+            },
+          ],
+        },
+      };
+      const searchResult = await Search(
+        overwrittenQuery ? searchRequestModel : searchRequestModelWithoutQuery
+      );
+      if (searchResult) {
+        setSearchResults(searchResult);
+      }
+
+      setIsLoading(false);
+      await delay(10);
+      if (loadMoreTriggered) {
+        const element = document.getElementById('loadMore');
+        element?.scrollIntoView();
+      }
+      setLoadMoreTriggered(false);
+    }
+
+    const delay = (ms: any) => new Promise((res) => setTimeout(res, ms));
+
+    DoSearch(query, page, usedNumberResultsPerPage);
+  }, [page, query, rfkId, usedNumberResultsPerPage]);
 
   return (
     <>
@@ -117,8 +136,9 @@ export const MyPreviewSearchManual = ({
           variant="outline"
           placeholder="Enter Search Term"
           onChange={(e) => {
+            setUsedNumberResultsPerPage(initialNumberResultsPerPage);
             setQuery(e.target.value);
-            DoSearch(e.target.value, page);
+            //DoSearch(e.target.value, page, usedNumberResultsPerPage);
           }}
         />
         <Input
@@ -127,8 +147,9 @@ export const MyPreviewSearchManual = ({
           placeholder="Which page?"
           type="number"
           onChange={(e) => {
+            setUsedNumberResultsPerPage(initialNumberResultsPerPage);
             setPage(Number(e.target.value));
-            DoSearch(e.target.value, Number(e.target.value));
+            //DoSearch(e.target.value, Number(e.target.value), usedNumberResultsPerPage);
           }}
         />
       </Box>
@@ -171,7 +192,11 @@ export const MyPreviewSearchManual = ({
                       </CardBody>
 
                       <CardFooter>
-                        <Button variant="solid" colorScheme="blue">
+                        <Button
+                          variant="solid"
+                          colorScheme="blue"
+                          onClick={router.push(element.url)}
+                        >
                           DETAILS
                         </Button>
                       </CardFooter>
@@ -180,6 +205,35 @@ export const MyPreviewSearchManual = ({
                 );
               })}
             </SimpleGrid>
+            <Divider />
+            <Box
+              marginTop={4}
+              id="loadMore"
+              hidden={
+                searchResults?.widgets?.at(0)?.content.length ==
+                searchResults?.widgets?.at(0)?.total_item
+              }
+            >
+              <Center>
+                <Button
+                  size={'xl'}
+                  onClick={() => {
+                    const newNumberResultsPerPage =
+                      usedNumberResultsPerPage + initialNumberResultsPerPage;
+                    setLoadMoreTriggered(true);
+                    setUsedNumberResultsPerPage(newNumberResultsPerPage);
+                    // DoSearch(query, page, newNumberResultsPerPage);
+                  }}
+                  isLoading={isLoading}
+                  colorScheme="brand"
+                  padding={2}
+                  border={'rounded'}
+                  variant="solid"
+                >
+                  Load More
+                </Button>
+              </Center>
+            </Box>
             <Box>
               <Center>
                 <Text fontSize={'xxl'} fontWeight={'bold'}>
