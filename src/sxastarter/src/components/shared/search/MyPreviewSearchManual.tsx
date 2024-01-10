@@ -14,6 +14,7 @@ import {
   Spinner,
   Divider,
   Link,
+  Badge,
 } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
 import { Search, SearchResult } from 'src/services/Search/SearchService';
@@ -188,7 +189,19 @@ export const MyPreviewSearchManual = ({
 
                     <Stack>
                       <CardBody>
-                        <Heading size="md">{element.name}</Heading>
+                        <Heading size="md">
+                          {element.name}{' '}
+                          <Badge
+                            ml="1"
+                            colorScheme="brand"
+                            rounded={'20'}
+                            paddingX={2}
+                            paddingY={1}
+                            fontWeight={'bold'}
+                          >
+                            {element.type}
+                          </Badge>
+                        </Heading>
 
                         <Text py="2">{element.description}</Text>
                       </CardBody>
