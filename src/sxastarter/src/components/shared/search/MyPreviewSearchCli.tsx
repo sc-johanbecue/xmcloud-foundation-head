@@ -13,7 +13,7 @@ type ArticleModel = {
   source_id?: string;
 };
 type InitialState = PreviewSearchInitialState<'itemsPerPage'>;
-export const TestComponent = ({ defaultItemsPerPage = 6 }) => {
+export const PreviewSearchCli = ({ defaultItemsPerPage = 6 }) => {
   const {
     widgetRef,
     actions: { onItemClick, onKeyphraseChange },
@@ -117,5 +117,5 @@ export const TestComponent = ({ defaultItemsPerPage = 6 }) => {
     </PreviewSearch.Root>
   );
 };
-const TestWidget = widget(TestComponent, WidgetDataType.PREVIEW_SEARCH, 'content');
-export default TestWidget;
+const MyPreviewSearch = widget(PreviewSearchCli, WidgetDataType.PREVIEW_SEARCH, 'content');
+export default MyPreviewSearch;

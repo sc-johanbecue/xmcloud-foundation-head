@@ -1,7 +1,10 @@
 import { Box } from '@chakra-ui/react';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
 import { MyPreviewSearchCli } from 'components/shared/search/MyPreviewSearchManual';
-export default function PreviewSearchCli(props: { rfkId: string; datasources?: FEAAS.DataScopes }) {
+export default function PreviewSearchManual(props: {
+  rfkId: string;
+  datasources?: FEAAS.DataScopes;
+}) {
   // const datasource = props?.datasources ? Object.values(props?.datasources)[0] : undefined;
 
   return (
@@ -10,9 +13,9 @@ export default function PreviewSearchCli(props: { rfkId: string; datasources?: F
     </>
   );
 }
-FEAAS.registerComponent(PreviewSearchCli, {
-  name: 'Preview Search Cli',
-  title: 'Preview Search Cli',
+FEAAS.registerComponent(PreviewSearchManual, {
+  name: 'Preview Search Manual',
+  title: 'Preview Search Manual',
   description: 'Preview Search Powered by Sitecore Search',
   thumbnail: 'https://feaasstatic.blob.core.windows.net/assets/thumbnails/byoc.svg',
   group: 'Search',
