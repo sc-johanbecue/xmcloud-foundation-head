@@ -29,7 +29,8 @@ FEAAS.registerComponent(PreviewSearchManual, {
   name: 'Preview Search Manual',
   title: 'Preview Search Manual',
   description: 'Preview Search Powered by Sitecore Search',
-  thumbnail: 'https://feaasstatic.blob.core.windows.net/assets/thumbnails/byoc.svg',
+  thumbnail:
+    'https://emea-solution-engineering-demo-hahn.sitecoresandbox.cloud/api/public/content/5c68ccd0b1b14eccb3bd37153b272daf?v=dd57d56b',
   group: 'Search',
   required: [],
   properties: {

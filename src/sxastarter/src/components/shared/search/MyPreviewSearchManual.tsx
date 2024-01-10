@@ -156,6 +156,7 @@ export const MyPreviewSearchManual = ({
           }}
         />
       </Box>
+      <Divider />
       <Box paddingTop={4}>
         {isLoading ? (
           <Box paddingTop={4}>
