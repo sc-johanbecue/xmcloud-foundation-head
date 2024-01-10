@@ -41,7 +41,7 @@ export const MyPreviewSearchManual = ({
     numberOfResultsPerPage ?? 9
   );
   const [loadMoreTriggered, setLoadMoreTriggered] = useState<boolean>(false);
-  const router = useRouter();
+  // const router = useRouter();
 
   useEffect(() => {
     async function DoSearch(
