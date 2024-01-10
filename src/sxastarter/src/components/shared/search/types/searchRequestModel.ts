@@ -1,8 +1,5 @@
 export interface SearchRequestModel {
   context: {
-    page: {
-      uri: string;
-    };
     locale: {
       country: string;
       language: string;
@@ -17,8 +14,8 @@ interface WidgetRequest {
   entity: string;
   rfk_id: string;
   search: {
-    content: string;
-    query: {
+    content: object;
+    query?: {
       keyphrase: string;
     };
   };
