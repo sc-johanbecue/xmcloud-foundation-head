@@ -18,7 +18,7 @@ import {
 import { useEffect, useState } from 'react';
 import { Search, SearchResult } from 'src/services/Search/SearchService';
 import { SearchRequestModel } from './types/searchRequestModel';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 interface PreviewSearchRequestModel {
