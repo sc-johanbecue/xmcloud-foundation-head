@@ -182,7 +182,7 @@ export const MyPreviewSearchManual = ({
                     variant="outline"
                   >
                     <Image
-                      objectFit="cover"
+                      objectFit="none"
                       maxW={{ base: '100%', sm: '200px' }}
                       src={element.image_url}
                       alt={element.name}

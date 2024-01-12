@@ -14,7 +14,8 @@ import { CONTENTHUB_TOKEN_COOKIE_KEY } from 'src/services/ContentHub/Constants';
 import { Session } from 'next-auth';
 import { getCurrentTheme } from 'src/services/Head/ThemeService';
 
-import { Environment, WidgetsProvider } from '@sitecore-search/react';
+import { Environment, PageController, WidgetsProvider } from '@sitecore-search/react';
+import { Locales } from 'src/types/locales';
 
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { session, dictionary, ...rest } = pageProps;
@@ -45,6 +46,9 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
 
   const [cookie] = useCookies();
   const currenttheme = getCurrentTheme(cookie.currenttheme);
+
+  PageController.getContext().setLocaleLanguage(pageProps.locale);
+  PageController.getContext().setLocaleCountry(Locales[pageProps?.locale ?? '']);
 
   return (
     // Use the next-localization (w/ rosetta) library to provide our translation dictionary to the app.
