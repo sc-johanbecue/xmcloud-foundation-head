@@ -23,8 +23,6 @@ import {
   SortSelect,
 } from '@sitecore-search/ui';
 
-import './styles.css';
-
 type ArticleModel = {
   id: string;
   type?: string;
