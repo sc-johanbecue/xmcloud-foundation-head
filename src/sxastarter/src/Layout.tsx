@@ -3,7 +3,13 @@
  */
 import React from 'react';
 import Head from 'next/head';
-import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Placeholder,
+  LayoutServiceData,
+  Field,
+  HTMLLink,
+  ImageField,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import { getPublicUrl } from '@sitecore-jss/sitecore-jss-nextjs/utils';
 import Scripts from 'src/Scripts';
 
@@ -19,6 +25,9 @@ interface LayoutProps {
 interface RouteFields {
   [key: string]: unknown;
   Title?: Field;
+  OgTitle?: Field;
+  OgDescription?: Field;
+  OgImage?: ImageField;
 }
 
 const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
@@ -36,6 +45,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         {headLinks.map((headLink) => (
           <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
         ))}
+        <link rel="canonical" href={publicUrl} />
+        <meta property="og:title" content={fields?.OgTitle?.value?.toString()} />
+        <meta property="og:description" content={fields?.OgDescription?.value?.toString()} />
+        <meta property="og:image" content={fields?.OgImage?.value?.src?.toString()} />
+        <meta property="og:type" content={route?.templateName} />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
