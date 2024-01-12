@@ -53,7 +53,7 @@ For detailed information about installation of features / features list / Integr
 Use this repository to prepare customer demos, which have more functionality than the demo skatepark. 
 In consists of multiple custom modules and functionalities
 
-## Environment Variables
+## Environment Variables (Rendering Host)
 
 **Middleware Endpoint**
 - NEXT_PUBLIC_CREATE_COMMENT_ENDPOINT
@@ -86,6 +86,11 @@ Example: https://emea-solution-engineering-demo-prod-demo-site-a.vercel.app/api/
 - NEXT_PUBLIC_OC_API_URL
 Grab Client ID and API URL from your Ordercloud Marketplace and enter here. In case you do not enter anything you will be automatically connected to the OrderCloud instance of Christian Hahn. With that instance you will have some products already available to be easily used 
 
+## Environment Variables (Editing Host)
+
+**Management API**
+- Sitecore_GraphQL_ExposePlayground
+To enable the Playground change the standard value false to true and redeploy
 
 ## Steps after installation
 
