@@ -54,20 +54,29 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
     // Use the next-localization (w/ rosetta) library to provide our translation dictionary to the app.
     // Note Next.js does not (currently) provide anything for translation, only i18n routing.
     // If your app is not multilingual, next-localization and references to it can be removed.
-
-    <I18nProvider lngDict={dictionary} locale={pageProps.locale}>
-      <WidgetsProvider
-        env={(process?.env?.NEXT_PUBLIC_SEARCH_ENVIRONMENT ?? 'dev') as Environment}
-        customerKey={process.env.NEXT_PUBLIC_SEARCH_CUSTOMERKEY}
-        apiKey={process.env.NEXT_PUBLIC_SEARCH_APIKEY}
-      >
+    process?.env?.NEXT_PUBLIC_SEARCH_CUSTOMERKEY ? (
+      <I18nProvider lngDict={dictionary} locale={pageProps.locale}>
+        <WidgetsProvider
+          env={(process?.env?.NEXT_PUBLIC_SEARCH_ENVIRONMENT ?? 'dev') as Environment}
+          customerKey={process.env.NEXT_PUBLIC_SEARCH_CUSTOMERKEY}
+          apiKey={process.env.NEXT_PUBLIC_SEARCH_APIKEY}
+        >
+          <ChakraProvider colorModeManager={localStorageManager} theme={currenttheme}>
+            <SessionProvider session={newSession}>
+              <Component {...rest} />
+            </SessionProvider>
+          </ChakraProvider>
+        </WidgetsProvider>
+      </I18nProvider>
+    ) : (
+      <I18nProvider lngDict={dictionary} locale={pageProps.locale}>
         <ChakraProvider colorModeManager={localStorageManager} theme={currenttheme}>
           <SessionProvider session={newSession}>
             <Component {...rest} />
           </SessionProvider>
         </ChakraProvider>
-      </WidgetsProvider>
-    </I18nProvider>
+      </I18nProvider>
+    )
   );
 }
 
