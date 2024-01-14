@@ -1,5 +1,3 @@
-'use client';
-
 import { ReactNode } from 'react';
 
 import { Box, SimpleGrid, Stack, Text, useColorModeValue } from '@chakra-ui/react';
