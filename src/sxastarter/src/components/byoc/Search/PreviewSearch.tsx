@@ -1,6 +1,6 @@
 import { Box, Heading } from '@chakra-ui/react';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
-import MyPreviewSearchCli from 'components/shared/search/MyPreviewSearchCli';
+import MyPreviewSearchCli from 'components/shared/search/PreviewSearch/MyPreviewSearchCli';
 export default function PreviewSearchCli(props: {
   rfkId: string;
   title: string;

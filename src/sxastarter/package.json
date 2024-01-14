@@ -62,7 +62,7 @@
     "react-icons": "^4.7.1",
     "sass": "^1.52.3",
     "sass-alias": "^1.0.5",
-    "styled-components": "^6.1.8",
+    "styled-components": "^6.1.0",
     "swr": "^2.0.0",
     "universal-cookie": "^4.0.4"
   },
@@ -82,7 +82,7 @@
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.12",
     "@types/react-dom": "^18.0.5",
-    "@types/styled-components": "^5.1.34",
+    "@types/styled-components": "^5.1.29",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
     "axios": "^0.21.1",
