@@ -13,9 +13,9 @@ import {
   HStack,
   useColorModeValue,
 } from '@chakra-ui/react';
-import { SharedNewsTeaser } from 'components/shared/_newsTeaser';
 import React, { ChangeEvent, useState } from 'react';
 import { MdOutlineTextFields } from 'react-icons/md';
+import { SharedNewsTeaser } from 'src/shared/_newsTeaser';
 
 interface News {
   title: {

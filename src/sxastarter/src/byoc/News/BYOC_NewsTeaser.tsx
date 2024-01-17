@@ -2,7 +2,7 @@ import * as FEAAS from '@sitecore-feaas/clientside/react';
 import { useEffect, useState } from 'react';
 import { GetTagItem, TagItem } from 'src/services/XMCloud/TagService';
 import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
-import { SharedNewsTeaser } from 'components/shared/_newsTeaser';
+import { SharedNewsTeaser } from 'src/shared/_newsTeaser';
 export default function NewsTeaser(props: {
   Title: string;
   Content: string;

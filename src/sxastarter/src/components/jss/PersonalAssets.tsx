@@ -32,7 +32,7 @@ import {
 import { AiOutlineFileImage, AiFillFileWord, AiOutlineQuestionCircle } from 'react-icons/ai';
 import { IconType } from 'react-icons';
 import { useSession } from 'next-auth/react';
-import { BrandedBox } from 'components/shared/_brandedBox';
+import { BrandedBox } from 'src/shared/_brandedBox';
 
 interface Fields {
   Title: Field<string>;

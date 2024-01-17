@@ -1,25 +1,11 @@
 import type { ChangeEvent } from 'react';
 import { useCallback } from 'react';
 
-import {
-  Card,
-  CardBody,
-  CardFooter,
-  Heading,
-  Stack,
-  Image,
-  Text,
-  Link,
-  Badge,
-  Center,
-} from '@chakra-ui/react';
-
 import type { PreviewSearchInitialState } from '@sitecore-search/react';
 import { WidgetDataType, usePreviewSearch, widget } from '@sitecore-search/react';
 import { Presence, PreviewSearch } from '@sitecore-search/ui';
 
-import { LoaderAnimation, LoaderContainer, PreviewSearchStyled } from './styled';
-import { ExternalLinkIcon } from '@radix-ui/react-icons';
+import { ArticleCardStyled, LoaderAnimation, LoaderContainer, PreviewSearchStyled } from './styled';
 
 type ArticleModel = {
   id: string;
@@ -27,8 +13,6 @@ type ArticleModel = {
   image_url: string;
   url: string;
   source_id?: string;
-  type: string;
-  description: string;
 };
 
 type InitialState = PreviewSearchInitialState<'itemsPerPage'>;
@@ -92,67 +76,22 @@ export const PreviewSearchBasicComponent = ({ defaultItemsPerPage = 6 }) => {
                   </LoaderContainer>
                 </Presence>
                 {!loading &&
-                  articles.map((element, index) => (
-                    <PreviewSearchStyled.Item key={element.id} asChild>
+                  articles.map((article, index) => (
+                    <PreviewSearchStyled.Item key={article.id} asChild>
                       <PreviewSearchStyled.Link
-                        href={element.url}
+                        href={article.url}
                         onClick={(e) => {
                           e.preventDefault();
-                          onItemClick({ id: element.id, index, sourceId: element.source_id });
+                          onItemClick({ id: article.id, index, sourceId: article.source_id });
                           // add redirection or any action
                         }}
                       >
-                        <Card
-                          key={index}
-                          direction={{ base: 'column', sm: 'row' }}
-                          overflow="hidden"
-                          variant="outline"
-                        >
-                          <Stack>
-                            <CardBody>
-                              <Center>
-                                <Image
-                                  width={'75'}
-                                  height={'75'}
-                                  mb={4}
-                                  objectFit="cover"
-                                  src={element.image_url}
-                                  alt={element.name}
-                                />
-                              </Center>
-                              <Heading size="md">
-                                {element.name}{' '}
-                                <Badge
-                                  ml="1"
-                                  colorScheme="brand"
-                                  rounded={'20'}
-                                  paddingX={2}
-                                  paddingY={1}
-                                  fontWeight={'bold'}
-                                >
-                                  {element.type}
-                                </Badge>
-                              </Heading>
-
-                              <Text py="2">{element.description}</Text>
-                            </CardBody>
-
-                            <CardFooter>
-                              <Link href={element.url} isExternal>
-                                Read More <ExternalLinkIcon />
-                              </Link>
-                              {/* <Button
-                          variant="solid"
-                          colorScheme="blue"
-                          onClick={() => {
-                            router.push(element.url);
-                          }}
-                        >
-                          DETAILS
-                        </Button> */}
-                            </CardFooter>
-                          </Stack>
-                        </Card>
+                        <ArticleCardStyled.Root>
+                          <ArticleCardStyled.ImageWrapper>
+                            <ArticleCardStyled.Image src={article.image_url} />
+                          </ArticleCardStyled.ImageWrapper>
+                          <ArticleCardStyled.Name>{article.name}</ArticleCardStyled.Name>
+                        </ArticleCardStyled.Root>
                       </PreviewSearchStyled.Link>
                     </PreviewSearchStyled.Item>
                   ))}
@@ -164,9 +103,9 @@ export const PreviewSearchBasicComponent = ({ defaultItemsPerPage = 6 }) => {
     </PreviewSearchStyled.Root>
   );
 };
-const PreviewSearchBasicWidget = widget(
+const MyPreviewSearch = widget(
   PreviewSearchBasicComponent,
   WidgetDataType.PREVIEW_SEARCH,
   'content'
 );
-export default PreviewSearchBasicWidget;
+export default MyPreviewSearch;

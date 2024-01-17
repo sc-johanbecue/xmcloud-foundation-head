@@ -1,6 +1,6 @@
 import * as FEAAS from '@sitecore-feaas/clientside/react';
-import { SharedPromo } from 'components/shared/_promo';
-import { MyImage, MyLink } from 'components/shared/types/sharedTypes';
+import { SharedPromo } from 'src/shared/_promo';
+import { MyImage, MyLink } from 'src/shared/types/sharedTypes';
 
 export default function ManualPromo(props: {
   title?: string;

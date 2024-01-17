@@ -1,7 +1,7 @@
 import * as FEAAS from '@sitecore-feaas/clientside/react';
 import { Box, Button, Center, Heading, SimpleGrid } from '@chakra-ui/react';
-import { CardWithAvatar } from 'components/shared/_cardWithAvatar';
-import { UserInfo } from 'components/shared/_userInfo';
+import { CardWithAvatar } from 'src/shared/_cardWithAvatar';
+import { UserInfo } from 'src/shared/_userInfo';
 
 export default function AthletesGrid(props: {
   title: string;

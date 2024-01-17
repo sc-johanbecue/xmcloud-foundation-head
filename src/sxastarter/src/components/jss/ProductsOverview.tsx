@@ -52,9 +52,9 @@ import {
   GetWishList,
 } from 'src/services/Ordercloud/Wishlist';
 import useSWR, { useSWRConfig } from 'swr';
-import { ProductTeaserSkeleton } from 'components/shared/_productTeaserSkeleton';
-import { PriceTag } from 'components/shared/_priceTag';
-import { Rating } from 'components/shared/_rating';
+import { Rating } from 'src/shared/_rating';
+import { PriceTag } from 'src/shared/_priceTag';
+import { ProductTeaserSkeleton } from 'src/shared/_productTeaserSkeleton';
 
 interface Product {
   id: string;

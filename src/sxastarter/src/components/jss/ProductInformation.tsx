@@ -46,12 +46,12 @@ import { VariantXPs } from 'src/types/VariantXPs';
 // import { siteResolver } from 'lib/site-resolver';
 // import { init } from '@sitecore/engage';
 import { useRouter } from 'next/router';
-import { ColorPicker } from 'components/shared/_colorPicker';
-import { Gallery } from 'components/shared/_gallery';
-import { PriceTag } from 'components/shared/_priceTag';
-import { QuantityPicker } from 'components/shared/_quantityPicker';
-import { Rating } from 'components/shared/_rating';
-import { SizePicker } from 'components/shared/_sizePicker';
+import { ColorPicker } from 'src/shared/_colorPicker';
+import { Gallery } from 'src/shared/_gallery';
+import { PriceTag } from 'src/shared/_priceTag';
+import { QuantityPicker } from 'src/shared/_quantityPicker';
+import { Rating } from 'src/shared/_rating';
+import { SizePicker } from 'src/shared/_sizePicker';
 
 interface Fields {
   data: {
@@ -523,7 +523,7 @@ export const Default = (props: ProductProps): JSX.Element => {
                       {data?.Product?.PriceSchedule?.PriceBreaks[0]?.SalePrice !=
                       (data?.Product?.PriceSchedule?.PriceBreaks[0]?.Price ??
                         data?.Product?.PriceSchedule?.PriceBreaks[0]?.SalePrice) ? (
-                        <Tag size={'lg'} bg={`red.500`} color="white" fontWeight="semibold">
+                        <Tag size={'md'} bg={`blue.500`} color="white" fontWeight="semibold">
                           Offer
                         </Tag>
                       ) : (

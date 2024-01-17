@@ -1,7 +1,7 @@
 import { Box, Heading } from '@chakra-ui/react';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
-import BasicSearchWidget from 'components/shared/search/BasicSearch';
-export default function PreviewSearchCli(props: {
+import MyPreviewSearch from 'src/shared/search/PreviewSearch/MyPreviewSearch';
+export default function PreviewSearch(props: {
   rfkId: string;
   title: string;
   datasources?: FEAAS.DataScopes;
@@ -13,13 +13,13 @@ export default function PreviewSearchCli(props: {
       <Box>
         <Heading>{props.title}</Heading>
       </Box>
-      {props?.rfkId ? <BasicSearchWidget rfkId={props.rfkId} /> : <Box>Please add some rfkId</Box>}
+      {props?.rfkId ? <MyPreviewSearch rfkId={props.rfkId} /> : <Box>Please add some rfkId</Box>}
     </Box>
   );
 }
-FEAAS.registerComponent(PreviewSearchCli, {
-  name: 'Basic Search Cli',
-  title: 'Basic Search Cli',
+FEAAS.registerComponent(PreviewSearch, {
+  name: 'Preview Search',
+  title: 'Preview Search',
   description: 'Preview Search Powered by Sitecore Search',
   thumbnail: 'https://feaasstatic.blob.core.windows.net/assets/thumbnails/byoc.svg',
   group: 'Search',

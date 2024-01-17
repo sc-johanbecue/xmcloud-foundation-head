@@ -1,4 +1,4 @@
-import { SearchRequestModel } from 'components/shared/search/types/searchRequestModel';
+import { SearchRequestModel } from 'src/shared/search/types/searchRequestModel';
 
 export interface SearchResult {
   widgets: Widget[];
@@ -27,7 +27,10 @@ export interface Content {
   description: string;
 }
 
-export async function Search(searchRequest: SearchRequestModel): Promise<SearchResult> {
+export async function Search(
+  searchRequest: SearchRequestModel,
+  endpointUrl: string
+): Promise<SearchResult> {
   const requestOptions = {
     method: 'POST',
     headers: {
@@ -38,7 +41,7 @@ export async function Search(searchRequest: SearchRequestModel): Promise<SearchR
     body: JSON.stringify(searchRequest),
   };
 
-  const response = await fetch(process?.env?.NEXT_PUBLIC_SEARCH_BASEURL ?? '', requestOptions);
+  const response = await fetch(endpointUrl ?? '', requestOptions);
   const jsonResponse = await response.json();
   const mappedResult: SearchResult = {
     widgets: jsonResponse.widgets

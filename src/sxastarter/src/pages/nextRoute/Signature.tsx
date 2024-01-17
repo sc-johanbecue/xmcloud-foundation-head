@@ -1,6 +1,6 @@
 import { Box, Heading, Text } from '@chakra-ui/react';
-import SimpleSidebar from '../../components/external/ChakraComponents/CustomNavigation';
-import LargeWithLogoLeft from '../../components/external/ChakraComponents/CustomFooter';
+import LargeWithLogoLeft from 'src/external/ChakraComponents/CustomFooter';
+import SimpleSidebar from 'src/external/ChakraComponents/CustomNavigation';
 
 export default function Signature() {
   return (

@@ -3,8 +3,8 @@ import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
 import { Spinner, Center, Box, Flex, Heading, HStack, Link, Stack, Text } from '@chakra-ui/react';
 import { GetCart } from 'src/services/Ordercloud/CartService';
 import useSWR, { useSWRConfig } from 'swr';
-import { CartItem } from 'components/shared/_cartItem';
-import { CartOrderSummary } from 'components/shared/_cartOrderSummary';
+import { CartItem } from 'src/shared/_cartItem';
+import { CartOrderSummary } from 'src/shared/_cartOrderSummary';
 
 interface Fields {
   Title: Field<string>;

@@ -24,11 +24,13 @@ import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 interface PreviewSearchRequestModel {
   rfkId: string;
-  numberOfResultsPerPage: number;
+  numberOfResultsPerPage?: number;
+  endpointUrl: string;
 }
 
 export const MyPreviewSearchManual = ({
   rfkId,
+  endpointUrl,
   numberOfResultsPerPage,
 }: PreviewSearchRequestModel) => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -112,7 +114,8 @@ export const MyPreviewSearchManual = ({
         },
       };
       const searchResult = await Search(
-        overwrittenQuery ? searchRequestModel : searchRequestModelWithoutQuery
+        overwrittenQuery ? searchRequestModel : searchRequestModelWithoutQuery,
+        endpointUrl
       );
       if (searchResult) {
         setSearchResults(searchResult);
@@ -130,7 +133,7 @@ export const MyPreviewSearchManual = ({
     const delay = (ms: any) => new Promise((res) => setTimeout(res, ms));
 
     DoSearch(query, page, usedNumberResultsPerPage);
-  }, [page, query, rfkId, usedNumberResultsPerPage]);
+  }, [endpointUrl, loadMoreTriggered, page, query, rfkId, usedNumberResultsPerPage]);
 
   return (
     <>

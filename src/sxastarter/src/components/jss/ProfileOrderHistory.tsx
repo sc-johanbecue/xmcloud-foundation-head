@@ -23,9 +23,9 @@ import { AddOrUpdateLineItem } from 'src/services/Ordercloud/CartService';
 import { ComposedOrder, GetOrderStatusColor, Reorder } from 'src/services/Ordercloud/OrderService';
 import { useSession } from 'next-auth/react';
 import { SetTokensBySession } from 'src/services/Ordercloud/AuthenticationService';
-import { BrandedBox } from 'components/shared/_brandedBox';
-import { OrderSummaryItem } from 'components/shared/_cartOrderSummary';
-import { formatPrice } from 'components/shared/_priceTag';
+import { BrandedBox } from 'src/shared/_brandedBox';
+import { OrderSummaryItem } from 'src/shared/_cartOrderSummary';
+import { formatPrice } from 'src/shared/_priceTag';
 
 interface Fields {
   Title: Field<string>;

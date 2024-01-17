@@ -8,7 +8,7 @@ import {
 import { Box, Heading, Stack, Text, Switch, StackDivider, SkeletonText } from '@chakra-ui/react';
 import { useSession } from 'next-auth/react';
 import { SetTokensBySession } from 'src/services/ContentHub/AuthenticationService';
-import { BrandedBox } from 'components/shared/_brandedBox';
+import { BrandedBox } from 'src/shared/_brandedBox';
 
 interface Fields {
   Title: Field<string>;

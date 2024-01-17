@@ -3,9 +3,10 @@ import { keyframes, styled } from 'styled-components';
 import { ArticleCard, PreviewSearch, theme } from '@sitecore-search/ui';
 
 export const PreviewSearchInput = styled(PreviewSearch.Input)`
+  width: 800px;
   box-sizing: border-box;
   padding: ${theme.vars.spacing.xs};
-  width: 1000px;
+
   &:focus {
     outline: 1px solid ${theme.vars.palette.grey['400']};
   }
@@ -13,15 +14,15 @@ export const PreviewSearchInput = styled(PreviewSearch.Input)`
 
 export const PreviewSearchContent = styled(PreviewSearch.Content)`
   animation-duration: 500ms;
-  width: 1000px;
   animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
   will-change: transform, opacity;
+  width: var(--radix-popover-trigger-width);
   max-height: var(--radix-popover-content-available-height);
   background: ${theme.vars.palette.primary.light};
   box-shadow: 2px 5px 5px 5px ${theme.vars.palette.grey['400']};
   display: flex;
   justify-content: center;
-  height: 600px;
+  height: 400px;
   padding-top: 0;
   font-family: ${theme.vars.typography.fontFamilySystem};
 
@@ -138,6 +139,7 @@ const PreviewSearchLink = styled.a`
 `;
 
 const PreviewSearchItems = styled(PreviewSearch.Items)`
+  flex: 3;
   background: #fff;
   overflow-y: auto;
   display: flex;

@@ -45,7 +45,7 @@ export const Default = (props: TitleProps): JSX.Element => {
       className={`component ${props.params.styles}`}
       id={props.params.RenderingIdentifier ? props.params.RenderingIdentifier : undefined}
     >
-      <Heading variant={'brandPrimaryInverted'}>
+      <Heading color={'red'} variant={'brandPrimaryInverted'}>
         <Text field={text} />
       </Heading>
       <Divider variant={'brandPrimary'} />

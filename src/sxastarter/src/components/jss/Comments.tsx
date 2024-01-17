@@ -24,7 +24,7 @@ import {
 } from '@chakra-ui/react';
 import { CachedMe, ComposedMe } from 'src/services/Ordercloud/AccountService';
 import { useRouter } from 'next/router';
-import { Rating } from 'components/shared/_rating';
+import { Rating } from 'src/shared/_rating';
 
 interface Fields {
   Title: Field<string>;
