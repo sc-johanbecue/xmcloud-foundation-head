@@ -15,5 +15,11 @@
 		"scope": "SingleItem"
       }	  
     ]
-  }
+  },
+   "roles": [
+      {
+        "domain": "sitecore",
+        "pattern": "Internal Editor"
+      }
+    ]
 }

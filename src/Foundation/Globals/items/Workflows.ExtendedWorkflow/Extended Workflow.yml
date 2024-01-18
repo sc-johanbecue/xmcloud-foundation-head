@@ -13,6 +13,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Internal Editor|pd|+item:delete|+item:admin|+workflowState:delete|+item:write|+item:read|^*|+workflowState:write|+item:rename|+item:create|+workflowCommand:execute|pe|+item:delete|+item:admin|+workflowState:delete|+item:write|+item:read|^*|+workflowState:write|+item:rename|+item:create|+workflowCommand:execute|ar|sitecore\Developer|pd|+item:delete|+item:admin|+workflowState:delete|+item:write|+item:read|^*|+workflowState:write|+item:rename|+item:create|+workflowCommand:execute|pe|+item:delete|+item:admin|+workflowState:delete|+item:write|+item:read|^*|+workflowState:write|+item:rename|+item:create|+workflowCommand:execute|
 Languages:
 - Language: en
   Versions:
@@ -34,11 +38,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "633e428a-bb8d-481c-a8ff-33ad43417068"
+      Value: "1c1d4480-defc-4bea-8fb3-365e0ceccf60"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\christian.hahn@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231227T100620Z
+      Value: 20240118T152327Z
