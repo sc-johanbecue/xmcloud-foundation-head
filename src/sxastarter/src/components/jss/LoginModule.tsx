@@ -129,8 +129,6 @@ export const Default = (props: LoginProps): JSX.Element => {
         callbackUrl: props.fields?.RedirectItem?.url ?? '',
       });
 
-      console.log('SIGNIN RESPONSE: ' + JSON.stringify(signinResponse, null, 2));
-
       setTimeout(async () => {
         await update({ dummy: 'Test' });
         const session = await getSession();
