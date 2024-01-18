@@ -38,7 +38,6 @@ const GenericSelectTriggerStyled = styled(Select.Trigger)`
 
 const contentSelectStyle = `
   background-color: ${theme.vars.palette.primary.contrastText};
-  position: relative;
   overflow: hidden;
   color: ${theme.vars.palette.primary.main};
   box-shadow: 2px 2px 4px ${theme.vars.palette.grey['400']};
@@ -303,8 +302,6 @@ const AccordionFacetsFacetStyled = styled(AccordionFacets.Facet)`
   border-bottom: solid 1px ${theme.vars.palette.grey['800']};
 `;
 
-const AccordionFacetsContentStyled = styled(AccordionFacets.Content)``;
-
 const AccordionFacetsRootStyled = styled(SearchResultsAccordionFacets)``;
 
 export const AccordionFacetsStyled = {
@@ -318,13 +315,11 @@ export const AccordionFacetsStyled = {
   ItemCheckbox: AccordionItemCheckboxStyled,
   Facet: AccordionFacetsFacetStyled,
   Root: AccordionFacetsRootStyled,
-  Content: AccordionFacetsContentStyled,
 };
 
 const paginationLinkStyle = `
-  cursor: pointer;
   margin: 0 5px;
-
+  cursor: pointer;
   &[data-current='true'] {
     color: gray;
     pointer-events: none;
@@ -451,6 +446,61 @@ export const PageControlsStyled = styled.div`
   font-size: ${theme.vars.typography.fontSize1.fontSize};
 `;
 
+export const FiltersStyled = {
+  ClearFilters,
+  SelectedFiltersList,
+  SelectedFiltersListItem,
+  SelectedFiltersListItemText,
+  SelectedFiltersListItemButton,
+};
+
+export const NoResults = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+`;
+
+export const SearchResultsLayout = {
+  Wrapper,
+  MainArea,
+  NoResults,
+  LeftArea,
+  RightArea,
+  RightTopArea,
+};
+
+export const InputStyled = styled.div`
+  margin: auto;
+  width: 50%;
+  display: block;
+  position: relative;
+  input {
+    padding: ${theme.vars.spacing.s};
+    font-family: ${theme.vars.typography.fontFamilySystem};
+    border: 1px solid ${theme.vars.palette.grey['400']};
+    width: 100%;
+  }
+
+  input:focus,
+  input:active {
+    border: 1px solid ${theme.vars.palette.primary.main};
+    outline: none;
+  }
+
+  svg {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    color: ${theme.vars.palette.grey['800']};
+    width: 20px;
+    height: 20px;
+  }
+
+  input:focus + svg {
+    color: ${theme.vars.palette.primary.main};
+  }
+`;
+
 export const QuerySummaryStyled = styled.div`
   color: ${theme.vars.palette.primary.main};
   font-family: ${theme.vars.typography.fontFamilySystem};
@@ -488,26 +538,3 @@ export const LoaderAnimation = styled.svg`
   margin: auto;
   width: 50px;
 `;
-
-export const FiltersStyled = {
-  ClearFilters,
-  SelectedFiltersList,
-  SelectedFiltersListItem,
-  SelectedFiltersListItemText,
-  SelectedFiltersListItemButton,
-};
-
-export const NoResults = styled.div`
-  display: flex;
-  justify-content: center;
-  width: 100%;
-`;
-
-export const SearchResultsLayout = {
-  Wrapper,
-  MainArea,
-  NoResults,
-  LeftArea,
-  RightArea,
-  RightTopArea,
-};

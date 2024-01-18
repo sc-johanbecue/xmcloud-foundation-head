@@ -1,4 +1,10 @@
-import { ArrowLeftIcon, ArrowRightIcon, CheckIcon } from '@radix-ui/react-icons';
+import {
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  CheckIcon,
+  MagnifyingGlassIcon,
+} from '@radix-ui/react-icons';
+import { debounce } from '@sitecore-search/common';
 import type { SearchResultsInitialState, SearchResultsStoreState } from '@sitecore-search/react';
 import {
   WidgetDataType,
@@ -6,13 +12,14 @@ import {
   useSearchResultsSelectedFilters,
   widget,
 } from '@sitecore-search/react';
-import { Pagination, Presence, Select, SortSelect } from '@sitecore-search/ui';
+import { AccordionFacets, Pagination, Presence, Select, SortSelect } from '@sitecore-search/ui';
 
 import {
   AccordionFacetsStyled,
   ArticleCardStyled,
   FiltersStyled,
   GridStyled,
+  InputStyled,
   LoaderAnimation,
   LoaderContainer,
   PageControlsStyled,
@@ -36,7 +43,7 @@ type ArticleModel = {
   source_id?: string;
 };
 
-type ArticleSearchResultsProps = {
+type ArticlesSearchResultsProps = {
   defaultSortType?: SearchResultsStoreState['sortType'];
   defaultPage?: SearchResultsStoreState['page'];
   defaultItemsPerPage?: SearchResultsStoreState['itemsPerPage'];
@@ -60,27 +67,29 @@ const buildFacetLabel = (selectedFacet: any) => {
   return `${selectedFacet.facetLabel}: ${selectedFacet.valueLabel}`;
 };
 
-export const SearchResultsComponent = ({
+export const SearchResultsWithInputComponent = ({
   defaultSortType = 'suggested',
   defaultPage = 1,
   defaultKeyphrase = '',
   defaultItemsPerPage = 24,
-}: ArticleSearchResultsProps) => {
+}: ArticlesSearchResultsProps) => {
   const {
     widgetRef,
     actions: {
+      onKeyphraseChange,
       onResultsPerPageChange,
       onPageNumberChange,
-      onItemClick,
       onRemoveFilter,
       onSortChange,
       onFacetClick,
       onClearFilters,
+      onItemClick,
     },
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     state: { sortType, page, itemsPerPage },
     queryResult: {
-      isLoading,
       isFetching,
+      isLoading,
       data: {
         total_item: totalItems = 0,
         sort: { choices: sortChoices = [] } = {},
@@ -97,15 +106,19 @@ export const SearchResultsComponent = ({
     },
   });
   const totalPages = Math.ceil(totalItems / itemsPerPage);
+  const keyphraseChangeFn = debounce((e) => {
+    onKeyphraseChange({ keyphrase: e.target.value });
+  }, 200);
   const selectedSortIndex = sortChoices.findIndex((s) => s.name === sortType);
   const selectedFacetsFromApi = useSearchResultsSelectedFilters();
+
   if (isLoading) {
     return (
       <LoaderContainer>
-        <Presence present={true}>
+        <Presence present={isLoading}>
           <LoaderAnimation
-            aria-busy={true}
-            aria-hidden={false}
+            aria-busy={isLoading}
+            aria-hidden={!isLoading}
             focusable="false"
             role="progressbar"
             viewBox="0 0 20 20"
@@ -118,6 +131,10 @@ export const SearchResultsComponent = ({
   }
   return (
     <SearchResultsLayout.Wrapper ref={widgetRef}>
+      <InputStyled>
+        <input onChange={(e) => keyphraseChangeFn(e)} />
+        <MagnifyingGlassIcon />
+      </InputStyled>
       <SearchResultsLayout.MainArea>
         {isFetching && (
           <LoaderContainer>
@@ -160,6 +177,9 @@ export const SearchResultsComponent = ({
               </FiltersStyled.SelectedFiltersList>
               <AccordionFacetsStyled.Root
                 defaultFacetTypesExpandedList={[]}
+                onFacetTypesExpandedListChange={() => {
+                  return undefined;
+                }}
                 onFacetValueClick={onFacetClick}
               >
                 {facets.map((f) => (
@@ -167,7 +187,7 @@ export const SearchResultsComponent = ({
                     <AccordionFacetsStyled.Header>
                       <AccordionFacetsStyled.Trigger>{f.label}</AccordionFacetsStyled.Trigger>
                     </AccordionFacetsStyled.Header>
-                    <AccordionFacetsStyled.Content>
+                    <AccordionFacets.Content>
                       <AccordionFacetsStyled.ValueList>
                         {f.value.map((v, index) => (
                           <AccordionFacetsStyled.Item {...{ index, facetValueId: v.id }} key={v.id}>
@@ -182,7 +202,7 @@ export const SearchResultsComponent = ({
                           </AccordionFacetsStyled.Item>
                         ))}
                       </AccordionFacetsStyled.ValueList>
-                    </AccordionFacetsStyled.Content>
+                    </AccordionFacets.Content>
                   </AccordionFacetsStyled.Facet>
                 ))}
               </AccordionFacetsStyled.Root>
@@ -190,7 +210,7 @@ export const SearchResultsComponent = ({
             <SearchResultsLayout.RightArea>
               {/* Sort Select */}
               <SearchResultsLayout.RightTopArea>
-                {totalItems > 0 && (
+                {totalItems && (
                   <QuerySummaryStyled>
                     Showing {itemsPerPage * (page - 1) + 1} -{' '}
                     {itemsPerPage * (page - 1) + articles.length} of {totalItems} results
@@ -240,6 +260,7 @@ export const SearchResultsComponent = ({
                   </ArticleCardStyled.Root>
                 ))}
               </GridStyled>
+
               <PageControlsStyled>
                 <div>
                   <label>Results Per Page</label>
@@ -318,6 +339,10 @@ export const SearchResultsComponent = ({
   );
 };
 
-const MyBasicSearch = widget(SearchResultsComponent, WidgetDataType.SEARCH_RESULTS, 'content');
+const SearchResultsWithInputWidget = widget(
+  SearchResultsWithInputComponent,
+  WidgetDataType.SEARCH_RESULTS,
+  'content'
+);
 
-export default MyBasicSearch;
+export default SearchResultsWithInputWidget;
