@@ -61,7 +61,7 @@ const buildFacetLabel = (selectedFacet: any) => {
 };
 
 export const SearchResultsComponent = ({
-  defaultSortType = 'featured_desc',
+  defaultSortType = 'suggested',
   defaultPage = 1,
   defaultKeyphrase = '',
   defaultItemsPerPage = 24,

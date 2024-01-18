@@ -25,6 +25,7 @@ export const PreviewSearchContent = styled(PreviewSearch.Content)`
   height: 400px;
   padding-top: 0;
   font-family: ${theme.vars.typography.fontFamilySystem};
+  z-index: 9;
 
   @keyframes slide-up-and-fade {
     from {
