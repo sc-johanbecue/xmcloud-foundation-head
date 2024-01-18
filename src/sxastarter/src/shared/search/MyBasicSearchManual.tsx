@@ -22,17 +22,17 @@ import { SearchRequestModel } from './types/searchRequestModel';
 // import { useRouter } from 'next/router';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 
-interface PreviewSearchRequestModel {
+interface BasicSearchRequestModel {
   rfkId: string;
   numberOfResultsPerPage?: number;
   endpointUrl: string;
 }
 
-export const MyPreviewSearchManual = ({
+export const MyBasicSearchManual = ({
   rfkId,
   endpointUrl,
   numberOfResultsPerPage,
-}: PreviewSearchRequestModel) => {
+}: BasicSearchRequestModel) => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const country = 'ae';
   const language = 'en';

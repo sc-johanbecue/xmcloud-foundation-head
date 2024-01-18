@@ -122,7 +122,7 @@ export const Default = (props: LoginProps): JSX.Element => {
   const handleSubmit = async () => {
     setIsButtonInteraction(true);
     if (useNextAuth) {
-      const signinResponse = await signIn('credentials', {
+      await signIn('credentials', {
         email: username,
         password: password,
         redirect: false,

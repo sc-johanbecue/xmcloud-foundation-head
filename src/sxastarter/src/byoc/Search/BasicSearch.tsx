@@ -1,7 +1,7 @@
 import { Box, Heading } from '@chakra-ui/react';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
 import MyBasicSearch from 'src/shared/search/BasicSearch/MyBasicSearch';
-import { MyPreviewSearchManual } from 'src/shared/search/MyPreviewSearchManual';
+import { MyBasicSearchManual } from 'src/shared/search/MyBasicSearchManual';
 export default function BasicSearch(props: {
   rfkId: string;
   title: string;
@@ -17,7 +17,7 @@ export default function BasicSearch(props: {
         <Heading>{props.title}</Heading>
       </Box>
       {props.withoutSdk ? (
-        <MyPreviewSearchManual rfkId={props.rfkId} endpointUrl={props.withoutSdkUrl} />
+        <MyBasicSearchManual rfkId={props.rfkId} endpointUrl={props.withoutSdkUrl} />
       ) : props?.rfkId ? (
         <MyBasicSearch rfkId={props.rfkId} />
       ) : (
