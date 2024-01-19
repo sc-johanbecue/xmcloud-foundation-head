@@ -5,7 +5,12 @@
     "includes": [
 	  {
         "name": "Workflows.ExtendedWorkflow",
-        "path": "/sitecore/system/Workflows/Extended Workflow",
+        "path": "/sitecore/system/Workflows/Extended Page Workflow",
+		"allowedPushOperations": "createOnly"
+      },
+	  {
+        "name": "Workflows.StandardWorkflow",
+        "path": "/sitecore/system/Workflows/Standard Page Workflow",
 		"allowedPushOperations": "createOnly"
       },
       {

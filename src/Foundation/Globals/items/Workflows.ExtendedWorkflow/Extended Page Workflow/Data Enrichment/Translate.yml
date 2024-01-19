@@ -1,0 +1,38 @@
+﻿---
+ID: "c58dd9f0-3660-43ce-8ed2-db7e45ef34ce"
+Parent: "3631f66d-0cbf-4874-b154-60541cfd93de"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Extended Page Workflow/Data Enrichment/Translate
+SharedFields:
+- ID: "82a7c02f-9a55-4bfe-b494-d1713d4be9ff"
+  Hint: Suppress Comment
+  Value: 1
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{F8BAED5B-51F0-4C16-9B88-BD8D98C4D996}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230623T111031Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e7aee7f-b553-4715-b981-80bb5c907db6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230623T114938Z
