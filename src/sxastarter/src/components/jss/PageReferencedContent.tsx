@@ -142,9 +142,13 @@ export const Tag = (props: TitleProps): JSX.Element => {
 
   return (
     <ComponentContent styles={props.params.styles} id={props.params.RenderingIdentifier}>
-      <Badge variant={'brandFilled'} fontSize="1.25em">
-        <JssText field={text} />
-      </Badge>
+      {datasource?.tag?.jsonValue?.fields?.Title?.value ? (
+        <Badge variant={'brandFilled'} fontSize="1.25em">
+          <JssText field={text} />
+        </Badge>
+      ) : (
+        <></>
+      )}
     </ComponentContent>
   );
 };
@@ -156,9 +160,13 @@ export const PublicationDate = (props: TitleProps): JSX.Element => {
 
   return (
     <ComponentContent styles={props.params.styles} id={props.params.RenderingIdentifier}>
-      <Text fontWeight={'extrabold'} fontSize={'3xl'}>
-        {datasource?.publicationDate ? publicationDate.toLocaleDateString() : <>Date Field</>}
-      </Text>
+      {datasource?.publicationDate?.jsonValue?.value != '0001-01-01T00:00:00Z' ? (
+        <Text fontWeight={'extrabold'} fontSize={'3xl'}>
+          {datasource?.publicationDate ? publicationDate.toLocaleDateString() : <>Date Field</>}
+        </Text>
+      ) : (
+        <></>
+      )}
     </ComponentContent>
   );
 };
