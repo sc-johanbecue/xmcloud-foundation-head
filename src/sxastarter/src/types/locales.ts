@@ -1,5 +1,5 @@
 export const Locales: { [lang: string]: string } = {
-  en: 'ae',
+  en: 'us',
   es: 'es',
   de: 'de',
   it: 'it',
