@@ -84,7 +84,14 @@ Example: https://emea-solution-engineering-demo-prod-demo-site-a.vercel.app/api/
 **OrderCloud Integration**
 - NEXT_PUBLIC_OC_CLIENT_ID
 - NEXT_PUBLIC_OC_API_URL
-Grab Client ID and API URL from your Ordercloud Marketplace and enter here. In case you do not enter anything you will be automatically connected to the OrderCloud instance of Christian Hahn. With that instance you will have some products already available to be easily used 
+Grab Client ID and API URL from your Ordercloud Marketplace and enter here. In case you do not enter anything you will be automatically connected to the OrderCloud instance of Christian Hahn. With that instance you will have some products already available to be easily used
+
+**Search Integration**
+- NEXT_PUBLIC_SEARCH_ENVIRONMENT=
+- NEXT_PUBLIC_SEARCH_CUSTOMERKEY=
+- NEXT_PUBLIC_SEARCH_APIDOMAIN=
+- NEXT_PUBLIC_SEARCH_APIKEY=
+Grab those variables from your CEC Administration page and fill them in to have a proper search integration towards the target endpoint of your choice
 
 ## Environment Variables (Editing Host)
 
