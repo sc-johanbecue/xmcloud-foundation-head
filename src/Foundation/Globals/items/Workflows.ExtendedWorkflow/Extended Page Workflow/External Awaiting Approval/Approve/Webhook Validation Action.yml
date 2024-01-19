@@ -1,0 +1,23 @@
+﻿---
+ID: "c61137c1-ed9b-4689-b635-9e38feea5d7e"
+Parent: "06bf68f8-9fbd-4180-8a67-b2fa4f55631f"
+Template: "639f03fa-bcb5-4007-86a2-213bc77d6da0"
+Path: /sitecore/system/Workflows/Extended Page Workflow/External Awaiting Approval/Approve/Webhook Validation Action
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T075747Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e63754e-12b8-4c35-9e0d-7a4dcff9bade"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tzoxyd3zg1
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231205T133920Z

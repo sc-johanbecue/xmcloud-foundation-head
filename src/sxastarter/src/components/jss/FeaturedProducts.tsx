@@ -90,7 +90,10 @@ export const Default = (props: ProductProps): JSX.Element => {
               <div className="row">
                 {products.map((product, index) => {
                   return (
-                    <div key={index} className="col-lg-4 col-md-6 space-bottom-m space-top-m">
+                    <div
+                      key={index}
+                      className="col-lg-4 col-md-6 space-bottom-m space-top-m space-right-m"
+                    >
                       {product && chakraStyling ? (
                         <Link
                           href={props?.fields?.Products[index]?.url}

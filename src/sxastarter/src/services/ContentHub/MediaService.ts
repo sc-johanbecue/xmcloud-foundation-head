@@ -1,6 +1,6 @@
 import { Me } from 'ordercloud-javascript-sdk';
 import Cookies from 'universal-cookie';
-import { CONTENTHUB_TOKEN_COOKIE_KEY, CONTENTHUB_URL } from './Constants';
+import { CONTENTHUB_TOKEN_COOKIE_KEY } from './Constants';
 
 export async function UploadMedia(file: any): Promise<number> {
   const cookies = new Cookies();
@@ -58,7 +58,7 @@ export interface Href {
 }
 
 async function Request(file: any, token: string): Promise<RequestResponse> {
-  const requestUrl = CONTENTHUB_URL + '/api/v2.0/upload';
+  const requestUrl = process.env.NEXT_PUBLIC_CONTENTHUB_DAM_URL + '/api/v2.0/upload';
   const requestOptions = {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'x-auth-token': token },
@@ -100,7 +100,7 @@ async function Upload(input: RequestResponse, file: any, token: string): Promise
 }
 
 async function Finalize(input: RequestResponse, token: string) {
-  const requestUrl = CONTENTHUB_URL + '/api/v2.0/upload/finalize';
+  const requestUrl = process.env.NEXT_PUBLIC_CONTENTHUB_DAM_URL + '/api/v2.0/upload/finalize';
   const requestOptions = {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'x-auth-token': token },
@@ -126,7 +126,7 @@ export async function GetAssetsFrom(): Promise<MediaSearchResponse[] | null> {
 
   const me = await Me.Get();
   let requestUrl =
-    CONTENTHUB_URL +
+    process.env.NEXT_PUBLIC_CONTENTHUB_DAM_URL +
     "/api/entities/query?query=Definition.Name=='M.UserProfile' AND FullText=='" +
     me.Email +
     "'";
@@ -142,7 +142,7 @@ export async function GetAssetsFrom(): Promise<MediaSearchResponse[] | null> {
   const currentUser = Number(currentUserId) - 1;
 
   requestUrl =
-    CONTENTHUB_URL +
+    process.env.NEXT_PUBLIC_CONTENTHUB_DAM_URL +
     "/api/entities/query?query=Definition.Name=='M.Asset' AND CreatedBy==" +
     currentUser;
 

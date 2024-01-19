@@ -26,8 +26,8 @@ import { GetProductItem } from 'src/services/XMCloud/ProductsService';
 import { AiOutlineClose } from 'react-icons/ai';
 import config from 'temp/config';
 import useSWR, { useSWRConfig } from 'swr';
-import { PriceTag } from 'components/shared/_priceTag';
-import { ProductTeaserSkeleton } from 'components/shared/_productTeaserSkeleton';
+import { PriceTag } from 'src/shared/_priceTag';
+import { ProductTeaserSkeleton } from 'src/shared/_productTeaserSkeleton';
 
 interface Fields {
   Title: Field<string>;

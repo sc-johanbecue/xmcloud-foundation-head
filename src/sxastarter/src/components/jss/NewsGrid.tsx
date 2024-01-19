@@ -1,5 +1,4 @@
 import {
-  Stack,
   Heading,
   Box,
   Text,
@@ -16,6 +15,7 @@ import {
 } from '@chakra-ui/react';
 import React, { ChangeEvent, useState } from 'react';
 import { MdOutlineTextFields } from 'react-icons/md';
+import { SharedNewsTeaser } from 'src/shared/_newsTeaser';
 
 interface News {
   title: {
@@ -97,7 +97,6 @@ export const Default = (props: PromoProps): JSX.Element => {
             if (element?.template?.name == 'Page Data') {
               return <></>;
             }
-            const publicationDate = new Date(element.publicationDate?.jsonValue?.value);
             const grid =
               props.params['NumberOfNewsPerGrid'] == '2'
                 ? 'col-md-6'
@@ -111,37 +110,13 @@ export const Default = (props: PromoProps): JSX.Element => {
             } else {
               return (
                 <div className={grid} key={key}>
-                  <Box
-                    w={'full'}
-                    bg={'gray.100'}
-                    boxShadow={'2xl'}
-                    rounded={'md'}
-                    p={6}
-                    overflow={'hidden'}
-                  >
-                    <Box bg={'gray.100'} mt={-6} mx={-6} mb={6} pos={'relative'}>
-                      <Image src={element.image?.jsonValue?.value?.src ?? ''} />
-                    </Box>
-                    <Stack>
-                      <Badge variant={'brandText'} pb={4}>
-                        {element.tag?.jsonValue?.fields?.Title?.value}
-                      </Badge>
-                      <Text fontWeight={'extrabold'}>{publicationDate.toLocaleDateString()}</Text>
-                      <Heading
-                        pb={4}
-                        pt={2}
-                        color={'BrandedTextColor.900'}
-                        fontSize={'3xl'}
-                        fontFamily={'body'}
-                      >
-                        {element.title?.jsonValue?.value}
-                      </Heading>
-
-                      <Text align={'justify'} color={'gray.500'}>
-                        {element?.abstract?.jsonValue?.value}
-                      </Text>
-                    </Stack>
-                  </Box>
+                  <SharedNewsTeaser
+                    title={element?.title?.jsonValue?.value}
+                    abstract={element?.abstract?.jsonValue?.value}
+                    image={element?.image?.jsonValue?.value?.src}
+                    publicationDate={element?.publicationDate?.jsonValue?.value}
+                    tag={element?.tag?.jsonValue?.fields?.Title?.value}
+                  />
                 </div>
               );
             }

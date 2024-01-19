@@ -1,0 +1,37 @@
+﻿---
+ID: "78fd8799-7f22-4770-83bf-dba81a241597"
+Parent: "f889841b-3279-425b-8684-9531db52db4c"
+Template: "45b5d66a-5929-471b-8a08-24c3d77c2392"
+Path: /sitecore/system/Workflows/Standard Page Workflow/External Awaiting Approval/Transmit Item to external Approval System
+SharedFields:
+- ID: "70bcf39c-e567-4bc5-9dfa-3503810ef820"
+  Hint: Enabled
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 93
+- ID: "f9f59338-045d-4da8-80f0-ce7f7d92e4af"
+  Hint: Url
+  Value: "https://webhooks.eu.workato.com/webhooks/rest/993b2633-cd7e-46eb-b77a-c88e7caaeff9/start-external-approval-flow"
+Languages:
+- Language: en
+  Fields:
+  - ID: "305fa64b-5785-4171-aa73-de715e21ae21"
+    Hint: Description
+    Value: Start External Approval
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T091839Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b38658ec-0346-4c90-b7a3-dc4e589c9a14"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tzoxyd3zg1
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231205T135704Z

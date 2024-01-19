@@ -30,7 +30,7 @@ import { BuyerAddress, Me } from 'ordercloud-javascript-sdk';
 import { FaPlus, FaMinus, FaEdit, FaRegAddressCard } from 'react-icons/fa';
 import { useSession } from 'next-auth/react';
 import { SetTokensBySession } from 'src/services/Ordercloud/AuthenticationService';
-import { BrandedBox } from 'components/shared/_brandedBox';
+import { BrandedBox } from 'src/shared/_brandedBox';
 
 interface Fields {
   Title: Field<string>;
