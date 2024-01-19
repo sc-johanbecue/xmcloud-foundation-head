@@ -10,8 +10,8 @@ import * as FEAAS from '@sitecore-feaas/clientside/react';
 import '@sitecore/components/form';
 
 // Custom Imports
-import './byoc/Search/BasicSearch';
-import './byoc/Search/PreviewSearch';
+import './Search/BasicSearch';
+import './Search/PreviewSearch';
 
 /**
  * End of built-in JSS imports
