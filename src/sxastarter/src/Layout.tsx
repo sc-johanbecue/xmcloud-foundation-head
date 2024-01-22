@@ -49,8 +49,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <meta property="og:title" content={fields?.OgTitle?.value?.toString()} />
         <meta property="og:description" content={fields?.OgDescription?.value?.toString()} />
         <meta property="og:image" content={fields?.OgImage?.value?.src?.toString()} />
-        <meta property="og:type" content={route?.templateName} />
-        <div>JSS 21.6.0</div>
+        <meta property="og:type" content={route?.templateName} data-attr="JSS-21.6.0" />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
