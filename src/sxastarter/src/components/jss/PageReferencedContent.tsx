@@ -95,7 +95,6 @@ const ComponentContent = (props: ComponentContentProps) => {
 
 export const Content = (props: TitleProps): JSX.Element => {
   const datasource = props.fields?.data?.contextItem;
-  console.log(datasource);
 
   const text: RichTextField = {
     value: datasource?.content != null ? datasource?.content?.jsonValue?.value : 'Content Field',
@@ -105,7 +104,7 @@ export const Content = (props: TitleProps): JSX.Element => {
   return (
     <ComponentContent styles={props.params.styles} id={props.params.RenderingIdentifier}>
       <>
-        <Text>
+        <Text as="div">
           <JssRichText field={text} />
         </Text>
       </>
@@ -157,12 +156,13 @@ export const PublicationDate = (props: TitleProps): JSX.Element => {
   const datasource = props.fields?.data?.contextItem;
   const publicationDateValue = datasource?.publicationDate?.jsonValue?.value;
   const publicationDate = new Date(publicationDateValue ? publicationDateValue : '');
+  const dateToDisplay = publicationDate.toLocaleDateString();
 
   return (
     <ComponentContent styles={props.params.styles} id={props.params.RenderingIdentifier}>
-      {datasource?.publicationDate?.jsonValue?.value != '0001-01-01T00:00:00Z' ? (
+      {publicationDateValue != '0001-01-01T00:00:00Z' ? (
         <Text fontWeight={'extrabold'} fontSize={'3xl'}>
-          {datasource?.publicationDate ? publicationDate.toLocaleDateString() : <>Date Field</>}
+          {publicationDateValue ? dateToDisplay : <>Date Field</>}
         </Text>
       ) : (
         <></>
@@ -172,7 +172,6 @@ export const PublicationDate = (props: TitleProps): JSX.Element => {
 };
 
 export const Image = (props: TitleProps): JSX.Element => {
-  console.log(JSON.stringify(props, null, 2));
   const datasource = props.fields?.data?.contextItem;
 
   const JssImageField: ImageField = {

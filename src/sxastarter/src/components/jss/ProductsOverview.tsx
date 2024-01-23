@@ -361,7 +361,7 @@ export const List = (props: ProductsOverviewProps): JSX.Element => {
       const dictionaryService = new GraphQLDictionaryService({
         endpoint: config.graphQLEndpoint,
         apiKey: config.sitecoreApiKey,
-        siteName: sitecoreContext.site?.name ?? config.jssAppName,
+        siteName: sitecoreContext.site?.name ?? config.sitecoreSiteName,
       });
 
       const entries = await dictionaryService.fetchDictionaryData(language).catch(() => {
