@@ -49,8 +49,8 @@ const SitecorePage = ({
         */}
         {AmmegaSite ? (
           isComponentRendering ? (
-          <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
-        ) : (
+            <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
+          ) : (
             <LayoutAmmega layoutData={layoutData} headLinks={headLinks} />
           )
         ) : isComponentRendering ? (
