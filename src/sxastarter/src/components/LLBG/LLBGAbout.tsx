@@ -32,7 +32,6 @@ const LLBGProductInfoDefaultComponent = (props: LLBGProductInfoProps): JSX.Eleme
 );
 
 export const Default = (props: LLBGProductInfoProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
   if (props.fields) {
     return (
       <div className="row px-md-4 mt-4 no-gutters">
