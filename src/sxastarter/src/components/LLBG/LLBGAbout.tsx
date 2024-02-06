@@ -34,7 +34,7 @@ const LLBGProductInfoDefaultComponent = (props: LLBGProductInfoProps): JSX.Eleme
 export const Default = (props: LLBGProductInfoProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div className="row px-md-4 mt-4 no-gutters">
+      <div className="row px-md-4 mt-4 no-gutters width100Procent">
         <div className="col-12 mx-auto maxWidth1500px">
           <div className="b2b-homepage-spotlight heightAuto">
             <div className="container-fluid mx-0 px-0">
