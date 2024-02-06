@@ -44,7 +44,7 @@ export const Default = (props: LLBGProductInfoProps): JSX.Element => {
                     Niet gevonden wat je zocht ?
                   </h3>
                   <p
-                    className="text-center text-md-left margin30px040px0 marginBottom10px"
+                    className="text-center text-md-left margin30px040px0"
                     property="section_3_content"
                   >
                     Contacteer ons vandaag nog. Wij helpen je graag verder.
