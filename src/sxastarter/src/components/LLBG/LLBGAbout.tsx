@@ -47,7 +47,7 @@ export const Default = (props: LLBGProductInfoProps): JSX.Element => {
                     className="text-center text-md-left margin30px040px0"
                     property="section_3_content"
                   >
-                    Contacteer ons vandaag nog. Wij helpen je graag verder.
+                    Contacteer ons vandaag nog. Wij helpen u graag verder.
                   </p>
                   <a
                     href="https://www.lalorraine.com/be-nl/consument/contact"
