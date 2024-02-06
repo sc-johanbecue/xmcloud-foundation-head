@@ -34,20 +34,21 @@ const LLBGProductInfoDefaultComponent = (props: LLBGProductInfoProps): JSX.Eleme
 export const Default = (props: LLBGProductInfoProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div className="row px-md-4 mt-4 no-gutters width100Procent">
+      <div className="row px-md-4 mt-4 no-gutters">
         <div className="col-12 mx-auto maxWidth1500px">
           <div className="b2b-homepage-spotlight heightAuto">
             <div className="container-fluid mx-0 px-0">
               <div className="row">
                 <div className="col-sm-12 col-md-5 text-center text-md-left pl-5 pr-5 pr-md-0 paddingBottom50px">
                   <h3 className="text-center text-md-left pl-0 pt-5" property="section_3_title">
-                    Niet gevonden wat je zocht ?
+                    Niet gevonden wat je zocht?
                   </h3>
                   <p
-                    className="text-center text-md-left margin30px040px0"
+                    className="text-center text-md-left"
+                    style={{ margin: '30px 0 40px 0' }}
                     property="section_3_content"
                   >
-                    Contacteer ons vandaag nog. Wij helpen u graag verder.
+                    Contacteer ons vandaag nog. Wij helpen je graag verder.
                   </p>
                   <a
                     href="https://www.lalorraine.com/be-nl/consument/contact"
