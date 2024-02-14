@@ -3,6 +3,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import NotFound from 'src/NotFound';
 import Layout from 'src/Layout';
 import LayoutAmmega from 'src/LayoutAmmega';
+import LayoutLynkAndCo from 'src/LayoutLynkAndCo';
 import {
   RenderingType,
   SitecoreContext,
@@ -37,6 +38,8 @@ const SitecorePage = ({
     layoutData.sitecore.context.renderingType === RenderingType.Component;
 
   const AmmegaSite = layoutData.sitecore.context.site?.name == 'Ammega';
+  const LynkAndCoSite = layoutData.sitecore.context.site?.name == 'Lynk And Co';
+
   return (
     <ComponentPropsContext value={componentProps}>
       <SitecoreContext
@@ -52,6 +55,12 @@ const SitecorePage = ({
             <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
           ) : (
             <LayoutAmmega layoutData={layoutData} headLinks={headLinks} />
+          )
+        ) : LynkAndCoSite ? (
+          isComponentRendering ? (
+            <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
+          ) : (
+            <LayoutLynkAndCo layoutData={layoutData} headLinks={headLinks} />
           )
         ) : isComponentRendering ? (
           <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
