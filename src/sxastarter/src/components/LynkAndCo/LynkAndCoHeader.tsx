@@ -29,7 +29,7 @@ const LynkAndCoHeaderDefaultComponent = (props: LynkAndCoHeaderProps): JSX.Eleme
 export const Default = (props: LynkAndCoHeaderProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div className="header-bar_headerContainer__Whkhw">
+      <div className="header-bar_headerContainer__Whkhw" style={{ width: '100%' }}>
         <div style={{ height: '72px' }}>
           <header className="header-bar_header__9Zu+o">
             <div className="header-bar_headerCover__9tGKA"></div>
