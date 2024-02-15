@@ -63,7 +63,12 @@ export const Default = (props: LynkAndCoHeaderZigZagBlockProps): JSX.Element => 
                       <Text field={props.fields.Description} />
                     </p>
                   </div>
-                  <Link className="primary-link green" tabIndex={0} href="/en/business" target="">
+                  <Link
+                    className="primary-link green"
+                    tabIndex={0}
+                    href="https://www.lynkco.com/en/business"
+                    target=""
+                  >
                     <span className="primary-link__content" tabIndex={-1}>
                       <span className="buttonText">
                         <JssLink
