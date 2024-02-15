@@ -21,7 +21,10 @@ const LynkAndCoCTABannerDefaultComponent = (props: LynkAndCoCTABannerProps): JSX
 export const Default = (props: LynkAndCoCTABannerProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div className="cta-banner link-true padding-top-tiny padding-bottom-tiny green center grid">
+      <div
+        className="cta-banner link-true padding-top-tiny padding-bottom-tiny green center grid"
+        style={{ width: '100%' }}
+      >
         <div className="action">
           <span className="text">
             <Text field={props.fields.Text} />

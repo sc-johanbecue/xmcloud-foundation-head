@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import {
   Image as JssImage,
   Link as JssLink,
@@ -36,7 +37,7 @@ export const Default = (props: LynkAndCoHeaderZigZagBlockProps): JSX.Element => 
     return (
       <section
         className="ZigZagBlock_mediaBlock__dDKjU grid padding-top-default padding-bottom-default"
-        style={{ background: 'rgb(19, 19, 19)' }}
+        style={{ background: 'rgb(19, 19, 19)', width: '100%' }}
       >
         <section className="ZigZagBlock_mediaBlockItems__I0sk+">
           <article className="ZigZagBlockItem_swap__6+3M7">
@@ -62,15 +63,15 @@ export const Default = (props: LynkAndCoHeaderZigZagBlockProps): JSX.Element => 
                       <Text field={props.fields.Description} />
                     </p>
                   </div>
-                  <JssLink
-                    className="primary-link green"
-                    tabIndex={0}
-                    field={props.fields.Link}
-                    target=""
-                  >
+                  <Link className="primary-link green" tabIndex={0} href="/en/business" target="">
                     <span className="primary-link__content" tabIndex={-1}>
                       <span className="buttonText">
-                        <Text field={props.fields.ButtonText} />
+                        <JssLink
+                          className="primary-link green"
+                          tabIndex={0}
+                          field={props.fields.Link}
+                          target=""
+                        />
                       </span>
                       <div className="icon-container">
                         <span className="icon">
@@ -89,7 +90,7 @@ export const Default = (props: LynkAndCoHeaderZigZagBlockProps): JSX.Element => 
                         </span>
                       </div>
                     </span>
-                  </JssLink>
+                  </Link>
                 </div>
               </div>
             </section>
