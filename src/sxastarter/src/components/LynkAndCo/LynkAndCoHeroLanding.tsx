@@ -39,7 +39,14 @@ export const Default = (props: LynkAndCoHeroLandingProps): JSX.Element => {
   if (props.fields) {
     return (
       <div className="hero-landing" style={backgroundStyle}>
-        {sitecoreContext.pageEditing ? <JssImage field={modifyImageProps} /> : ''}
+        {sitecoreContext.pageEditing ? (
+          <JssImage
+            field={modifyImageProps}
+            style={{ opacity: '0.0', width: '100%', height: '20px' }}
+          />
+        ) : (
+          ''
+        )}
 
         <div className="full-width grid">
           <h1 className="big-title">
