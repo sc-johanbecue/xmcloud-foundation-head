@@ -8,8 +8,6 @@ import {
   RichText as JssRichText,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
-import Link from 'next/link';
-
 interface Fields {
   Title: TextField;
   Description: RichTextField;
