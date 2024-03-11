@@ -34,7 +34,7 @@ export const Default = (props: DPWorldFooterProps): JSX.Element => {
           <div className="component footer-container">
             <div className="container-fluid">
               <div className="row">
-                <div className="col-12 component">
+                <div className="col-12 component" style={{ backgroundColor: 'black' }}>
                   <div className="component-content">
                     <div className="footer">
                       <div className="footer-utility">
