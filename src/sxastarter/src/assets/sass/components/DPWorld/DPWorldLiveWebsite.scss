@@ -14040,7 +14040,7 @@ figure figcaption {
 }
 
 .loader {
-    background: url(../images/loader.gif) no-repeat;
+    //background: url(../images/loader.gif) no-repeat;
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     background-size: 100%;
@@ -14225,7 +14225,7 @@ header .header:after {
 }
 
 .secondary-cta-arrow-white:after {
-    background-image: url(../images/Arrow-Right.svg);
+    //background-image: url(../images/Arrow-Right.svg);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     transition: all ease .4s;
