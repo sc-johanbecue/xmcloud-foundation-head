@@ -42,19 +42,11 @@ export const Default = (props: DPWorldFooterProps): JSX.Element => {
                     <div className="workwithus-content-wrapper">
                       <div className="work-with-us-title h3">
                         <Text field={props.fields.Title} />
-                        CHANGING WHAT&#39;S POSSIBLE, FOR EVERYONE
                       </div>
                       <p>
                         <JssRichText field={props.fields.Description} />
-                        Trade is the lifeblood of the global economy, creating opportunities and
-                        improving the quality of life for people around the world. DP World exists
-                        to make the world’s trade flow better, changing what’s possible for the
-                        customers and communities we serve globally.&nbsp;
                       </p>
-                      <JssLink field={props.fields.Link} />
-                      <Link title="About Us" href="/about-us" className="primary-cta">
-                        <span>Learn more about us</span>
-                      </Link>
+                      <JssLink field={props.fields.Link} className="primary-cta" />
                     </div>
                   </div>
                 </div>
