@@ -1,5 +1,6 @@
 import React from 'react';
 import { ImageField, TextField, RichTextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import Link from 'next/link';
 
 interface Fields {
   Number: TextField;
@@ -45,9 +46,9 @@ export const Default = (props: DPWorldFooterProps): JSX.Element => {
                         to make the world’s trade flow better, changing what’s possible for the
                         customers and communities we serve globally.&nbsp;
                       </p>
-                      <a title="About Us" href="/about-us" className="primary-cta">
+                      <Link title="About Us" href="/about-us" className="primary-cta">
                         <span>Learn more about us</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
