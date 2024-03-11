@@ -4,6 +4,7 @@ import NotFound from 'src/NotFound';
 import Layout from 'src/Layout';
 import LayoutAmmega from 'src/LayoutAmmega';
 import LayoutLynkAndCo from 'src/LayoutLynkAndCo';
+import LayoutDPWorld from 'src/LayoutDPWorld';
 import {
   RenderingType,
   SitecoreContext,
@@ -39,6 +40,7 @@ const SitecorePage = ({
 
   const AmmegaSite = layoutData.sitecore.context.site?.name == 'Ammega';
   const LynkAndCoSite = layoutData.sitecore.context.site?.name == 'Lynk And Co';
+  const DPWorldSite = layoutData.sitecore.context.site?.name == 'DPWorld';
 
   return (
     <ComponentPropsContext value={componentProps}>
@@ -61,6 +63,12 @@ const SitecorePage = ({
             <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
           ) : (
             <LayoutLynkAndCo layoutData={layoutData} headLinks={headLinks} />
+          )
+        ) : DPWorldSite ? (
+          isComponentRendering ? (
+            <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
+          ) : (
+            <LayoutDPWorld layoutData={layoutData} headLinks={headLinks} />
           )
         ) : isComponentRendering ? (
           <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
