@@ -11277,13 +11277,13 @@ a.text-dark:focus {
     background: #fff url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/images/ajax-loader.gif") center center no-repeat
 }
 
-@font-face {
-    font-family: "slick";
-    src: url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/fonts/slick.eot");
-    src: url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/fonts/slick.eot?#iefix") format("embedded-opentype"), url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/fonts/slick.woff") format("woff"), url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/fonts/slick.ttf") format("truetype"), url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/fonts/slick.svg#slick") format("svg");
-    font-weight: normal;
-    font-style: normal
-}
+// @font-face {
+//     font-family: "slick";
+//     src: url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/fonts/slick.eot");
+//     src: url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/fonts/slick.eot?#iefix") format("embedded-opentype"), url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/fonts/slick.woff") format("woff"), url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/fonts/slick.ttf") format("truetype"), url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/fonts/slick.svg#slick") format("svg");
+//     font-weight: normal;
+//     font-style: normal
+// }
 
 .slick-prev,
 .slick-next {
@@ -11622,7 +11622,7 @@ a.text-dark:focus {
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/images/owl.video.play.png") no-repeat;
+    //background: url("https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/images/owl.video.play.png") no-repeat;
     cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
@@ -25441,7 +25441,7 @@ body.n2k21theme .social-wall .juicer-feed .news-events .news-item .news-events-d
 }
 
 .people-stories.people-stories__Light {
-    background-image: url(https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/images/curve-lines.svg);
+    //background-image: url(https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/images/curve-lines.svg);
     background-repeat: no-repeat;
     background-position-x: 100%;
     background-position-y: 120%;
@@ -31192,7 +31192,7 @@ body.n2k21theme .social-wall .juicer-feed .news-events .news-item .news-events-d
 .invoice-form .form-date label:before {
     position: absolute;
     content: "";
-    background: url(https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/images/dp_calendar.png);
+    //background: url(https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/images/dp_calendar.png);
     height: 20px;
     width: 21px;
     right: 0;
@@ -32063,7 +32063,7 @@ body.n2k21theme .social-wall .juicer-feed .news-events .news-item .news-events-d
 .performa-invoice-form .form-date label:before {
     position: absolute;
     content: "";
-    background: url(https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/images/dp_calendar.png);
+    //background: url(https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/images/dp_calendar.png);
     height: 20px;
     width: 21px;
     right: 0;
