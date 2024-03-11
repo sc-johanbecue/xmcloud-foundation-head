@@ -1,5 +1,6 @@
 import React from 'react';
 import { ImageField, TextField, RichTextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import Link from 'next/link';
 
 interface Fields {
   Number: TextField;
@@ -39,187 +40,187 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                     <div className="header" data-fsize="72">
                       <div className="logo">
                         <h2 className="h1">
-                          <a href="/">
+                          <Link href="/">
                             <img
                               src="https://dpwprod.azureedge.net/-/media/project/dpwg/dpwg-tenant/shared/images/logo-new.svg?rev=76aac004c6f3477084084de0727d6694&amp;h=35&amp;w=157&amp;la=en&amp;hash=A61332E9BE9138E6B37652E3E4A2E745"
                               alt="DP World"
                             />
-                          </a>
+                          </Link>
                         </h2>
                       </div>
                       <div className="utility">
                         <div className="utility-nav">
                           <ul>
                             <li>
-                              <a href="/about-us" data-nav="About Us">
+                              <Link href="/about-us" data-nav="About Us">
                                 {' '}
                                 About Us
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="/partnerships" data-nav="Partnerships">
+                              <Link href="/partnerships" data-nav="Partnerships">
                                 {' '}
                                 Partnerships
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="/investors" data-nav="Investors">
+                              <Link href="/investors" data-nav="Investors">
                                 {' '}
                                 Investors
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="/careers" data-nav="Careers">
+                              <Link href="/careers" data-nav="Careers">
                                 {' '}
                                 Careers
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="/news" data-nav="News">
+                              <Link href="/news" data-nav="News">
                                 {' '}
                                 News
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
                         <div className="utility-links">
                           <ul>
                             <li className="search-cta">
-                              <a href="/search">
+                              <Link href="/search">
                                 {' '}
                                 <span aria-label="search" className="icon-search icon"></span>
-                              </a>{' '}
+                              </Link>{' '}
                             </li>
 
                             <li className="globe">
-                              <a className="globe-cta" href="#">
+                              <Link className="globe-cta" href="#">
                                 <span aria-label="globe" className="icon-globe icon"></span>
-                              </a>
+                              </Link>
                               <div className="globe-list">
                                 <ul>
                                   <li>
-                                    <a href="/">Global</a>
+                                    <Link href="/">Global</Link>
                                   </li>
                                   <li>
-                                    <a href="/djazair">Algeria, Djazair</a>
+                                    <Link href="/djazair">Algeria, Djazair</Link>
                                   </li>
                                   <li>
-                                    <a href="/luanda">Angola</a>
+                                    <Link href="/luanda">Angola</Link>
                                   </li>
                                   <li>
-                                    <a href="/buenos-aires">Argentina</a>
+                                    <Link href="/buenos-aires">Argentina</Link>
                                   </li>
                                   <li>
-                                    <a href="/australia">Australia</a>
+                                    <Link href="/australia">Australia</Link>
                                   </li>
                                   <li>
-                                    <a href="/antwerp">Belgium</a>
+                                    <Link href="/antwerp">Belgium</Link>
                                   </li>
                                   <li>
-                                    <a href="/santos">Brazil</a>
+                                    <Link href="/santos">Brazil</Link>
                                   </li>
                                   <li>
-                                    <a href="/chile">Chile</a>
+                                    <Link href="/chile">Chile</Link>
                                   </li>
                                   <li>
-                                    <a href="/china">China</a>
+                                    <Link href="/china">China</Link>
                                   </li>
                                   <li>
-                                    <a href="/limassol">Cyprus</a>
+                                    <Link href="/limassol">Cyprus</Link>
                                   </li>
                                   <li>
-                                    <a href="/dominicana">Dominicana</a>
+                                    <Link href="/dominicana">Dominicana</Link>
                                   </li>
                                   <li>
-                                    <a href="/ecuador">Ecuador</a>
+                                    <Link href="/ecuador">Ecuador</Link>
                                   </li>
                                   <li>
-                                    <a href="/egypt">Egypt</a>
+                                    <Link href="/egypt">Egypt</Link>
                                   </li>
                                   <li>
-                                    <a href="/eu-intermodal">EU Intermodal</a>
+                                    <Link href="/eu-intermodal">EU Intermodal</Link>
                                   </li>
                                   <li>
-                                    <a href="/hongkong">Hong Kong</a>
+                                    <Link href="/hongkong">Hong Kong</Link>
                                   </li>
                                   <li>
-                                    <a href="/india">India</a>
+                                    <Link href="/india">India</Link>
                                   </li>
                                   <li>
-                                    <a href="/indonesia">Indonesia</a>
+                                    <Link href="/indonesia">Indonesia</Link>
                                   </li>
                                   <li>
-                                    <a href="/malaysia">Malaysia</a>
+                                    <Link href="/malaysia">Malaysia</Link>
                                   </li>
                                   <li>
-                                    <a href="/mozambique">Mozambique</a>
+                                    <Link href="/mozambique">Mozambique</Link>
                                   </li>
                                   <li>
-                                    <a href="/pakistan">Pakistan</a>
+                                    <Link href="/pakistan">Pakistan</Link>
                                   </li>
                                   <li>
-                                    <a href="/peru">Peru</a>
+                                    <Link href="/peru">Peru</Link>
                                   </li>
                                   <li>
-                                    <a href="/philippines">Philippines</a>
+                                    <Link href="/philippines">Philippines</Link>
                                   </li>
                                   <li>
-                                    <a href="/constanta">Romania</a>
+                                    <Link href="/constanta">Romania</Link>
                                   </li>
                                   <li>
-                                    <a href="/rwanda">Rwanda</a>
+                                    <Link href="/rwanda">Rwanda</Link>
                                   </li>
                                   <li>
-                                    <a href="/saudi-arabia">Saudi Arabia</a>
+                                    <Link href="/saudi-arabia">Saudi Arabia</Link>
                                   </li>
                                   <li>
-                                    <a href="/senegal">Senegal</a>
+                                    <Link href="/senegal">Senegal</Link>
                                   </li>
                                   <li>
-                                    <a href="/novi-sad">Serbia</a>
+                                    <Link href="/novi-sad">Serbia</Link>
                                   </li>
                                   <li>
-                                    <a href="/somaliland">Somaliland</a>
+                                    <Link href="/somaliland">Somaliland</Link>
                                   </li>
                                   <li>
-                                    <a href="/south-korea">South Korea</a>
+                                    <Link href="/south-korea">South Korea</Link>
                                   </li>
                                   <li>
-                                    <a href="/tarragona">Spain</a>
+                                    <Link href="/tarragona">Spain</Link>
                                   </li>
                                   <li>
-                                    <a href="/paramaribo">Suriname</a>
+                                    <Link href="/paramaribo">Suriname</Link>
                                   </li>
                                   <li>
-                                    <a href="/yarimca">Turkiye</a>
+                                    <Link href="/yarimca">Turkiye</Link>
                                   </li>
                                   <li>
-                                    <a href="/uae">United Arab Emirates</a>
+                                    <Link href="/uae">United Arab Emirates</Link>
                                   </li>
                                   <li>
-                                    <a href="/en/ukraine">Ukraine</a>
+                                    <Link href="/en/ukraine">Ukraine</Link>
                                   </li>
                                   <li>
-                                    <a href="/united-kingdom">United Kingdom</a>
+                                    <Link href="/united-kingdom">United Kingdom</Link>
                                   </li>
                                   <li>
-                                    <a href="/vietnam">Vietnam</a>
+                                    <Link href="/vietnam">Vietnam</Link>
                                   </li>
                                 </ul>
-                                <a href="/about-us/our-locations" className="globe-link">
+                                <Link href="/about-us/our-locations" className="globe-link">
                                   View map
-                                </a>{' '}
+                                </Link>{' '}
                               </div>
                             </li>
                             <li className="contact-cta desktop">
-                              <a href="/contact-us">
+                              <Link href="/contact-us">
                                 <span aria-label="contact" className="icon-contact icon"></span>
-                              </a>
+                              </Link>
                             </li>
                             <li className="contact-cta mobile">
-                              <a href="/contact-us">
+                              <Link href="/contact-us">
                                 <span aria-label="contact" className="icon-contact icon"></span>
-                              </a>
+                              </Link>
                             </li>
 
                             <li className="mo-menu">
@@ -244,10 +245,10 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                       <div className="main-nav">
                         <ul className="main-nav-ul">
                           <li className="level2">
-                            <a href="/supply-chain-solutions" data-nav="SOLUTIONS">
+                            <Link href="/supply-chain-solutions" data-nav="SOLUTIONS">
                               {' '}
                               SOLUTIONS
-                            </a>
+                            </Link>
                             <div className="main-secondary">
                               <div className="secondary-nav">
                                 <div className="row">
@@ -255,40 +256,40 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                                     <div className="secondary-left">
                                       <ul>
                                         <li>
-                                          <a href="/supply-chain-solutions/freight-forwarding-services">
+                                          <Link href="/supply-chain-solutions/freight-forwarding-services">
                                             {' '}
                                             FREIGHT FORWARDING
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li>
-                                          <a href="/supply-chain-solutions/contract-logistics-services">
+                                          <Link href="/supply-chain-solutions/contract-logistics-services">
                                             {' '}
                                             CONTRACT LOGISTICS
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li>
-                                          <a href="/supply-chain-solutions/market-access">
+                                          <Link href="/supply-chain-solutions/market-access">
                                             {' '}
                                             MARKET ACCESS
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li>
-                                          <a href="/supply-chain-solutions/economic-trade-zone">
+                                          <Link href="/supply-chain-solutions/economic-trade-zone">
                                             {' '}
                                             ECONOMIC ZONES
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li>
-                                          <a href="/supply-chain-solutions/ports-and-terminals">
+                                          <Link href="/supply-chain-solutions/ports-and-terminals">
                                             {' '}
                                             PORTS &amp; TERMINALS
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li>
-                                          <a href="/supply-chain-solutions/marine-services">
+                                          <Link href="/supply-chain-solutions/marine-services">
                                             {' '}
                                             MARINE SERVICES
-                                          </a>
+                                          </Link>
                                         </li>
                                       </ul>
                                     </div>
@@ -299,19 +300,19 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                                       <div className="row">
                                         <div className="col-sm-6">
                                           <div className="secondary-item">
-                                            <a href="/insights/expert-opinions/data-fills-gaps-in-modern-supply-chains">
+                                            <Link href="/insights/expert-opinions/data-fills-gaps-in-modern-supply-chains">
                                               {' '}
                                               <img
                                                 className="lozad img-fluid"
                                                 alt="relatedcontent"
                                                 data-src="https://www.dpworld.com/-/media/Project/DPWG/DPWG-Tenant/Corporate/Global/Images/New-brand-imagery/Woman-in-warehouse.jpg?rev=9ad2b6beb5a44cdb839246a2e7dfaa97&amp;cx=0.54&amp;cy=0.45&amp;cw=330&amp;ch=170&amp;hash=DA35266F30E46262B081157D34F30517"
                                               />
-                                            </a>{' '}
+                                            </Link>{' '}
                                             <h2>
-                                              <a href="/insights/expert-opinions/data-fills-gaps-in-modern-supply-chains">
+                                              <Link href="/insights/expert-opinions/data-fills-gaps-in-modern-supply-chains">
                                                 {' '}
                                                 Data Fills The Gaps In Modern Supply Chains
-                                              </a>{' '}
+                                              </Link>{' '}
                                             </h2>
                                             <p>
                                               Global supply chains are no strangers to disruption,
@@ -319,29 +320,29 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                                               unpredictable forces of climate change. Amidst these
                                               challenges, an often-overlooked vulner…
                                             </p>
-                                            <a
+                                            <Link
                                               href="/insights/expert-opinions/data-fills-gaps-in-modern-supply-chains"
                                               className="primary-cta-white"
                                             >
                                               Read more
-                                            </a>
+                                            </Link>
                                           </div>
                                         </div>
                                         <div className="col-sm-6">
                                           <div className="secondary-item">
-                                            <a href="/insights/expert-opinions/rail-networks-transform-supply-chains">
+                                            <Link href="/insights/expert-opinions/rail-networks-transform-supply-chains">
                                               {' '}
                                               <img
                                                 className="lozad img-fluid"
                                                 alt="relatedcontent"
                                                 data-src="https://www.dpworld.com/-/media/Project/DPWG/DPWG-Tenant/Corporate/Global/Images/New-brand-imagery/Port-of-Maputo.jpeg?rev=8d12394edb244e1999da325711d0d0ee&amp;cx=0.39&amp;cy=0.64&amp;cw=330&amp;ch=170&amp;hash=381D09F196EC979672216998391768DF"
                                               />
-                                            </a>{' '}
+                                            </Link>{' '}
                                             <h2>
-                                              <a href="/insights/expert-opinions/rail-networks-transform-supply-chains">
+                                              <Link href="/insights/expert-opinions/rail-networks-transform-supply-chains">
                                                 {' '}
                                                 Rail Networks Transform Supply Chains
-                                              </a>{' '}
+                                              </Link>{' '}
                                             </h2>
                                             <p>
                                               Rail freight has the potential to revolutionise supply
@@ -349,12 +350,12 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                                               providing a key role in promoting sustainability and
                                               economic growth.
                                             </p>
-                                            <a
+                                            <Link
                                               href="/insights/expert-opinions/rail-networks-transform-supply-chains"
                                               className="primary-cta-white"
                                             >
                                               Read more
-                                            </a>
+                                            </Link>
                                           </div>
                                         </div>
                                       </div>
@@ -365,10 +366,10 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                             </div>
                           </li>
                           <li className="level2">
-                            <a href="/industries" data-nav="INDUSTRIES">
+                            <Link href="/industries" data-nav="INDUSTRIES">
                               {' '}
                               INDUSTRIES
-                            </a>
+                            </Link>
                             <div className="main-secondary">
                               <div className="secondary-nav">
                                 <div className="row">
@@ -376,22 +377,22 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                                     <div className="secondary-left">
                                       <ul>
                                         <li>
-                                          <a href="/industries/automotive-logistics"> AUTOMOTIVE</a>
+                                          <Link href="/industries/automotive-logistics">
+                                            AUTOMOTIVE
+                                          </Link>
                                         </li>
                                         <li>
-                                          <a href="/industries/healthcare-pharma-logistics">
-                                            {' '}
+                                          <Link href="/industries/healthcare-pharma-logistics">
                                             HEALTHCARE
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li>
-                                          <a href="/industries/perishable-logistics">
-                                            {' '}
+                                          <Link href="/industries/perishable-logistics">
                                             PERISHABLES
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li>
-                                          <a href="/industries/technology"> TECHNOLOGY</a>
+                                          <Link href="/industries/technology">TECHNOLOGY</Link>
                                         </li>
                                       </ul>
                                     </div>
@@ -402,19 +403,19 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                                       <div className="row">
                                         <div className="col-sm-6">
                                           <div className="secondary-item">
-                                            <a href="/insights/expert-opinions/making-healthcare-equity-a-reality">
+                                            <Link href="/insights/expert-opinions/making-healthcare-equity-a-reality">
                                               {' '}
                                               <img
                                                 className="lozad img-fluid"
                                                 alt="relatedcontent"
                                                 data-src="https://www.dpworld.com/-/media/Project/DPWG/DPWG-Tenant/Corporate/Global/Images/New-brand-imagery/Healthcare.jpg?rev=388531302ea44fe5991479770e8f01a0&amp;cx=0.6&amp;cy=0.23&amp;cw=330&amp;ch=170&amp;hash=0E4420613F6BADC54D5268A303AA03F2"
                                               />
-                                            </a>{' '}
+                                            </Link>{' '}
                                             <h2>
-                                              <a href="/insights/expert-opinions/making-healthcare-equity-a-reality">
+                                              <Link href="/insights/expert-opinions/making-healthcare-equity-a-reality">
                                                 {' '}
                                                 Making Healthcare Equity Reality
-                                              </a>{' '}
+                                              </Link>{' '}
                                             </h2>
                                             <p>
                                               Healthy societies transform economies, yet the
@@ -422,29 +423,29 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                                               healthcare logistics is a complex beast and unique to
                                               that of any other sector.
                                             </p>
-                                            <a
+                                            <Link
                                               href="/insights/expert-opinions/making-healthcare-equity-a-reality"
                                               className="primary-cta-white"
                                             >
                                               Read more
-                                            </a>
+                                            </Link>
                                           </div>
                                         </div>
                                         <div className="col-sm-6">
                                           <div className="secondary-item">
-                                            <a href="/insights/expert-opinions/the-future-of-electric-vehicles-is-in-our-supply-chains">
+                                            <Link href="/insights/expert-opinions/the-future-of-electric-vehicles-is-in-our-supply-chains">
                                               {' '}
                                               <img
                                                 className="lozad img-fluid"
                                                 alt="relatedcontent"
                                                 data-src="https://www.dpworld.com/-/media/Project/DPWG/DPWG-Tenant/Corporate/Global/Images/All-Insights/White-electric-car-charging-164.jpg?rev=8705f31303144c2eba41820382a4a248&amp;cx=0.5&amp;cy=0.41&amp;cw=330&amp;ch=170&amp;hash=19C3812AD1004D850724EDF65B047515"
                                               />
-                                            </a>{' '}
+                                            </Link>{' '}
                                             <h2>
-                                              <a href="/insights/expert-opinions/the-future-of-electric-vehicles-is-in-our-supply-chains">
+                                              <Link href="/insights/expert-opinions/the-future-of-electric-vehicles-is-in-our-supply-chains">
                                                 {' '}
                                                 The Future Of EVs Is In Our Supply Chains
-                                              </a>{' '}
+                                              </Link>{' '}
                                             </h2>
                                             <p>
                                               Electric vehicles (EVs) are proving to be the most
@@ -452,12 +453,12 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                                               that by 2030 electric vehicles will represent over 60%
                                               of vehicles sold globally.
                                             </p>
-                                            <a
+                                            <Link
                                               href="/insights/expert-opinions/the-future-of-electric-vehicles-is-in-our-supply-chains"
                                               className="primary-cta-white"
                                             >
                                               Read more
-                                            </a>
+                                            </Link>
                                           </div>
                                         </div>
                                       </div>
@@ -468,10 +469,10 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                             </div>
                           </li>
                           <li className="level2">
-                            <a href="/insights" data-nav="INSIGHTS">
+                            <Link href="/insights" data-nav="INSIGHTS">
                               {' '}
                               INSIGHTS
-                            </a>
+                            </Link>
                             <div className="main-secondary">
                               <div className="secondary-nav">
                                 <div className="row">
@@ -479,13 +480,15 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                                     <div className="secondary-left">
                                       <ul>
                                         <li>
-                                          <a href="/insights/expert-opinions"> EXPERT OPINIONS</a>
+                                          <Link href="/insights/expert-opinions">
+                                            EXPERT OPINIONS
+                                          </Link>
                                         </li>
                                         <li>
-                                          <a href="/news/blogs"> THOUGHT LEADERSHIP</a>
+                                          <Link href="/news/blogs">THOUGHT LEADERSHIP</Link>
                                         </li>
                                         <li>
-                                          <a href="/insights/whitepapers"> WHITEPAPERS</a>
+                                          <Link href="/insights/whitepapers">WHITEPAPERS</Link>
                                         </li>
                                       </ul>
                                     </div>
@@ -496,52 +499,52 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                                       <div className="row">
                                         <div className="col-sm-6">
                                           <div className="secondary-item">
-                                            <a href="/investors/annual-report-2022">
+                                            <Link href="/investors/annual-report-2022">
                                               {' '}
                                               <img
                                                 className="lozad img-fluid"
                                                 alt="relatedcontent"
                                                 data-src="https://www.dpworld.com/-/media/Project/DPWG/DPWG-Tenant/Corporate/Global/Images/Annual-Report-2022/Annual-report-sample-image.jpg?rev=f503b099b1f14d738cdd8c1278174ac4&amp;cx=0&amp;cy=0&amp;cw=330&amp;ch=170&amp;hash=F66772E63CBD328B4FE4D8617C32A9CE"
                                               />
-                                            </a>{' '}
+                                            </Link>{' '}
                                             <h2>
-                                              <a href="/investors/annual-report-2022">
+                                              <Link href="/investors/annual-report-2022">
                                                 {' '}
                                                 The Smarter Trade Report
-                                              </a>{' '}
+                                              </Link>{' '}
                                             </h2>
                                             <p>Read our latest annual report and accounts</p>
-                                            <a
+                                            <Link
                                               href="/investors/annual-report-2022"
                                               className="primary-cta-white"
                                             >
                                               Read More
-                                            </a>
+                                            </Link>
                                           </div>
                                         </div>
                                         <div className="col-sm-6">
                                           <div className="secondary-item">
-                                            <a href="/insights/our-stories">
+                                            <Link href="/insights/our-stories">
                                               {' '}
                                               <img
                                                 className="lozad img-fluid"
                                                 alt="relatedcontent"
                                                 data-src="https://www.dpworld.com/-/media/Project/DPWG/DPWG-Tenant/Corporate/Global/Images/New-brand-imagery/Woman-collecting-clothes.jpg?rev=d3ccc13036bb43f681868bfdacbbf9e8&amp;cx=0&amp;cy=0&amp;cw=330&amp;ch=170&amp;hash=A3021C4E683E1CE6A0F13303C952F884"
                                               />
-                                            </a>{' '}
+                                            </Link>{' '}
                                             <h2>
-                                              <a href="/insights/our-stories"> Our Stories</a>{' '}
+                                              <Link href="/insights/our-stories"> Our Stories</Link>{' '}
                                             </h2>
                                             <p>
                                               We connect people, markets and nations to change
                                               what&rsquos possible for everyone.
                                             </p>
-                                            <a
+                                            <Link
                                               href="/insights/our-stories"
                                               className="primary-cta-white"
                                             >
                                               Read More
-                                            </a>
+                                            </Link>
                                           </div>
                                         </div>
                                       </div>
@@ -552,10 +555,10 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                             </div>
                           </li>
                           <li>
-                            <a href="/sustainability" data-nav="SUSTAINABILITY">
+                            <Link href="/sustainability" data-nav="SUSTAINABILITY">
                               {' '}
                               SUSTAINABILITY
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -582,13 +585,13 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                       <div className="mobi-navigation">
                         <div className="mobi-nav-top">
                           <div className="logo">
-                            <a href="/">
+                            <Link href="/">
                               <img
                                 src="https://dpwprod.azureedge.net/-/media/project/dpwg/dpwg-tenant/shared/images/logo-new.svg?rev=76aac004c6f3477084084de0727d6694&amp;h=35&amp;w=157&amp;la=en&amp;hash=A61332E9BE9138E6B37652E3E4A2E745"
                                 alt="DP World"
                               />
                               <span className="l-title"></span>
-                            </a>
+                            </Link>
                           </div>
                           <div className="close-menu">
                             <div
@@ -627,107 +630,113 @@ export const Default = (props: DPWorldHeaderProps): JSX.Element => {
                         <div className="mobi-main-nav">
                           <ul>
                             <li className="level2">
-                              <a href="/supply-chain-solutions" data-nav="SOLUTIONS">
+                              <Link href="/supply-chain-solutions" data-nav="SOLUTIONS">
                                 <i>SOLUTIONS</i>
-                              </a>
+                              </Link>
                               <span style={{ width: '0px' }}>nav</span>
 
                               <ul>
                                 <li>
-                                  <a href="/supply-chain-solutions/freight-forwarding-services">
+                                  <Link href="/supply-chain-solutions/freight-forwarding-services">
                                     {' '}
                                     FREIGHT FORWARDING
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a href="/supply-chain-solutions/contract-logistics-services">
+                                  <Link href="/supply-chain-solutions/contract-logistics-services">
                                     {' '}
                                     CONTRACT LOGISTICS
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a href="/supply-chain-solutions/market-access"> MARKET ACCESS</a>
+                                  <Link href="/supply-chain-solutions/market-access">
+                                    {' '}
+                                    MARKET ACCESS
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a href="/supply-chain-solutions/economic-trade-zone">
+                                  <Link href="/supply-chain-solutions/economic-trade-zone">
                                     {' '}
                                     ECONOMIC ZONES
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a href="/supply-chain-solutions/ports-and-terminals">
+                                  <Link href="/supply-chain-solutions/ports-and-terminals">
                                     {' '}
                                     PORTS &amp; TERMINALS
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a href="/supply-chain-solutions/marine-services">
+                                  <Link href="/supply-chain-solutions/marine-services">
                                     {' '}
                                     MARINE SERVICES
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                             </li>
                             <li className="level2">
-                              <a href="/industries" data-nav="INDUSTRIES">
+                              <Link href="/industries" data-nav="INDUSTRIES">
                                 <i>INDUSTRIES</i>
-                              </a>
+                              </Link>
                               <span style={{ width: '0px' }}>nav</span>
 
                               <ul>
                                 <li>
-                                  <a href="/industries/automotive-logistics"> AUTOMOTIVE</a>
+                                  <Link href="/industries/automotive-logistics"> AUTOMOTIVE</Link>
                                 </li>
                                 <li>
-                                  <a href="/industries/healthcare-pharma-logistics"> HEALTHCARE</a>
+                                  <Link href="/industries/healthcare-pharma-logistics">
+                                    {' '}
+                                    HEALTHCARE
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a href="/industries/perishable-logistics"> PERISHABLES</a>
+                                  <Link href="/industries/perishable-logistics"> PERISHABLES</Link>
                                 </li>
                                 <li>
-                                  <a href="/industries/technology"> TECHNOLOGY</a>
+                                  <Link href="/industries/technology"> TECHNOLOGY</Link>
                                 </li>
                               </ul>
                             </li>
                             <li className="level2">
-                              <a href="/insights" data-nav="INSIGHTS">
+                              <Link href="/insights" data-nav="INSIGHTS">
                                 <i>INSIGHTS</i>
-                              </a>
+                              </Link>
                               <span style={{ width: '0px' }}>nav</span>
 
                               <ul>
                                 <li>
-                                  <a href="/insights/expert-opinions"> EXPERT OPINIONS</a>
+                                  <Link href="/insights/expert-opinions"> EXPERT OPINIONS</Link>
                                 </li>
                                 <li>
-                                  <a href="/news/blogs"> THOUGHT LEADERSHIP</a>
+                                  <Link href="/news/blogs"> THOUGHT LEADERSHIP</Link>
                                 </li>
                                 <li>
-                                  <a href="/insights/whitepapers"> WHITEPAPERS</a>
+                                  <Link href="/insights/whitepapers"> WHITEPAPERS</Link>
                                 </li>
                               </ul>
                             </li>
                             <li>
-                              <a href="/sustainability"> SUSTAINABILITY</a>
+                              <Link href="/sustainability"> SUSTAINABILITY</Link>
                             </li>
                           </ul>
                         </div>
                         <div className="mobi-utility-nav">
                           <ul>
                             <li>
-                              <a href="/about-us"> About Us</a>
+                              <Link href="/about-us"> About Us</Link>
                             </li>
                             <li>
-                              <a href="/partnerships"> Partnerships</a>
+                              <Link href="/partnerships"> Partnerships</Link>
                             </li>
                             <li>
-                              <a href="/investors"> Investors</a>
+                              <Link href="/investors"> Investors</Link>
                             </li>
                             <li>
-                              <a href="/careers"> Careers</a>
+                              <Link href="/careers"> Careers</Link>
                             </li>
                             <li>
-                              <a href="/news"> News</a>
+                              <Link href="/news"> News</Link>
                             </li>
                           </ul>
                         </div>
