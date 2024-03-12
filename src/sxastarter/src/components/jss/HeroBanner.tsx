@@ -8,8 +8,7 @@ import {
   LinkField,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import { Stack, Heading, Button, Img, Box, Text, Flex, HStack } from '@chakra-ui/react';
-import { HiChevronRight } from 'react-icons/hi';
+import { Heading, Img, Box, Text, Flex } from '@chakra-ui/react';
 
 interface Fields {
   Title: Field<string>;
