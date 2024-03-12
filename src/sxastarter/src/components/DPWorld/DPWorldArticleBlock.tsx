@@ -29,13 +29,14 @@ const DPWorldArticleBlockDefaultComponent = (props: ComponentProps): JSX.Element
 );
 
 export const Default = (props: ComponentProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
   const phKey1 = `article1-${props.params.DynamicPlaceholderId}`;
   const phKey2 = `article2-${props.params.DynamicPlaceholderId}`;
   const phKey3 = `article3-${props.params.DynamicPlaceholderId}`;
   const phKey4 = `article4-${props.params.DynamicPlaceholderId}`;
   if (props.fields) {
     return (
-      <div className="component">
+      <div className="component" id={id ? id : undefined}>
         <div className="article-block">
           <div className="component-content">
             <div className="container-fluid">
