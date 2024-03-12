@@ -4,10 +4,8 @@ import {
   TextField,
   ComponentParams,
   ComponentRendering,
-  Placeholder,
-  Text,
-  Link as JssLink,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import Link from 'next/link';
 
 interface Fields {
   Title: TextField;
@@ -29,11 +27,6 @@ const DPWorldArticleBlockDefaultComponent = (props: ComponentProps): JSX.Element
 );
 
 export const Default = (props: ComponentProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const phKey1 = `articleOne-${props.params.DynamicPlaceholderId}`;
-  const phKey2 = `articleTwo-${props.params.DynamicPlaceholderId}`;
-  const phKey3 = `articleThree-${props.params.DynamicPlaceholderId}`;
-  const phKey4 = `articleFour-${props.params.DynamicPlaceholderId}`;
   if (props.fields) {
     return (
       <div className="article-block with-tabs" id="ourHighlights">
@@ -46,56 +39,56 @@ export const Default = (props: ComponentProps): JSX.Element => {
               <span className="scroll-left" style={{ display: 'none' }}></span>
               <ul className="nav nav-tabs" id="articleTab" role="tablist">
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link field-tab-title active"
                     id="home-tab"
                     data-toggle="tab"
                     role="tab"
-                    aria-control="Chapter1"
+                    aria-controls="Chapter1"
                     aria-selected="true"
                     href="#Chapter1"
                   >
                     Chapter 1
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link field-tab-title"
                     id="home-tab"
                     data-toggle="tab"
                     role="tab"
-                    aria-control="Chapter2"
+                    aria-controls="Chapter2"
                     aria-selected="false"
                     href="#Chapter2"
                   >
                     Chapter 2
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link field-tab-title"
                     id="home-tab"
                     data-toggle="tab"
                     role="tab"
-                    aria-control="Chapter3"
+                    aria-controls="Chapter3"
                     aria-selected="false"
                     href="#Chapter3"
                   >
                     Chapter 3
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link field-tab-title"
                     id="home-tab"
                     data-toggle="tab"
                     role="tab"
-                    aria-control="Chapter4"
+                    aria-controls="Chapter4"
                     aria-selected="false"
                     href="#Chapter4"
                   >
                     Chapter 4
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <span className="scroll-right" style={{ display: 'none' }}></span>
@@ -112,7 +105,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                     <div className="col-md-6 col-12">
                       <div className="article-detail">
                         <span className="icon-for-article">
-                          <img className="img-fluid" src="" />
+                          <img className="img-fluid" src="" alt="" />
                         </span>
                         <h2>Source-To-Sea: Integrated Water Management</h2>
                         <p>
@@ -139,7 +132,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                             srcSet="https://dpwprod.azureedge.net/-/media/project/dpwg/dpwg-tenant/corporate/global/images/all-insights/whitepapers/water/ocean-cleaning-system.jpg?rev=57724e62e60945d79a9b8ee1f1e50222"
                             media="(max-width: 767px)"
                           />
-                          <img />
+                          <img alt="" />
                         </picture>
                       </div>
                     </div>
@@ -157,7 +150,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                     <div className="col-md-6 col-12">
                       <div className="article-detail">
                         <span className="icon-for-article">
-                          <img className="img-fluid" src="" />
+                          <img className="img-fluid" src="" alt="" />
                         </span>
                         <h2>The Sustainable Blue Economy</h2>
                         <p>
@@ -184,7 +177,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                             srcSet="https://dpwprod.azureedge.net/-/media/project/dpwg/dpwg-tenant/corporate/global/images/all-insights/whitepapers/water/fish-farms.jpg?rev=ce3ee402c72b464d9b1f8ae95fd3509a"
                             media="(max-width: 767px)"
                           />
-                          <img />
+                          <img alt="" />
                         </picture>
                       </div>
                     </div>
@@ -202,7 +195,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                     <div className="col-md-6 col-12">
                       <div className="article-detail">
                         <span className="icon-for-article">
-                          <img className="img-fluid" src="" />
+                          <img className="img-fluid" src="" alt="" />
                         </span>
                         <h2>Water and Climate Action</h2>
                         <p>
@@ -229,7 +222,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                             srcSet="https://dpwprod.azureedge.net/-/media/project/dpwg/dpwg-tenant/corporate/global/images/all-insights/whitepapers/water/mangrove-plants.jpg?rev=084e35db10c743ef89465fe558c8352d"
                             media="(max-width: 767px)"
                           />
-                          <img />
+                          <img alt="" />
                         </picture>
                       </div>
                     </div>
@@ -247,7 +240,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                     <div className="col-md-6 col-12">
                       <div className="article-detail">
                         <span className="icon-for-article">
-                          <img className="img-fluid" src="" />
+                          <img className="img-fluid" src="" alt="" />
                         </span>
                         <h2>Water, Sanitation and Hygiene (WASH) </h2>
                         <p>
@@ -275,7 +268,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                             srcSet="https://dpwprod.azureedge.net/-/media/project/dpwg/dpwg-tenant/corporate/global/images/all-insights/whitepapers/water/water-pouring-out-of-a-pump.jpg?rev=1c703e694e7e46d2ae2e6ec49557020a"
                             media="(max-width: 767px)"
                           />
-                          <img />
+                          <img alt="" />
                         </picture>
                       </div>
                     </div>
