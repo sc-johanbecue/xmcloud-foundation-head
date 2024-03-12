@@ -42,9 +42,9 @@ export const Default = (props: DPWorldFooterProps): JSX.Element => {
               backgroundSize: '2260px',
             }}
           >
-            <div className="container-fluid" style={{ backgroundColor: 'black' }}>
+            <div className="container-fluid" style={{ backgroundColor: 'initial' }}>
               <div className="row">
-                <div className="col-12 component" style={{ backgroundColor: 'black' }}>
+                <div className="col-12 component" style={{ backgroundColor: 'initial' }}>
                   <div className="component-content">
                     <div className="footer">
                       <div className="footer-utility">
