@@ -33,7 +33,7 @@ const DPWorldArticleDetailDefaultComponent = (props: ComponentProps): JSX.Elemen
 export const Default = (props: ComponentProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div className="col-md-6 col-lg-3 col-12">
+      <div>
         <div className="article-img">
           <JssImage field={props.fields.Image} />
         </div>
@@ -44,7 +44,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
           <p className="field-description">
             <JssRichText field={props.fields.Description} />
           </p>
-          <JssLink field={props.fields.Link} className="primary-cta" />
+          <JssLink field={props.fields.Link} />
         </div>
       </div>
     );
