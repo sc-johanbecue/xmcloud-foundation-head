@@ -45,19 +45,19 @@ export const Default = (props: ComponentProps): JSX.Element => {
                 <div className="row article variant-highlight">
                   <div
                     className="col-md-6 col-lg-4 col-12 thumb-style"
-                    id={id ? 'articleColumnnOne' + id : undefined}
+                    id={id ? 'articleColumnOne' + id : undefined}
                   >
                     <Placeholder name={phKey1} rendering={props.rendering} />
                   </div>
                   <div
                     className="col-md-6 col-lg-4 col-12 thumb-style"
-                    id={id ? 'articleColumnnTwo' + id : undefined}
+                    id={id ? 'articleColumnTwo' + id : undefined}
                   >
                     <Placeholder name={phKey2} rendering={props.rendering} />
                   </div>
                   <div
                     className="col-md-6 col-lg-4 col-12 thumb-style"
-                    id={id ? 'articleColumnnThree' + id : undefined}
+                    id={id ? 'articleColumnThree' + id : undefined}
                   >
                     <Placeholder name={phKey3} rendering={props.rendering} />
                   </div>
