@@ -35,7 +35,11 @@ export const Default = (props: HeroBannerProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   if (props.fields) {
     return (
-      <div className={`${props.params.styles}`} id={id ? id : undefined}>
+      <div
+        className={`${props.params.styles}`}
+        id={id ? id : undefined}
+        style={{ padding: '0px', margin: '0px' }}
+      >
         <Box mb={3} bg="gray.800" as="section" minH="140px" position="relative">
           <Box py="32" position="relative" zIndex={1}>
             <Box
