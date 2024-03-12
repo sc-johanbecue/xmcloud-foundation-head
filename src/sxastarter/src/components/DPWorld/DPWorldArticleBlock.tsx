@@ -30,10 +30,10 @@ const DPWorldArticleBlockDefaultComponent = (props: ComponentProps): JSX.Element
 
 export const Default = (props: ComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const phKey1 = `article1-${props.params.DynamicPlaceholderId}`;
-  const phKey2 = `article2-${props.params.DynamicPlaceholderId}`;
-  const phKey3 = `article3-${props.params.DynamicPlaceholderId}`;
-  const phKey4 = `article4-${props.params.DynamicPlaceholderId}`;
+  const phKey1 = `articleOne-${props.params.DynamicPlaceholderId}`;
+  const phKey2 = `articleTwo-${props.params.DynamicPlaceholderId}`;
+  const phKey3 = `articleThree-${props.params.DynamicPlaceholderId}`;
+  const phKey4 = `articleFour-${props.params.DynamicPlaceholderId}`;
   if (props.fields) {
     return (
       <div className="component" id={id ? id : undefined}>
@@ -56,16 +56,22 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
                 <div className="row article">
-                  <div className="col-md-6 col-lg-3 col-12" id={id ? 'article1' + id : undefined}>
+                  <div className="col-md-6 col-lg-3 col-12" id={id ? 'articleOne' + id : undefined}>
                     <Placeholder name={phKey1} rendering={props.rendering} />
                   </div>
-                  <div className="col-md-6 col-lg-3 col-12" id={id ? 'article2' + id : undefined}>
+                  <div className="col-md-6 col-lg-3 col-12" id={id ? 'articleTwo' + id : undefined}>
                     <Placeholder name={phKey2} rendering={props.rendering} />
                   </div>
-                  <div className="col-md-6 col-lg-3 col-12" id={id ? 'article3' + id : undefined}>
+                  <div
+                    className="col-md-6 col-lg-3 col-12"
+                    id={id ? 'articleThree' + id : undefined}
+                  >
                     <Placeholder name={phKey3} rendering={props.rendering} />
                   </div>
-                  <div className="col-md-6 col-lg-3 col-12" id={id ? 'article4' + id : undefined}>
+                  <div
+                    className="col-md-6 col-lg-3 col-12"
+                    id={id ? 'articleFour' + id : undefined}
+                  >
                     <Placeholder name={phKey4} rendering={props.rendering} />
                   </div>
                 </div>
