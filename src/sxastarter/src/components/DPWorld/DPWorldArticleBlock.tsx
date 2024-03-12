@@ -29,11 +29,6 @@ const DPWorldArticleBlockDefaultComponent = (props: ComponentProps): JSX.Element
 );
 
 export const Default = (props: ComponentProps): JSX.Element => {
-  const phKey1 = `container-${props.params.DynamicPlaceholderId}-1`;
-  const phKey2 = `container-${props.params.DynamicPlaceholderId}-2`;
-  const phKey3 = `container-${props.params.DynamicPlaceholderId}-3`;
-  const phKey4 = `container-${props.params.DynamicPlaceholderId}-4`;
-
   if (props.fields) {
     return (
       <div className="component">
