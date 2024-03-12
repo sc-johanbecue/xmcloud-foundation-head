@@ -56,19 +56,19 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
                 <div className="row article">
-                  <div className="col-md-6 col-lg-3 col-12">
+                  <div className="col-md-6 col-lg-3 col-12" id={id ? 'article1' + id : undefined}>
                     aa
                     <Placeholder key={phKey1} name={phKey1} rendering={props.rendering} />
                   </div>
-                  <div className="col-md-6 col-lg-3 col-12">
+                  <div className="col-md-6 col-lg-3 col-12" id={id ? 'article2' + id : undefined}>
                     bb
                     <Placeholder key={phKey2} name={phKey2} rendering={props.rendering} />
                   </div>
-                  <div className="col-md-6 col-lg-3 col-12">
+                  <div className="col-md-6 col-lg-3 col-12" id={id ? 'article3' + id : undefined}>
                     cc
                     <Placeholder key={phKey3} name={phKey3} rendering={props.rendering} />
                   </div>
-                  <div className="col-md-6 col-lg-3 col-12">
+                  <div className="col-md-6 col-lg-3 col-12" id={id ? 'article4' + id : undefined}>
                     dd
                     <Placeholder key={phKey4} name={phKey4} rendering={props.rendering} />
                   </div>
