@@ -50,10 +50,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                     </div>
                     <div className="col-12 col-md-4">
                       <div className="clearfix">
-                        <JssLink
-                          field={props.fields.Link}
-                          className="primary-cta float-none float-md-right mt-2"
-                        />
+                        <JssLink field={props.fields.Link} />
                       </div>
                     </div>
                   </div>
@@ -61,19 +58,19 @@ export const Default = (props: ComponentProps): JSX.Element => {
                 <div className="row article">
                   <div className="col-md-6 col-lg-3 col-12">
                     aa
-                    <Placeholder key="article" name={phKey1} rendering={props.rendering} />
+                    <Placeholder key={phKey1} name={phKey1} rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
                     bb
-                    <Placeholder key="article" name={phKey2} rendering={props.rendering} />
+                    <Placeholder key={phKey2} name={phKey2} rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
                     cc
-                    <Placeholder key="article" name={phKey3} rendering={props.rendering} />
+                    <Placeholder key={phKey3} name={phKey3} rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
                     dd
-                    <Placeholder key="article" name={phKey4} rendering={props.rendering} />
+                    <Placeholder key={phKey4} name={phKey4} rendering={props.rendering} />
                   </div>
                 </div>
               </div>
