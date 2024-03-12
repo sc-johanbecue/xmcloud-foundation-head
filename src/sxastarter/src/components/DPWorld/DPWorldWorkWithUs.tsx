@@ -44,7 +44,7 @@ export const Default = (props: DPWorldFooterProps): JSX.Element => {
                       <p>
                         <JssRichText field={props.fields.Description} />
                       </p>
-                      <JssLink field={props.fields.Link} className="primary-cta" />
+                      <JssLink field={props.fields.Link} />
                     </div>
                   </div>
                 </div>
