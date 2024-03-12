@@ -32,7 +32,11 @@ export const Default = (props: ComponentProps): JSX.Element => {
     return (
       <div>
         <div className="article-img circle-icon">
-          <JssImage field={props.fields.Image} />
+          <JssImage
+            field={props.fields.Image}
+            class="img-fluid lozad-picture"
+            style={{ paddingTop: '10px', paddingLeft: '5px' }}
+          />
         </div>
         <div className="article-detail text-only">
           <h2></h2>
