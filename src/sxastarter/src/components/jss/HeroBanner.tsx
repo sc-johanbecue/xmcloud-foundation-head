@@ -52,54 +52,7 @@ export const Default = (props: HeroBannerProps): JSX.Element => {
                 <Text as="div" fontSize={{ md: '2xl' }} mt="4" maxW="lg">
                   <JssRichText field={props.fields.Text} />
                 </Text>
-                <Stack direction={{ base: 'column', md: 'row' }} mt="10" spacing="4">
-                  {sitecoreContext.pageState === 'normal' ? (
-                    <Button
-                      as="a"
-                      href={props.fields.Cta.value.href}
-                      colorScheme="blue"
-                      px="8"
-                      rounded="full"
-                      size={{ base: 'xl', sm: 'lg', md: 'xl', lg: 'xl', xl: 'xl' }}
-                      fontSize="lg"
-                      fontWeight="bold"
-                    >
-                      {props.fields.Cta.value.text}
-                    </Button>
-                  ) : (
-                    <JssLink field={props.fields.Cta}>
-                      {' '}
-                      <Button
-                        as="a"
-                        href={props.fields.Cta.value.href}
-                        colorScheme="blue"
-                        px="8"
-                        rounded="full"
-                        size="lg"
-                        fontSize="md"
-                        fontWeight="bold"
-                      >
-                        {' '}
-                        {props.fields.Cta.value.text}
-                      </Button>{' '}
-                    </JssLink>
-                  )}
-                  <HStack
-                    as="a"
-                    transition="background 0.2s"
-                    justify={{ base: 'center', md: 'flex-start' }}
-                    href="#"
-                    color="white"
-                    rounded="full"
-                    fontWeight="bold"
-                    px="6"
-                    py="3"
-                    _hover={{ bg: 'whiteAlpha.700' }}
-                  >
-                    <span>SOME OTHER STUFF</span>
-                    <HiChevronRight />
-                  </HStack>
-                </Stack>
+                <JssLink field={props.fields.Cta}></JssLink>
               </Box>
             </Box>
           </Box>
