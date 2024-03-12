@@ -16,7 +16,7 @@ interface Fields {
 
 type ComponentProps = {
   rendering: ComponentRendering & { params: ComponentParams };
-  params: ComponentParams;
+  params: { [key: string]: string };
   fields: Fields;
 };
 
@@ -29,6 +29,10 @@ const DPWorldArticleBlockDefaultComponent = (props: ComponentProps): JSX.Element
 );
 
 export const Default = (props: ComponentProps): JSX.Element => {
+  const phKey1 = `article1-${props.params.DynamicPlaceholderId}`;
+  const phKey2 = `article2-${props.params.DynamicPlaceholderId}`;
+  const phKey3 = `article3-${props.params.DynamicPlaceholderId}`;
+  const phKey4 = `article4-${props.params.DynamicPlaceholderId}`;
   if (props.fields) {
     return (
       <div className="component">
@@ -56,19 +60,19 @@ export const Default = (props: ComponentProps): JSX.Element => {
                 <div className="row article">
                   <div className="col-md-6 col-lg-3 col-12">
                     aa
-                    <Placeholder key="article" name="article1" rendering={props.rendering} />
+                    <Placeholder key="article" name={phKey1} rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
                     bb
-                    <Placeholder key="article" name="article2" rendering={props.rendering} />
+                    <Placeholder key="article" name={phKey2} rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
                     cc
-                    <Placeholder key="article" name="article3" rendering={props.rendering} />
+                    <Placeholder key="article" name={phKey3} rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
                     dd
-                    <Placeholder key="article" name="article4" rendering={props.rendering} />
+                    <Placeholder key="article" name={phKey4} rendering={props.rendering} />
                   </div>
                 </div>
               </div>
