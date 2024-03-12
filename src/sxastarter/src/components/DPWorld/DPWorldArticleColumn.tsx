@@ -35,7 +35,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
           <JssImage
             field={props.fields.Image}
             class="img-fluid lozad-picture"
-            style={{ paddingTop: '10px', paddingLeft: '5px', innerWidth: '76px' }}
+            style={{ paddingTop: '10px', paddingLeft: '5px', width: '100%', height: '100%' }}
           />
         </div>
         <div className="article-detail text-only">
