@@ -3,6 +3,7 @@
  * This Layout is needed for Starter Kit.
  */
 import React from 'react';
+import { useEffect } from 'react';
 import Head from 'next/head';
 import {
   Placeholder,
@@ -36,6 +37,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
+
+  useEffect(() => {
+    document.body.classList.add('tt-camp');
+    document.body.classList.add('mobile-device');
+    document.body.classList.add('bodyclass');
+    document.body.classList.add('n2k21theme');
+  });
 
   return (
     <>
