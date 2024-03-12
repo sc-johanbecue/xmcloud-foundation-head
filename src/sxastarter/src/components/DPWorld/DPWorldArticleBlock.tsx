@@ -55,15 +55,19 @@ export const Default = (props: ComponentProps): JSX.Element => {
                 </div>
                 <div className="row article">
                   <div className="col-md-6 col-lg-3 col-12">
+                    aa
                     <Placeholder key="Article" name="Article1" rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
+                    bb
                     <Placeholder key="Article" name="Article2" rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
+                    cc
                     <Placeholder key="Article" name="Article3" rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
+                    dd
                     <Placeholder key="Article" name="Article4" rendering={props.rendering} />
                   </div>
                 </div>
