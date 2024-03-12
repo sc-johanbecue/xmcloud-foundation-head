@@ -31,7 +31,17 @@ export const Default = (props: DPWorldFooterProps): JSX.Element => {
     return (
       <div className="client">
         <footer>
-          <div className="component footer-container">
+          <div
+            className="component footer-container"
+            style={{
+              backgroundImage:
+                'url(https://dpwprod.azureedge.net/-/media/themes/dpwg/dpwg-tenant/shared/dpwg-theme/images/footerlines.svg)',
+              backgroundRepeat: 'no-repeat',
+              backgroundPositionX: '100%',
+              backgroundPositionY: '100%',
+              backgroundSize: '2260px',
+            }}
+          >
             <div className="container-fluid" style={{ backgroundColor: 'black' }}>
               <div className="row">
                 <div className="col-12 component" style={{ backgroundColor: 'black' }}>
