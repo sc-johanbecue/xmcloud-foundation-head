@@ -30,10 +30,10 @@ const DPWorldArticleBlockDefaultComponent = (props: ComponentProps): JSX.Element
 
 export const Default = (props: ComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const phKey1 = `article1-${props.params.DynamicPlaceholderId}`;
-  const phKey2 = `article2-${props.params.DynamicPlaceholderId}`;
-  const phKey3 = `article3-${props.params.DynamicPlaceholderId}`;
-  const phKey4 = `article4-${props.params.DynamicPlaceholderId}`;
+  const phKey1 = `article-1${props.params.DynamicPlaceholderId}`;
+  const phKey2 = `article-2${props.params.DynamicPlaceholderId}`;
+  const phKey3 = `article-3${props.params.DynamicPlaceholderId}`;
+  const phKey4 = `article-4${props.params.DynamicPlaceholderId}`;
   if (props.fields) {
     return (
       <div className="component" id={id ? id : undefined}>
@@ -58,19 +58,19 @@ export const Default = (props: ComponentProps): JSX.Element => {
                 <div className="row article">
                   <div className="col-md-6 col-lg-3 col-12">
                     aa
-                    <Placeholder key="article" name={phKey1} rendering={props.rendering} />
+                    <Placeholder key={phKey1} name={phKey1} rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
                     bb
-                    <Placeholder key="article" name={phKey2} rendering={props.rendering} />
+                    <Placeholder key={phKey2} name={phKey2} rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
                     cc
-                    <Placeholder key="article" name={phKey3} rendering={props.rendering} />
+                    <Placeholder key={phKey3} name={phKey3} rendering={props.rendering} />
                   </div>
                   <div className="col-md-6 col-lg-3 col-12">
                     dd
-                    <Placeholder key="article" name={phKey4} rendering={props.rendering} />
+                    <Placeholder key={phKey4} name={phKey4} rendering={props.rendering} />
                   </div>
                 </div>
               </div>
