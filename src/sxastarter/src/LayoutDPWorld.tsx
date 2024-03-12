@@ -114,9 +114,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             {route && <Placeholder name="headless-main" rendering={route} />}
           </div>
         </div>
-        <footer>
-          <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
-        </footer>
+        <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
       </div>
 
       <script src="https://dpwprod.azureedge.net/-/media/base-themes/core-libraries/scripts/optimized-min.js?rev=f4a1ddbd56e048a5a3fc33587c466041&t=20221216T094331Z&hash=E51CF7966AA2AF9ADC7AED7C387517F8" />
