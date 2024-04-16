@@ -93,10 +93,8 @@ export const Default = (props: BeaulieuHeaderProps): JSX.Element => {
               <div className="container">
                 <a className="navigation-bottom-brand" href="https://www.berryalloc.com/global/en">
                   <img
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    className="js-lazyload"
+                    src="https://www.berryalloc.com/-/media/sites/berryalloc/general/logo/berryalloc-logo_resized.ashx?rev=ba135e6c6f844df59e8fb3f34ac4df2f&h=100&w=500&la=en&hash=A4E1A0B17A210ECA922D9C5BF3F5C17C"
                     alt="Berryalloc"
-                    data-src="https://www.berryalloc.com/-/media/sites/berryalloc/general/logo/berryalloc-logo_resized.ashx?rev=ba135e6c6f844df59e8fb3f34ac4df2f&amp;h=100&amp;w=500&amp;la=en&amp;hash=A4E1A0B17A210ECA922D9C5BF3F5C17C"
                   />
                 </a>
                 <ul className="navigation-bottom-menu">
