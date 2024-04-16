@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 /**
  * This Layout is needed for Starter Kit.
  */
@@ -111,17 +112,44 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
-      <div className={mainClassPageEditing}>
-        <header>
-          <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
-        </header>
-        <main>
-          <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>
-        </main>
-        <footer>
-          <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
-        </footer>
+      <div className={'container-fluid ' + mainClassPageEditing}>
+        <div className="header">
+          <header
+            className="component component-berryalloc-header"
+            data-component-class="Dlw.ScBase.Beaulieu.Header"
+            data-component-parm="null"
+            data-webid="Dlw.ScBase.Beaulieu.Header"
+          >
+            {route && <Placeholder name="headless-header" rendering={route} />}
+          </header>
+        </div>
+        <div id="cntnt" className="siteroot">
+          {route && <Placeholder name="headless-main" rendering={route} />}
+        </div>
+        <div data-id="footer">
+          <div className="row">
+            <div className="container">
+              <footer className="component component-berryalloc-footer">
+                {route && <Placeholder name="headless-footer" rendering={route} />}
+              </footer>
+            </div>
+          </div>
+        </div>
       </div>
+      <script src="https://www.berryalloc.com/bundles/js/BerryAlloc-BerryAlloc-basic.js?v=MHu7bI5UxwyC88duN9shyMC3F38-qMzfKsDTJ5uW7xg1" />
+      <script src="https://www.berryalloc.com/bundles/js/BerryAlloc-BerryAlloc-component.js?v=EVFHnxQrLYAqYUCVaDnGs0B7h_beDCuXVbV6qpZCg2o1" />
+      <script
+        type="text/javascript"
+        src="https://cdn.roomvo.com/static/scripts/b2b/berryalloc.js"
+        async
+      />
+      <script>
+        {`
+         if (window.jQuery) {
+             jQuery.noConflict();
+         }
+        `}
+      </script>
     </>
   );
 };
