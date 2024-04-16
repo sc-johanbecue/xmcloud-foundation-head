@@ -45,8 +45,9 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
     AutomaticLogin();
   }, []);
 
-  const [cookie] = useCookies();
-  const currenttheme = getCurrentTheme(cookie.currenttheme);
+  // const [cookie] = useCookies();
+  // const currenttheme = getCurrentTheme(cookie.currenttheme);
+  const currenttheme = getCurrentTheme('');
 
   PageController.getContext().setLocaleLanguage(pageProps.locale);
   PageController.getContext().setLocaleCountry(Locales[pageProps?.locale ?? '']);
