@@ -38,7 +38,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
 
   useEffect(() => {
-    document.body.className = '';
+    document.body.classList.remove('chakra-ui-light');
   });
 
   return (
