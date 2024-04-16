@@ -5,9 +5,6 @@ import Layout from 'src/Layout';
 import LayoutAmmega from 'src/LayoutAmmega';
 import LayoutLynkAndCo from 'src/LayoutLynkAndCo';
 import LayoutDPWorld from 'src/LayoutDPWorld';
-import LayoutTheRig from 'src/LayoutTheRig';
-import LayoutAldar from 'src/LayoutAldar';
-import LayoutRollsRoyce from 'src/LayoutRollsRoyce';
 import LayoutBeaulieu from 'src/LayoutBeaulieu';
 import {
   RenderingType,
@@ -45,9 +42,6 @@ const SitecorePage = ({
   const AmmegaSite = layoutData.sitecore.context.site?.name == 'Ammega';
   const LynkAndCoSite = layoutData.sitecore.context.site?.name == 'Lynk And Co';
   const DPWorldSite = layoutData.sitecore.context.site?.name == 'DPWorld';
-  const TheRigSite = layoutData.sitecore.context.site?.name == 'The Rig';
-  const AldarSite = layoutData.sitecore.context.site?.name == 'Aldar';
-  const RollsRoyceSite = layoutData.sitecore.context.site?.name == 'RR';
   const BeaulieuSite = layoutData.sitecore.context.site?.name == 'Beaulieu';
 
   return (
@@ -66,12 +60,6 @@ const SitecorePage = ({
           <LayoutAmmega layoutData={layoutData} headLinks={headLinks} />
         ) : LynkAndCoSite ? (
           <LayoutLynkAndCo layoutData={layoutData} headLinks={headLinks} />
-        ) : TheRigSite ? (
-          <LayoutTheRig layoutData={layoutData} headLinks={headLinks} />
-        ) : AldarSite ? (
-          <LayoutAldar layoutData={layoutData} headLinks={headLinks} />
-        ) : RollsRoyceSite ? (
-          <LayoutRollsRoyce layoutData={layoutData} headLinks={headLinks} />
         ) : DPWorldSite ? (
           <LayoutDPWorld layoutData={layoutData} headLinks={headLinks} />
         ) : BeaulieuSite ? (
