@@ -39,7 +39,13 @@ export const Default = (props: BeaulieuHeaderProps): JSX.Element => {
                   className="form search"
                   method="get"
                 >
-                  <input type="text" autoComplete="off" name="search" placeholder="search" />
+                  <input
+                    type="text"
+                    autoComplete="off"
+                    name="search"
+                    placeholder="search"
+                    style={{ paddingTop: '0', paddingBottom: '0' }}
+                  />
                   <button
                     className="font-smoothing"
                     data-search-translation="search"
