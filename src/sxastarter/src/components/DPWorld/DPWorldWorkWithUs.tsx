@@ -30,7 +30,7 @@ const DPWorldFooterDefaultComponent = (props: DPWorldFooterProps): JSX.Element =
 export const Default = (props: DPWorldFooterProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div className="component">
+      <div className="component" style={{ padding: '0px' }}>
         <div className="component work-with-us black-variant" id="WhatWeDo">
           <div className="component-content">
             <div className="container-fluid">
