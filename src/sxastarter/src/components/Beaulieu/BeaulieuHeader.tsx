@@ -96,7 +96,7 @@ export const Default = (props: BeaulieuHeaderProps): JSX.Element => {
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     className="js-lazyload"
                     alt="Berryalloc"
-                    data-src="/-/media/sites/berryalloc/general/logo/berryalloc-logo_resized.ashx?rev=ba135e6c6f844df59e8fb3f34ac4df2f&amp;h=100&amp;w=500&amp;la=en&amp;hash=A4E1A0B17A210ECA922D9C5BF3F5C17C"
+                    data-src="https://www.berryalloc.com/-/media/sites/berryalloc/general/logo/berryalloc-logo_resized.ashx?rev=ba135e6c6f844df59e8fb3f34ac4df2f&amp;h=100&amp;w=500&amp;la=en&amp;hash=A4E1A0B17A210ECA922D9C5BF3F5C17C"
                   />
                 </a>
                 <ul className="navigation-bottom-menu">
@@ -405,7 +405,7 @@ export const Default = (props: BeaulieuHeaderProps): JSX.Element => {
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                 className="js-lazyload"
                 alt="Berryalloc"
-                data-src="/-/media/sites/berryalloc/general/logo/berryalloc-logo_resized.ashx?rev=ba135e6c6f844df59e8fb3f34ac4df2f&amp;h=100&amp;w=500&amp;la=en&amp;hash=A4E1A0B17A210ECA922D9C5BF3F5C17C"
+                data-src="https://www.berryalloc.com/-/media/sites/berryalloc/general/logo/berryalloc-logo_resized.ashx?rev=ba135e6c6f844df59e8fb3f34ac4df2f&amp;h=100&amp;w=500&amp;la=en&amp;hash=A4E1A0B17A210ECA922D9C5BF3F5C17C"
               />
             </a>
             <a className="hamburger" href="#">

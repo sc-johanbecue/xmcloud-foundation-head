@@ -2,7 +2,7 @@
 /**
  * This Layout is needed for Starter Kit.
  */
-import React from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 import {
   Placeholder,
@@ -36,6 +36,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
+
+  useEffect(() => {
+    document.body.className = '';
+  });
 
   return (
     <>
