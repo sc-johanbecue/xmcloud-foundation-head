@@ -116,7 +116,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
-      <div className={'container-fluid ' + mainClassPageEditing}>
+      <div className={mainClassPageEditing}>
         <div className="header">
           <header
             className="component component-berryalloc-header"
