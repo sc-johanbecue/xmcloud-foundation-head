@@ -9,7 +9,6 @@ import {
   Text,
   Link as JssLink,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import Link from 'next/link';
 
 interface Fields {
   Title: TextField;
