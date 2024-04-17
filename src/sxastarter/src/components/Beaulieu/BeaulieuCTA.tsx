@@ -9,6 +9,7 @@ import {
   Text,
   Link as JssLink,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import Link from 'next/link';
 
 interface Fields {
   Title: TextField;
@@ -35,7 +36,7 @@ export const Default = (props: BeaulieuCTAProps): JSX.Element => {
     return (
       <div className="row">
         <div className="container">
-          <div className=" margin-top-45 margin-bottom-45  padding-top-50 padding-bottom-50">
+          <div className=" margin-top-45 margin-bottom-45 padding-top-50 padding-bottom-50">
             <div className="component-berryalloc-product-finder-banner">
               <div className="container">
                 <div className="row">
@@ -59,6 +60,78 @@ export const Default = (props: BeaulieuCTAProps): JSX.Element => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return <BeaulieuCTADefaultComponent {...props} />;
+};
+
+export const Left = (props: BeaulieuCTAProps): JSX.Element => {
+  if (props.fields) {
+    return (
+      <div className="row">
+        <div className="container">
+          <div className="margin-top-50 margin-bottom-50 padding-top-50 padding-bottom-50">
+            <div className="cta-left">
+              <Link href={props.fields.Link.value.toString()} className="component component-cta">
+                <div className="component-cta__media">
+                  <JssImage field={props.fields.Image} />
+                </div>
+                <div className="component-cta__content display-table center js-equal-cta">
+                  <div className="display-table-cell">
+                    <h3 className="cta-title">
+                      <Text field={props.fields.Title} />
+                    </h3>
+                    <p className="underscore">__</p>
+                    <p className="cta-text">
+                      <RichText field={props.fields.Description} />
+                    </p>
+                    <p>
+                      <JssLink field={props.fields.Link} className="btn btn-primary" />
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return <BeaulieuCTADefaultComponent {...props} />;
+};
+
+export const Right = (props: BeaulieuCTAProps): JSX.Element => {
+  if (props.fields) {
+    return (
+      <div className="row">
+        <div className="container">
+          <div className="margin-top-50 margin-bottom-50 padding-top-50 padding-bottom-50">
+            <div className="cta-right">
+              <Link href={props.fields.Link.value.toString()} className="component component-cta">
+                <div className="component-cta__media">
+                  <JssImage field={props.fields.Image} />
+                </div>
+                <div className="component-cta__content display-table center js-equal-cta">
+                  <div className="display-table-cell">
+                    <h3 className="cta-title">
+                      <Text field={props.fields.Title} />
+                    </h3>
+                    <p className="underscore">__</p>
+                    <p className="cta-text">
+                      <RichText field={props.fields.Description} />
+                    </p>
+                    <p>
+                      <JssLink field={props.fields.Link} className="btn btn-primary" />
+                    </p>
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
