@@ -5,12 +5,12 @@ import {
   ComponentParams,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
-type BeaulieuCTAListProps = {
+type BeaulieuTileListProps = {
   rendering: ComponentRendering & { params: ComponentParams };
   params: { [key: string]: string };
 };
 
-const BeaulieuCTAListDefaultComponent = (props: BeaulieuCTAListProps): JSX.Element => (
+const BeaulieuTileListDefaultComponent = (props: BeaulieuTileListProps): JSX.Element => (
   <div className={`component ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -18,7 +18,7 @@ const BeaulieuCTAListDefaultComponent = (props: BeaulieuCTAListProps): JSX.Eleme
   </div>
 );
 
-export const Default = (props: BeaulieuCTAListProps): JSX.Element => {
+export const Default = (props: BeaulieuTileListProps): JSX.Element => {
   const phName1 = `ctaOne-${props.params.DynamicPlaceholderId}`;
   const phName2 = `ctaTwo-${props.params.DynamicPlaceholderId}`;
   const phName3 = `ctaThree-${props.params.DynamicPlaceholderId}`;
@@ -51,5 +51,5 @@ export const Default = (props: BeaulieuCTAListProps): JSX.Element => {
     </div>
   );
 
-  return <BeaulieuCTAListDefaultComponent {...props} />;
+  return <BeaulieuTileListDefaultComponent {...props} />;
 };
