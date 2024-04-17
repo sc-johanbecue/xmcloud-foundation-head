@@ -13,9 +13,8 @@ import {
 interface Fields {
   Title: TextField;
   Description: RichTextField;
-  Link: TextField;
   Image: ImageField;
-  CTA: LinkField;
+  Link: LinkField;
 }
 
 type BeaulieuCTAProps = {
@@ -55,7 +54,7 @@ export const Default = (props: BeaulieuCTAProps): JSX.Element => {
                           </span>
                         </p>
                       </div>
-                      <JssLink field={props.fields.CTA} className="btn btn-primary" />
+                      <JssLink field={props.fields.Link} className="btn btn-primary" />
                     </div>
                   </div>
                 </div>
