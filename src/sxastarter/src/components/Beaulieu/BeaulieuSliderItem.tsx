@@ -33,7 +33,7 @@ const BeaulieuSliderItemDefaultComponent = (props: BeaulieuSliderItemProps): JSX
 export const Default = (props: BeaulieuSliderItemProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div className="item active">
+      <div className={`item ${props.params.styles}`}>
         <JssImage field={props.fields.Image} />
         <div className="carousel-caption">
           <div className="display-table center">

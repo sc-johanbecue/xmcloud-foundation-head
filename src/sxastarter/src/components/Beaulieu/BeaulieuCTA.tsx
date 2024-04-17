@@ -35,7 +35,7 @@ export const Default = (props: BeaulieuCTAProps): JSX.Element => {
     return (
       <div className="row">
         <div className="container">
-          <div className=" margin-top-45 margin-bottom-45 padding-top-50 padding-bottom-50">
+          <div className="margin-top-45 margin-bottom-45 padding-top-50 padding-bottom-50">
             <div className="component-berryalloc-product-finder-banner">
               <div className="container">
                 <div className="row">
