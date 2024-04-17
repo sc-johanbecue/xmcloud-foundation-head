@@ -19,33 +19,33 @@ const BeaulieuCTAListDefaultComponent = (props: BeaulieuCTAListProps): JSX.Eleme
 );
 
 export const Default = (props: BeaulieuCTAListProps): JSX.Element => {
-  const phKey1 = `CTAOne-${props.params.DynamicPlaceholderId}`;
-  const phKey2 = `CTATwo-${props.params.DynamicPlaceholderId}`;
-  const phKey3 = `CTAThree-${props.params.DynamicPlaceholderId}`;
-  const phKey4 = `CTAFour-${props.params.DynamicPlaceholderId}`;
-  const phKey5 = `CTAFive-${props.params.DynamicPlaceholderId}`;
-  const phKey6 = `CTASix-${props.params.DynamicPlaceholderId}`;
+  const phName1 = `CTAOne-${props.params.DynamicPlaceholderId}`;
+  const phName2 = `CTATwo-${props.params.DynamicPlaceholderId}`;
+  const phName3 = `CTAThree-${props.params.DynamicPlaceholderId}`;
+  const phName4 = `CTAFour-${props.params.DynamicPlaceholderId}`;
+  const phName5 = `CTAFive-${props.params.DynamicPlaceholderId}`;
+  const phName6 = `CTASix-${props.params.DynamicPlaceholderId}`;
 
   return (
     <div className="container">
       <div className="row">
         <div className="col-xs-12 col-sm-6 col-md-4">
-          <Placeholder name={phKey1} rendering={props.rendering} />
+          <Placeholder name={phName1} key="cta" rendering={props.rendering} />
         </div>
         <div className="col-xs-12 col-sm-6 col-md-4">
-          <Placeholder name={phKey2} rendering={props.rendering} />
+          <Placeholder name={phName2} key="cta" rendering={props.rendering} />
         </div>
         <div className="col-xs-12 col-sm-6 col-md-4">
-          <Placeholder name={phKey3} rendering={props.rendering} />
+          <Placeholder name={phName3} key="cta" rendering={props.rendering} />
         </div>
         <div className="col-xs-12 col-sm-6 col-md-4">
-          <Placeholder name={phKey4} rendering={props.rendering} />
+          <Placeholder name={phName4} key="cta" rendering={props.rendering} />
         </div>
         <div className="col-xs-12 col-sm-6 col-md-4">
-          <Placeholder name={phKey5} rendering={props.rendering} />
+          <Placeholder name={phName5} key="cta" rendering={props.rendering} />
         </div>
         <div className="col-xs-12 col-sm-6 col-md-4">
-          <Placeholder name={phKey6} rendering={props.rendering} />
+          <Placeholder name={phName6} key="cta" rendering={props.rendering} />
         </div>
       </div>
     </div>
