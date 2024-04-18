@@ -10,7 +10,7 @@ import {
 
 interface Fields {
   data: {
-    dataSource: {
+    datasource: {
       Title: {
         jsonValue: {
           value: string;
@@ -113,8 +113,8 @@ const BeaulieuArticleDefaultComponent = (props: BeaulieuArticleProps): JSX.Eleme
 );
 
 export const Default = (props: BeaulieuArticleProps): JSX.Element => {
-  const datasource = props.fields?.data?.dataSource;
-  const contextItem = props.fields?.data.contextItem;
+  const datasource = props.fields?.data?.datasource;
+  const contextItem = props.fields?.data?.contextItem;
 
   const title = datasource?.Title || contextItem?.Title;
   const content = datasource?.Content || contextItem?.Content;
@@ -123,28 +123,28 @@ export const Default = (props: BeaulieuArticleProps): JSX.Element => {
   const image = datasource?.Image || contextItem?.Image;
 
   const titleField: TextField = {
-    value: title.jsonValue?.value,
-    editable: title.jsonValue?.editable,
+    value: title?.jsonValue?.value,
+    editable: title?.jsonValue?.editable,
   };
 
   const contentField: RichTextField = {
-    value: content.jsonValue?.value,
-    editable: content.jsonValue?.editable,
+    value: content?.jsonValue?.value,
+    editable: content?.jsonValue?.editable,
   };
 
   const additionalContentField: RichTextField = {
-    value: additionalContent.jsonValue?.value,
-    editable: additionalContent.jsonValue?.editable,
+    value: additionalContent?.jsonValue?.value,
+    editable: additionalContent?.jsonValue?.editable,
   };
 
   const quoteField: RichTextField = {
-    value: quote.jsonValue?.value,
-    editable: quote.jsonValue?.editable,
+    value: quote?.jsonValue?.value,
+    editable: quote?.jsonValue?.editable,
   };
 
   const imageField: ImageField = {
-    value: image.jsonValue?.value,
-    editable: image.jsonValue?.editable,
+    value: image?.jsonValue?.value,
+    editable: image?.jsonValue?.editable,
   };
 
   if (props.fields) {
