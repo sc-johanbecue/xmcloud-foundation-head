@@ -9,12 +9,22 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  Title: TextField;
-  Introduction: RichTextField;
-  Content: RichTextField;
-  AdditionalContent: RichTextField;
-  Quote: RichTextField;
-  Image: ImageField;
+  dataSource: {
+    Title: TextField;
+    Introduction: RichTextField;
+    Content: RichTextField;
+    AdditionalContent: RichTextField;
+    Quote: RichTextField;
+    Image: ImageField;
+  };
+  contextItem: {
+    Title: TextField;
+    Introduction: RichTextField;
+    Content: RichTextField;
+    AdditionalContent: RichTextField;
+    Quote: RichTextField;
+    Image: ImageField;
+  };
 }
 
 type BeaulieuArticleProps = {
@@ -31,6 +41,13 @@ const BeaulieuArticleDefaultComponent = (props: BeaulieuArticleProps): JSX.Eleme
 );
 
 export const Default = (props: BeaulieuArticleProps): JSX.Element => {
+  const title = props.fields?.dataSource.Title || props.fields?.contextItem.Title;
+  const content = props.fields?.dataSource.Content || props.fields?.contextItem.Content;
+  const additionalContent =
+    props.fields?.dataSource.AdditionalContent || props.fields?.contextItem.AdditionalContent;
+  const quote = props.fields?.dataSource.Quote || props.fields?.contextItem.Quote;
+  const image = props.fields?.dataSource.Image || props.fields?.contextItem.Image;
+
   if (props.fields) {
     return (
       <div className="row">
@@ -39,13 +56,13 @@ export const Default = (props: BeaulieuArticleProps): JSX.Element => {
             <div className="col-xs-12 col-sm-6 col-md-8 equal-sm">
               <div className="component component-content-block">
                 <h2>
-                  <Text field={props.fields.Title} />
+                  <Text field={title} />
                 </h2>
                 <p style={{ textAlign: 'left' }}>
-                  <RichText field={props.fields.Content} />
+                  <RichText field={content} />
                 </p>
                 <p>
-                  <RichText field={props.fields.AdditionalContent} />
+                  <RichText field={additionalContent} />
                 </p>
               </div>
               <div className="component component-quote">
@@ -53,7 +70,7 @@ export const Default = (props: BeaulieuArticleProps): JSX.Element => {
                   <blockquote>
                     <h4>
                       &ldquo;
-                      <RichText field={props.fields.Quote} />
+                      <RichText field={quote} />
                       &ldquo;
                     </h4>
                   </blockquote>
@@ -63,7 +80,7 @@ export const Default = (props: BeaulieuArticleProps): JSX.Element => {
             <div className="col-xs-12 col-sm-6 col-md-4 equal-sm">
               <article className="margin-bottom-15">
                 <JssImage
-                  field={props.fields.Image}
+                  field={image}
                   className="img-responsive component component-image js-lazyload"
                 />
               </article>
