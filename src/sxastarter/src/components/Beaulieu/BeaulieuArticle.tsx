@@ -113,13 +113,14 @@ const BeaulieuArticleDefaultComponent = (props: BeaulieuArticleProps): JSX.Eleme
 );
 
 export const Default = (props: BeaulieuArticleProps): JSX.Element => {
-  const title = props.fields?.data.dataSource.Title || props.fields?.data.contextItem.Title;
-  const content = props.fields?.data.dataSource.Content || props.fields?.data.contextItem.Content;
-  const additionalContent =
-    props.fields?.data.dataSource.AdditionalContent ||
-    props.fields?.data.contextItem.AdditionalContent;
-  const quote = props.fields?.data.dataSource.Quote || props.fields?.data.contextItem.Quote;
-  const image = props.fields?.data.dataSource.Image || props.fields?.data.contextItem.Image;
+  const datasource = props.fields?.data?.dataSource;
+  const contextItem = props.fields?.data.contextItem;
+
+  const title = datasource?.Title || contextItem?.Title;
+  const content = datasource?.Content || contextItem?.Content;
+  const additionalContent = datasource?.AdditionalContent || contextItem?.AdditionalContent;
+  const quote = datasource?.Quote || contextItem?.Quote;
+  const image = datasource?.Image || contextItem?.Image;
 
   const titleField: TextField = {
     value: title.jsonValue?.value,
