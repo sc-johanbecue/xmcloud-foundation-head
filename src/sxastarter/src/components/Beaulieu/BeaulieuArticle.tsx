@@ -58,7 +58,6 @@ export const Default = (props: BeaulieuArticleProps): JSX.Element => {
                     </h4>
                   </blockquote>
                 </div>
-                <div></div>
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-4 equal-sm">
