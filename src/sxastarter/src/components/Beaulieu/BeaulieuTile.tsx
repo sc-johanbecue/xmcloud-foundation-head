@@ -28,6 +28,7 @@ export const Default = (props: BeaulieuTileProps): JSX.Element => {
         <a
           href="https://www.berryalloc.com/global/en/laminate"
           className="component component-cta-small"
+          style={{ padding: '0px' }}
         >
           <Image
             field={props.fields.Image}
