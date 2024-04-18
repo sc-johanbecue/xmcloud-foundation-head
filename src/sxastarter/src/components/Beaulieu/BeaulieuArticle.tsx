@@ -9,21 +9,23 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  dataSource: {
-    Title: TextField;
-    Introduction: RichTextField;
-    Content: RichTextField;
-    AdditionalContent: RichTextField;
-    Quote: RichTextField;
-    Image: ImageField;
-  };
-  contextItem: {
-    Title: TextField;
-    Introduction: RichTextField;
-    Content: RichTextField;
-    AdditionalContent: RichTextField;
-    Quote: RichTextField;
-    Image: ImageField;
+  data: {
+    dataSource: {
+      Title: TextField;
+      Introduction: RichTextField;
+      Content: RichTextField;
+      AdditionalContent: RichTextField;
+      Quote: RichTextField;
+      Image: ImageField;
+    };
+    contextItem: {
+      Title: TextField;
+      Introduction: RichTextField;
+      Content: RichTextField;
+      AdditionalContent: RichTextField;
+      Quote: RichTextField;
+      Image: ImageField;
+    };
   };
 }
 
@@ -41,12 +43,13 @@ const BeaulieuArticleDefaultComponent = (props: BeaulieuArticleProps): JSX.Eleme
 );
 
 export const Default = (props: BeaulieuArticleProps): JSX.Element => {
-  const title = props.fields?.dataSource.Title || props.fields?.contextItem.Title;
-  const content = props.fields?.dataSource.Content || props.fields?.contextItem.Content;
+  const title = props.fields?.data.dataSource.Title || props.fields?.data.contextItem.Title;
+  const content = props.fields?.data.dataSource.Content || props.fields?.data.contextItem.Content;
   const additionalContent =
-    props.fields?.dataSource.AdditionalContent || props.fields?.contextItem.AdditionalContent;
-  const quote = props.fields?.dataSource.Quote || props.fields?.contextItem.Quote;
-  const image = props.fields?.dataSource.Image || props.fields?.contextItem.Image;
+    props.fields?.data.dataSource.AdditionalContent ||
+    props.fields?.data.contextItem.AdditionalContent;
+  const quote = props.fields?.data.dataSource.Quote || props.fields?.data.contextItem.Quote;
+  const image = props.fields?.data.dataSource.Image || props.fields?.data.contextItem.Image;
 
   if (props.fields) {
     return (
