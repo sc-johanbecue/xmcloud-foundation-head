@@ -37,8 +37,8 @@ export const Default = (props: BeaulieuTileProps): JSX.Element => {
               position: 'absolute',
               top: '0',
               left: '0',
-              width: '100%',
-              height: '100%',
+              width: 'auto',
+              height: '300px',
               objectFit: 'cover',
               zIndex: '-1',
             }}
