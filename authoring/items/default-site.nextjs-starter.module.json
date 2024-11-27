@@ -1,0 +1,28 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "demo.nextjs-starter",
+  "items": {
+    "includes": [
+      {
+        "name": "layout",
+        "path": "/sitecore/layout/Placeholder Settings/Project/default-collection",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/default-collection",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "contentRoot",
+        "path": "/sitecore/content/default-collection",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Project/default-collection",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}
