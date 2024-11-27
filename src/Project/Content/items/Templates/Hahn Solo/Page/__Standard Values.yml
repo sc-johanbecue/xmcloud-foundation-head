@@ -1,0 +1,48 @@
+﻿---
+ID: "0b2becee-563d-4ed8-9589-ed75bf841214"
+Parent: "5a884e23-895a-4629-966c-cbf8f4334efa"
+Template: "5a884e23-895a-4629-966c-cbf8f4334efa"
+Path: /sitecore/templates/Project/Hahn Solo/Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {5A884E23-895A-4629-966C-CBF8F4334EFA}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {7069E142-911A-459F-B57A-08B00CBA247D}
+    {A527704C-2A91-4DCE-A604-EFB1693F0A1B}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B0121227-57A4-4AB2-9E32-83903C8A5380}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{B0121227-57A4-4AB2-9E32-83903C8A5380}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240124T104232Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8696e26d-38ad-43cf-87a9-2f9707cee8a8"
+      Hint: Title
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c54e53a9-5bcf-41c0-abf1-07d0239eef7b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240711T125045Z

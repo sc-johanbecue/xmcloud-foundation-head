@@ -1,0 +1,48 @@
+﻿---
+ID: "9b3a3bc6-05b8-440d-bb62-b91bc2eb3c65"
+Parent: "40e45c36-cd39-4c23-b46e-deacc23e3fa8"
+Template: "b811a410-7dcd-4df4-81d8-2e8e4d841d46"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Data/Authors/Hahn
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0eb2f9cb-910a-4c8f-9cd2-5245524bbf32"
+      Hint: LinkedIn
+      Value: "https://www.linkedin.com/in/christian-hahn-209727131/"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240516T071930Z
+    - ID: "4a9daf09-fe96-46e7-acc1-3c9fa6284a63"
+      Hint: ShortDescription
+      Value: "Christian Hahn is a distinguished Sitecore Solutions Architect known for his expertise in designing tailored Sitecore solutions that enhance digital experiences. With a robust background in software development, Christian specializes in creating scalable and high-performance environments, driving innovation and user-centric designs that propel business success and improve customer engagement."
+    - ID: "52d3a90f-238e-45a1-aea7-c18d6c96c64b"
+      Hint: LongDescription
+      Value: "Christian Hahn is a highly respected Sitecore Solutions Architect renowned for his expertise in designing and implementing Sitecore-based solutions that enhance digital experiences. With a strong background in software development and system integration, Christian excels at tailoring Sitecore environments to meet specific business needs, ensuring scalability and performance. His strategic vision and deep technical skills make him a pivotal asset to any project, particularly in complex digital transformation initiatives. His contributions often lead to innovative practices and efficient, user-centric designs that drive business success and improve customer engagement."
+    - ID: "5898462b-3407-40b5-9eb7-85fde0b4d157"
+      Hint: GitHub
+      Value: "https://github.com/Chris1415"
+    - ID: "6260b96f-a1e6-4f9a-a07a-82792c7a2238"
+      Hint: Image
+      Value: |
+        <image mediaid="{7FA39382-AED2-48F1-8A12-8FD04A7CB3AF}" />
+    - ID: "850e56fd-a015-410a-8d71-f8e13ca43551"
+      Hint: Title
+      Value: Solutions Architect (EMEA)
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1bfedf0c-31c2-4bb0-9425-e966659ab550"
+    - ID: "8f556bea-0958-47a7-aa1c-8ade6e2971e8"
+      Hint: X
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240607T122755Z
+    - ID: "da6e8871-fe26-4ebf-977f-c876cf6b3209"
+      Hint: Name
+      Value: Christian Hahn

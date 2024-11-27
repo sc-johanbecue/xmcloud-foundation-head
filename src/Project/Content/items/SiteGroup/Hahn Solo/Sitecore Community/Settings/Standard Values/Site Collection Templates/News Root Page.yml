@@ -1,0 +1,52 @@
+﻿---
+ID: "0aad0fab-e92f-49de-b3ed-59e1751572c8"
+Parent: "1974aa1e-4a73-4624-a449-2272af57d80b"
+Template: "a527704c-2a91-4dce-a604-efb1693f0a1b"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Settings/Standard Values/Site Collection Templates/News Root Page
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B0121227-57A4-4AB2-9E32-83903C8A5380}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1FDCF50C-92A9-430E-AA45-47C1F4FDE434}" />
+- ID: "e3c3a0eb-a7ef-4937-8b4e-a0933a4ae25f"
+  Hint: FaviconReference
+  Value: "{2D02373A-8511-4DCB-BABB-1398ABC03940}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1bb37cb2-d7b8-4936-9d4a-2e2cf15f81bb"
+      Hint: Title
+      Value: News Root Page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240730T074921Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{730BBBAD-D2E0-4160-B25C-8D6D03CFC128}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: News Root Page
+    - ID: "505bce75-e9b7-493a-9c01-4d3d85982d3c"
+      Hint: OgTitle
+      Value: News Root Page
+    - ID: "8696e26d-38ad-43cf-87a9-2f9707cee8a8"
+      Hint: Title
+      Value: News Root Page
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a4827fd5-f465-4e27-b3ab-a6fef8033502"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T074951Z

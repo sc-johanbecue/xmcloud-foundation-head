@@ -1,0 +1,169 @@
+﻿---
+ID: "04a01210-36b6-450a-9541-1dff6f21a545"
+Parent: "f53b17a3-2d07-4776-b33c-94f46892fed8"
+Template: "40edd6e0-4564-4e4d-a76e-2a603b9639d6"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/News/Christian_Hahn_Rising_Star
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: 
+- ID: "86fe4f77-4d9a-4ec3-9ed9-263d03bd1965"
+  Hint: __Publish
+  Value: 
+- ID: "899a49f0-caea-4964-b700-8581c200155d"
+  Hint: Author
+  Value: "{9B3A3BC6-05B8-440D-BB62-B91BC2EB3C65}"
+- ID: "a1a12a61-a1b8-462b-a0be-84bcc3909e94"
+  Hint: Tag
+  Value: "{D3206996-FBDC-46EE-B676-40F7D93352EB}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{02C7EA06-C3AA-4420-B083-91AF8662CFA9}"
+- ID: "a70cbac2-5f49-4342-bfb2-f14fd755940c"
+  Hint: VisibilityDate
+  Value: 20240619T074000Z
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6BCEB40C-34BA-41DB-8E53-73D5E695FA51}" />
+- ID: "c923bcd2-c3e5-47a5-ae52-8afbbc4b6f8b"
+  Hint: Roles
+  Value: |
+    {5A3FEDE7-49BB-4DE6-A3EF-BA10AD7BD6AD}
+    {3E759D8C-4F1F-4B51-A2EF-5DFFC67C604E}
+    {541F2F12-C754-4D99-8385-7A386A067C8B}
+- ID: "e3c3a0eb-a7ef-4937-8b4e-a0933a4ae25f"
+  Hint: FaviconReference
+  Value: "{2D02373A-8511-4DCB-BABB-1398ABC03940}"
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240625T105049Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{074D3F8F-BDE5-45F1-986C-C45CD619331E}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3241894b-5eb5-408d-bdd7-122563ac61b4"
+    - ID: "a0095e8a-4e88-4811-a41a-14f5615a4a90"
+      Hint: Abstract
+      Value: "Christian Hahn ist ein aufstrebender Star in der Welt der freiberuflichen Sitecore-Entwicklung. Mit einem tiefen Verständnis für die Feinheiten von Sitecore und dem Engagement, die einzigartigen Bedürfnisse der Kunden zu verstehen, liefert er maßgeschneiderte Lösungen, die die Erwartungen übertreffen. Seine außergewöhnlichen Codierfähigkeiten und die Fähigkeit, modernste Technologien nahtlos zu integrieren, haben Lob von Kunden und Branchenkollegen eingebracht. Trotz seines Erfolgs bleibt Christian bodenständig und strebt aktiv danach, seine Fähigkeiten zu verfeinern und sein Wissen zu erweitern. Er ist eine Kraft, mit der man in der Sitecore-Entwicklungswelt rechnen muss, und erntet Respekt und Bewunderung von der Webentwickler-Community."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T073810Z
+    - ID: "ef29a858-472c-431f-8847-b08ac5f11d60"
+      Hint: Content
+      Value: "<p>In der wettbewerbsintensiven Welt der Webentwicklung, in der Talent und Können unübertroffen sind, hat ein neuer freiberuflicher Einsteiger die Branche mit beispielloser Erfolg in der Sitecore-Entwicklung erobert. Lernen Sie Christian Hahn kennen, einen aufstrebenden Star, dessen Weg an die Spitze nichts weniger als außergewöhnlich war.</p><p>Christians Einstieg in die Welt der freiberuflichen Sitecore-Entwicklung begann vor etwas mehr als einem Jahr, als er beschloss, seinen 9-5-Job bei einer namhaften Webentwicklungsagentur aufzugeben. Bewaffnet mit einer unstillbaren Leidenschaft fürs Coden und einem tiefen Verständnis für die Feinheiten von Sitecore, wagte er den Schritt in eine eigene freiberufliche Karriere.</p><p>Seine Reise begann bescheiden, indem er kleine Projekte von lokalen Unternehmen annahm, die ihre Online-Präsenz verbessern wollten. Mit der Mundpropaganda wuchs Christians Ruf als Sitecore-Experte, und bald übernahm er Projekte für Kunden auf der ganzen Welt.</p><p>Was Christian auszeichnet, ist nicht nur seine technische Expertise, sondern auch sein unerschütterliches Engagement, die einzigartigen Bedürfnisse der Kunden zu verstehen. Er investiert Zeit, um die Geschäftsziele zu verstehen, was es ihm ermöglicht, maßgeschneiderte Lösungen zu liefern, die nicht nur den Erwartungen entsprechen, sondern sie übertreffen.</p><p>„Ich glaube daran, starke Beziehungen zu meinen Kunden aufzubauen“, sagte Christian in einem Interview. „Das Verständnis ihrer Ziele und Herausforderungen ermöglicht es mir, die bestmöglichen Lösungen anzubieten und ihren Erfolg im digitalen Bereich zu gewährleisten.“</p><p>Sein Engagement für die Zufriedenheit der Kunden, gepaart mit seinen außergewöhnlichen Codierfähigkeiten, führte zu einer Reihe von beeindruckenden Erfolgen. Christian hat eigenhändig komplexe Sitecore-Implementierungen für große E-Commerce-Plattformen durchgeführt, Content-Management-Systeme für multinationale Unternehmen optimiert und sogar eine entscheidende Rolle bei der Überarbeitung der Webpräsenz mehrerer internationaler NGOs gespielt.</p><p>Mit einem geschulten Auge für Innovation bleibt Christian auf dem neuesten Stand der Sitecore-Updates und integriert modernste Technologien in seine Projekte. Seine Fähigkeit, nahtlos andere Plattformen wie KI-gesteuerte Analysen und Marketing-Automatisierungstools zu integrieren, hat Lob von Kunden und Branchenkollegen eingebracht.</p><p>Als Christians Ruf gedieh, so auch die Nachfrage nach ihm, was ihn dazu veranlasste, ein kleines Team von Mitentwicklern zusammenzustellen, die seine Leidenschaft für Sitecore teilten. Gemeinsam bildeten sie eine dynamische Einheit, die sich mühelos großen Projekten stellte und den Kunden umfassende Lösungen anbot, die jeden Aspekt der Webentwicklung umfassten.</p><p>Trotz seines steigenden Erfolgs bleibt Christian bodenständig und strebt ständig danach, seine Fähigkeiten zu verfeinern und sein Wissen zu erweitern. Er beteiligt sich aktiv an Sitecore-Entwicklergemeinschaften, teilt Einblicke und hilft anderen, in dem Bereich zu wachsen.</p><p>Die freiberufliche Reise war nicht ohne ihre Herausforderungen, aber Christians Hartnäckigkeit und Engagement haben bewiesen, dass er eine Kraft ist, mit der man in der Sitecore-Entwicklungswelt rechnen muss. Er hat nicht nur unglaublichen finanziellen Erfolg erzielt, sondern auch den Respekt und die Bewunderung der gesamten Webentwicklungsgemeinschaft gewonnen.</p><p>Als wir unser Gespräch mit Christian abschließen, fragen wir ihn nach seinen Zukunftsplänen. Mit einem Lächeln antwortet er: „Ich möchte die Grenzen dessen, was in der Sitecore-Entwicklung möglich ist, weiter ausloten. Es gibt immer etwas Neues zu lernen, und ich bin gespannt, wohin mich diese Reise führt.“</p><p>Es ist klar, dass die Welt der Sitecore-Entwicklung in Christian Hahn einen wahren Juwel entdeckt hat, einen freiberuflichen Brillanten, der den Weg für angehende Entwickler erleuchtet und dessen Zukunft heller strahlt als je zuvor.</p>"
+    - ID: "fc59833e-5445-4756-bb8a-94ae76e4e23c"
+      Hint: Title
+      Value: "Die Genialität von Christian Hahn entfesseln: Ein aufstrebender Star in der Sitecore-Entwicklung"
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Christian_Hahn
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{81F99A51-241C-42B7-ACF4-CFEC5ADDA1E6}"
+              p:before="*"
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D&amp;ColumnWidth2=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="/headless-main/sxa-news/container-2" />
+            <r
+              uid="{56920F73-4DF8-4B37-B5FD-F2E0C94503F9}"
+              p:after="r[@uid='{81F99A51-241C-42B7-ACF4-CFEC5ADDA1E6}']"
+              s:ds="local:/Data/Login"
+              s:id="{A7441E02-ADBF-47D9-A523-C94A317186A1}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="/headless-main/sxa-news/container-2/column-2-1" />
+            <r
+              uid="{3AEC7BF4-6136-4F21-AC39-CB0CE5A8BCB4}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Comments"
+              s:id="{0997121A-258F-4F29-9AE0-EDD98D9C3D1E}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-main/sxa-news/container-2/column-1-1" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240117T134803Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F8BAED5B-51F0-4C16-9B88-BD8D98C4D996}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Christian Hahn - Rising Star"
+    - ID: "505bce75-e9b7-493a-9c01-4d3d85982d3c"
+      Hint: OgTitle
+      Value: "Christian Hahn - Rising Star"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5831ed13-2878-48f6-95e6-bef1bd2ae9e9"
+      Hint: OgDescription
+      Value: "Christian Hahn is a rising star in the world of freelance Sitecore development. With a deep understanding of Sitecore's intricacies and a commitment to understanding clients' unique needs, he delivers tailor-made solutions that exceed expectations. His exceptional coding skills and ability to seamlessly integrate cutting-edge technologies have garnered praise from clients and industry peers. Despite his success, Christian remains grounded and actively seeks to refine his skills and expand his knowledge. He is a force to be reckoned with in the Sitecore development realm, earning respect and admiration from the web development community."
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "6d98c466-99fa-480c-8b35-36b3827630a4"
+      Hint: PublicationDate
+      Value: 20240117T000000Z
+    - ID: "871f2c9f-0d7a-413e-aa79-f6095b235c67"
+      Hint: OgImage
+      Value: |
+        <image mediaid="{2A5F6742-E598-4CD7-8D21-414FBE360385}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c5be40b8-2dcb-418a-b995-0258cebac6af"
+    - ID: "a0095e8a-4e88-4811-a41a-14f5615a4a90"
+      Hint: Abstract
+      Value: "Christian Hahn is a rising star in the world of freelance Sitecore development. With a deep understanding of Sitecore's intricacies and a commitment to understanding clients' unique needs, he delivers tailor-made solutions that exceed expectations. His exceptional coding skills and ability to seamlessly integrate cutting-edge technologies have garnered praise from clients and industry peers. Despite his success, Christian remains grounded and actively seeks to refine his skills and expand his knowledge. He is a force to be reckoned with in the Sitecore development realm, earning respect and admiration from the web development community."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d927d364-6b7f-49b3-8fa6-45823d848fac"
+      Hint: Image
+      Value: |
+        <image mediaid="{505FF48C-2A9D-41D7-954D-177B46394DF8}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T075301Z
+    - ID: "ef29a858-472c-431f-8847-b08ac5f11d60"
+      Hint: Content
+      Value: |
+        <p>In the competitive world of web development, where talent and skill reign supreme, one newcomer freelancer has taken the industry by storm with unparalleled success in Sitecore development. Meet Christian Hahn, a rising star whose journey to the top has been nothing short of extraordinary.</p><p>Christian's venture into the world of freelance Sitecore development began just over a year ago when he decided to leave his 9-to-5 job at a prominent web development agency. Armed with an insatiable passion for coding and a deep understanding of Sitecore's intricacies, he took a leap of faith to establish his own freelancing career.</p><p>His journey started with humble beginnings, taking on small projects from local businesses looking to enhance their online presence. As word of mouth spread, Christian's reputation as a Sitecore expert grew, and soon, he was handling projects for clients around the globe.</p><p>What sets Christian apart is not just his technical expertise but also his unwavering commitment to understanding clients' unique needs. He invests time in comprehending the business objectives, allowing him to deliver tailor-made solutions that not only meet but exceed expectations.</p><p>"I believe in building strong relationships with my clients," Christian said in an interview. "Understanding their goals and challenges allows me to provide the best possible solutions and ensure their success in the digital realm."</p><p>His dedication to client satisfaction, coupled with his exceptional coding skills, resulted in a series of awe-inspiring achievements. Christian has single-handedly executed complex Sitecore implementations for major e-commerce platforms, streamlined content management systems for multinational corporations, and even played a pivotal role in revamping the web presence of several international NGOs.</p><p>With a keen eye for innovation, Christian stays abreast of the latest Sitecore updates and incorporates cutting-edge technologies into his projects. His ability to seamlessly integrate other platforms, such as AI-driven analytics and marketing automation tools, has garnered praise from both clients and industry peers.</p><p>As Christian's reputation flourished, so did his demand, leading him to assemble a small team of fellow developers who shared his passion for Sitecore. Together, they formed a dynamic unit that tackled large-scale projects with ease, offering clients comprehensive solutions that encompassed every aspect of web development.</p><p>Despite his soaring success, Christian remains grounded, constantly seeking to refine his skills and expand his knowledge. He actively participates in Sitecore developer communities, sharing insights, and helping others grow in the field.</p><p>The freelance journey has not been without its challenges, but Christian's tenacity and commitment have proven that he is a force to be reckoned with in the Sitecore development realm. He has not only achieved incredible financial success but also earned the respect and admiration of the entire web development community.</p><p>As we conclude our conversation with Christian, we ask him about his future plans. With a smile, he replies, "I want to keep pushing the boundaries of what's possible in Sitecore development. There's always something new to learn, and I'm excited to see where this journey takes me."</p><p>It's clear that the world of Sitecore development has discovered a true gem in Christian Hahn, a freelancer whose brilliance illuminates the path for aspiring developers and whose future shines brighter than ever.</p>
+    - ID: "fc59833e-5445-4756-bb8a-94ae76e4e23c"
+      Hint: Title
+      Value: "Unleashing the Brilliance of Christian Hahn: A Rising Star in Sitecore Development"

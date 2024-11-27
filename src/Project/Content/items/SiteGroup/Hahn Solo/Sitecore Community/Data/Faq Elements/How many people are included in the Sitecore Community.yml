@@ -1,0 +1,44 @@
+﻿---
+ID: "81df897a-e723-4a86-9927-d6a7e34d56ef"
+Parent: "3e7b5256-159f-4c7c-a67a-f8980d46eaaf"
+Template: "c88b263d-efc7-4e4a-85ad-1ced10b52bb4"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Data/Faq Elements/How many people are included in the Sitecore Community
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{ED6BEAA6-B2C8-4C25-821D-512D371F03C0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240723T122430Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{2C63DAA8-859C-40B3-9D26-878FC1762846}"
+    - ID: "41ef3579-c030-465f-998a-720fb76bc94c"
+      Hint: Question
+      Value: "How many people are included in the Sitecore Community?"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "836e03b8-af7b-4423-b47a-ce8cb0697d59"
+      Hint: Answer
+      Value: It is difficult to provide an exact number as the Sitecore Community is made up of a diverse group of developers, marketers, and other professionals from around the world. However, it is estimated that there are tens of thousands of active members in the Sitecore Community.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2aff3557-eecd-4874-8fc8-a9c746262664"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240723T122935Z

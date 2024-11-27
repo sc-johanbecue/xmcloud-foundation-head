@@ -1,0 +1,41 @@
+﻿---
+ID: "d0d1db30-bdd3-40fa-af1e-52bb90cce655"
+Parent: "2e6d4a05-dc0d-4acb-8e45-7f98f79bf324"
+Template: "7f6710e8-c9c4-46af-b1c0-344e2d3b1102"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/My Sitecore Community/Data/Registration Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240612T075057Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "89076c9b-5e99-42d6-b809-b28160d251fe"
+      Hint: Image
+      Value: |
+        <image mediaid="{73F3FB9A-B71F-40E1-B5BC-DE6F51A653ED}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1516acd2-cab1-4444-b3d0-e8adcaadbfc4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240801T072021Z
+    - ID: "e7688e3f-8360-407d-b74a-ad3959108394"
+      Hint: Title
+      Value: Get in touch with the one and only Sitecore Community

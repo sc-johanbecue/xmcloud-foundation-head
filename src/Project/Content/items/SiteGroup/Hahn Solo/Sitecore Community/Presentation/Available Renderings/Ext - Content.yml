@@ -1,0 +1,49 @@
+﻿---
+ID: "3603c424-e439-479b-be47-b791ef25840d"
+Parent: "6cfcc4d3-30e6-4f42-9138-19072d2c7443"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: "/sitecore/content/Hahn Solo/Sitecore Community/Presentation/Available Renderings/Ext - Content"
+BranchID: "dc641c0f-366f-4f76-a4ff-1c69ec9be320"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {A288EA33-FC54-4249-8CFE-77638EEE5F15}
+    {126B2A21-41C6-4777-A853-6E7C7A18DBEA}
+    {9BC3E69F-E6E9-40B3-AB16-2C31CCCB16EF}
+    {FD99B656-9360-4EA8-8F1C-3A8A38EEA861}
+    {AED68487-F213-4473-A76C-C06A5777C402}
+    {F98F7EA2-822F-4D2D-B346-378F4A0D7B45}
+    {ABBAC940-6D47-41D2-9CD0-8AB5261D7EB2}
+    {BD2F87FA-0655-44E2-8C36-817C31545482}
+    {536CE174-0040-4CAD-8CA4-CED534971AD6}
+    {2C191A2A-F95D-4D8E-A064-3CF151D1824F}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A4C9AD8F-8DBA-401D-ACD7-6534876D739E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240124T104312Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "812c2fb5-987c-4586-bf88-78c3abc120ed"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240214T081604Z

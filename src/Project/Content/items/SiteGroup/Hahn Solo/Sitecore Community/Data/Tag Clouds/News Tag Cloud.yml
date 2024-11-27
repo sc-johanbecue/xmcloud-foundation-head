@@ -1,0 +1,49 @@
+﻿---
+ID: "f350973e-0dd4-4451-b0e1-c471a7fe86a3"
+Parent: "948c4a14-38df-4d34-b2f8-38649405056d"
+Template: "19570430-a446-4ff8-b148-7d6cdd166095"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Data/Tag Clouds/News Tag Cloud
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240517T064459Z
+    - ID: "7d52931f-e131-4b51-ad93-f489d05f8ad0"
+      Hint: Tags
+      Value: |
+        XM Cloud
+        Sitecore
+        Cloud
+        Web Development
+        Search
+        Content Hub
+        CDP
+        Personalize
+        OrderCloud
+        Sitecore XM
+        Sitecore XP
+        Send
+        Composable
+        Release
+        Digital Experience Platform
+        Content Management System
+        Cloud Solutions
+        Sitecore Release
+        E-commerce 
+        Customer Data Platform
+        Tech Innovation
+        Hoodie
+        Merchandise
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa3813ce-21e4-4f63-8e2a-bc7fffd248d6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240605T122730Z

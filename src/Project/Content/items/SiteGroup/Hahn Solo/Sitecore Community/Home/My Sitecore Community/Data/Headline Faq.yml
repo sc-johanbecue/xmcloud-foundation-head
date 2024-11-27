@@ -1,0 +1,37 @@
+﻿---
+ID: "b879ff4e-3931-43ee-9a5d-dce8018c9c0f"
+Parent: "2e6d4a05-dc0d-4acb-8e45-7f98f79bf324"
+Template: "91da1426-2bf0-4a5d-bc84-24b3b449ea6d"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/My Sitecore Community/Data/Headline Faq
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240723T123239Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b7fce6ee-2a3f-4a2f-adbe-ed7225c2ce97"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "c5d3aa7c-e703-4906-b6d7-872f387ceb46"
+      Hint: Title
+      Value: Ask the important questions and we have all the answers powered by integrated generative AI  
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240723T123307Z

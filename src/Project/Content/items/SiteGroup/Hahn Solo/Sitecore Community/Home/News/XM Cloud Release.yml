@@ -1,0 +1,220 @@
+﻿---
+ID: "79ddd614-ee92-4e79-ad72-1de34db84f81"
+Parent: "f53b17a3-2d07-4776-b33c-94f46892fed8"
+Template: "40edd6e0-4564-4e4d-a76e-2a603b9639d6"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/News/XM Cloud Release
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{395B65AE-8C9E-4620-AFD8-CAC5FE75BF25}"
+- ID: "4a749557-242b-4372-8a20-b2db9d406301"
+  Hint: __AutoThumbnails
+  Value: 
+- ID: "899a49f0-caea-4964-b700-8581c200155d"
+  Hint: Author
+  Value: "{DDF3394B-1709-4EF3-9C1F-72D72C15B7B7}"
+- ID: "a1a12a61-a1b8-462b-a0be-84bcc3909e94"
+  Hint: Tag
+  Value: "{917649BF-C64C-4DEE-8E55-E99CBD6FD6CB}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{02C7EA06-C3AA-4420-B083-91AF8662CFA9}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B833D358-456D-4C45-8E12-C4B3A9D84904}" />
+- ID: "e3c3a0eb-a7ef-4937-8b4e-a0933a4ae25f"
+  Hint: FaviconReference
+  Value: "{2D02373A-8511-4DCB-BABB-1398ABC03940}"
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240314T133003Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{074D3F8F-BDE5-45F1-986C-C45CD619331E}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5459ed39-7787-4735-b42a-cfccc3c74603"
+    - ID: "a0095e8a-4e88-4811-a41a-14f5615a4a90"
+      Hint: Abstract
+      Value: "Die Veröffentlichung von XM Cloud markiert einen bedeutenden Fortschritt in der komponierbaren Strategie von Sitecore und ermöglicht die Bereitstellung von Lösungen auf einer modernen Cloud-Architektur. Dieses Meilensteinprodukt bietet Marketern schnellere Innovation und Flexibilität und gewährleistet gleichzeitig den anhaltenden Erfolg für Kunden."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T073810Z
+    - ID: "ef29a858-472c-431f-8847-b08ac5f11d60"
+      Hint: Content
+      Value: |
+        <p>Heute kündigen wir die Veröffentlichung von XM Cloud an - das cloud-native, agile und zusammensetzbare CMS.<br />
+        <br />
+        Es ist ein spannender Schritt nach vorne für unsere zusammensetzbare Strategie, um sicherzustellen, dass jede Lösung in unserer Content-to-Commerce Digital Experience Platform auf einer modernen Cloud-Architektur bereitgestellt werden kann. Diese Veröffentlichung eröffnet ein aufregendes neues Kapitel für Sitecore und vor allem für den anhaltenden Erfolg unserer Kunden.<br />
+        <br />
+        Um die Auswirkungen von XM Cloud für Geschäftsführer einzuordnen, habe ich Paige O'Neill, Chief Marketing Officer von Sitecore, gebeten, zu erläutern, warum dies für Vermarkter wichtig ist. Anschließend wird Dave O'Flanagan, Chief Product Officer von Sitecore, die Bedeutung dieses Meilensteinprodukts für Technologieführer erläutern, die nach schnellerer Innovation und Flexibilität im Entwicklungsansatz streben, um differenzierende Lösungen aufzubauen, zu pflegen und zu iterieren.</p>
+    - ID: "fc59833e-5445-4756-bb8a-94ae76e4e23c"
+      Hint: Title
+      Value: "Vorstellung von XM Cloud: Ein Cloud-Native CMS für eine zusammensetzbare Strategie und eine digitale Experience-Plattform"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240117T135709Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{1734D2D8-4BF8-4562-81F4-91076F402F4F}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: XM Cloud Release
+    - ID: "505bce75-e9b7-493a-9c01-4d3d85982d3c"
+      Hint: OgTitle
+      Value: XM Cloud Release
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5831ed13-2878-48f6-95e6-bef1bd2ae9e9"
+      Hint: OgDescription
+      Value: The release of XM Cloud marks a significant advancement in Sitecore's composable strategy, enabling the delivery of solutions on a modern cloud architecture. This milestone product offers marketers faster innovation and flexibility, while ensuring continued success for customers.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "6d98c466-99fa-480c-8b35-36b3827630a4"
+      Hint: PublicationDate
+      Value: 20231220T000000Z
+    - ID: "871f2c9f-0d7a-413e-aa79-f6095b235c67"
+      Hint: OgImage
+      Value: |
+        <image mediaid="{F78BBE27-F437-49F0-9C66-7D9FB318307F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e639262d-0952-4316-a667-7c8021f5b567"
+    - ID: "a0095e8a-4e88-4811-a41a-14f5615a4a90"
+      Hint: Abstract
+      Value: The release of XM Cloud marks a significant advancement in Sitecore's composable strategy, enabling the delivery of solutions on a modern cloud architecture. This milestone product offers marketers faster innovation and flexibility, while ensuring continued success for customers.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d927d364-6b7f-49b3-8fa6-45823d848fac"
+      Hint: Image
+      Value: |
+        <image alt="XM Cloud" mediaid="{869603F3-CBC0-4AE6-930D-834703FDB5B9}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240806T122904Z
+    - ID: "ef29a858-472c-431f-8847-b08ac5f11d60"
+      Hint: Content
+      Value: |
+        <p>Today we&rsquo;re announcing the release of XM Cloud &mdash; the cloud-native, agile, and composable CMS.<br />
+        <br />
+        It&rsquo;s an exciting step forward for our composable strategy, as well as ensuring every solution in our content-to-commerce Digital Experience Platform can be delivered on a modern cloud architecture. This release opens an exciting new chapter for Sitecore and, more importantly, for our customers&rsquo; continued success.<br />
+        <br />
+        To help contextualize the impact of XM Cloud for business leaders, I&rsquo;ve asked Sitecore Chief Marketing Officer Paige O&rsquo;Neill, who has overseen numerous global website builds and rebuilds, to speak to why this matters for marketers. Then, Sitecore Chief Product Officer Dave O&rsquo;Flanagan will speak to the importance of this milestone product for technology leaders striving for faster innovation and flexibility on the development approach to stand up, maintain, and iterate differentiating solutions.</p>
+    - ID: "fc59833e-5445-4756-bb8a-94ae76e4e23c"
+      Hint: Title
+      Value: "Introducing XM Cloud: A Cloud-Native CMS for Composable Strategy and Digital Experience Platform"
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240314T133014Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{074D3F8F-BDE5-45F1-986C-C45CD619331E}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bc3e6564-6886-49a6-821e-921762610f0f"
+    - ID: "a0095e8a-4e88-4811-a41a-14f5615a4a90"
+      Hint: Abstract
+      Value: Le lancement de XM Cloud marque une avancée significative dans la stratégie composable de Sitecore, permettant la livraison de solutions sur une architecture cloud moderne. Ce produit phare offre aux marketeurs une innovation et une flexibilité plus rapides, tout en garantissant le succès continu des clients.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T073810Z
+    - ID: "ef29a858-472c-431f-8847-b08ac5f11d60"
+      Hint: Content
+      Value: |
+        <p>Aujourd'hui, nous annonçons la sortie de XM Cloud &mdash; le CMS natif du cloud, agile et composable.<br />
+        <br />
+        C'est une avancée passionnante pour notre stratégie composable, ainsi que pour garantir que chaque solution de notre plateforme d'expérience numérique de contenu à commerce puisse être livrée sur une architecture cloud moderne. Cette sortie ouvre un nouveau chapitre passionnant pour Sitecore et, plus important encore, pour le succès continu de nos clients.<br />
+        <br />
+        Pour aider à contextualiser l'impact de XM Cloud pour les dirigeants d'entreprise, j'ai demandé à Paige O'Neill, directrice marketing de Sitecore, qui a supervisé de nombreux déploiements et refontes de sites Web mondiaux, d'expliquer pourquoi cela est important pour les marketeurs. Ensuite, Dave O'Flanagan, directeur produit de Sitecore, expliquera l'importance de ce produit phare pour les leaders technologiques qui cherchent une innovation plus rapide et une flexibilité accrue dans l'approche de développement pour mettre en place, maintenir et itérer des solutions différenciantes.</p>
+    - ID: "fc59833e-5445-4756-bb8a-94ae76e4e23c"
+      Hint: Title
+      Value: "Présentation de XM Cloud : un CMS Cloud-Native pour une stratégie composable et une plateforme d'expérience numérique"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240314T133036Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{074D3F8F-BDE5-45F1-986C-C45CD619331E}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92e9a594-c017-466a-9b0b-432f47095afd"
+    - ID: "a0095e8a-4e88-4811-a41a-14f5615a4a90"
+      Hint: Abstract
+      Value: XM Cloudのリリースは、Sitecoreのコンポーザブル戦略の重要な進歩を示しており、現代のクラウドアーキテクチャ上でソリューションを提供することが可能になりました。この画期的な製品は、マーケターにより速いイノベーションと柔軟性を提供し、顧客の持続的な成功を確保します。
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T073810Z
+    - ID: "ef29a858-472c-431f-8847-b08ac5f11d60"
+      Hint: Content
+      Value: |
+        <p>今日、私たちはXM Cloudのリリースを発表します - クラウドネイティブ、アジャイル、そしてコンポーザブルなCMS。<br />
+        <br />
+        これは、私たちのコンポーザブル戦略における重要な進展であり、コンテンツからコマースまでのデジタルエクスペリエンスプラットフォーム内のすべてのソリューションがモダンなクラウドアーキテクチャで提供されることを確実にするものです。このリリースは、Sitecoreにとって新たなエキサイティングな章を開くものであり、さらに重要なのは、お客様の持続的な成功にとっても重要なものです。<br />
+        <br />
+        ビジネスリーダーにとってXM Cloudの影響を文脈に沿って説明するために、私は、数多くのグローバルウェブサイトの構築と再構築を監督してきたSitecoreのチーフマーケティングオフィサーであるPaige O'Neillに、なぜこれがマーケターにとって重要なのかについて話してもらいました。そして、SitecoreのチーフプロダクトオフィサーであるDave O'Flanaganが、より速いイノベーションと柔軟性を求めるテクノロジーリーダーにとってこの画期的な製品の重要性について語ります。</p>
+    - ID: "fc59833e-5445-4756-bb8a-94ae76e4e23c"
+      Hint: Title
+      Value: XM Cloudのご紹介：組み合わせ可能な戦略とデジタルエクスペリエンスプラットフォーム向けのクラウドネイティブCMS

@@ -1,0 +1,48 @@
+﻿---
+ID: "99c98a5a-ce5e-47d4-8388-2f77965c3f37"
+Parent: "50481362-66bc-4866-a4b4-9e8ff5bf8339"
+Template: "91da1426-2bf0-4a5d-bc84-24b3b449ea6d"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/News/Hoodie Launch Campaign/Data/Third Benefit
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "09d38b15-3260-4702-8563-d105ac28ee10"
+      Hint: Cta
+      Value: |
+        <link linktype="external" url="http://www.google.de" text="Brand Affiliation"/>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240605T104157Z
+    - ID: "30a5f762-4c87-4e13-a289-9834812a324e"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><p data-placeholder="[No text in field]">Wearing the Sitecore Hoodie is more than just a fashion choice; it’s a way to connect with a community of like-minded individuals. As Sitecore continues to be a leader in digital experience management, proudly wearing their branded apparel can open doors to networking opportunities. It’s a great conversation starter at industry events and can help you connect with fellow professionals who share your interests.</p></div>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8603cfe3-ad47-46ad-8f83-76bf0c3ecb58"
+      Hint: ExternalImage
+      Value: "https://cdn-assets-cloud.frontify.com/s3/frontify-cloud-files-us/eyJvYXV0aCI6eyJjbGllbnRfaWQiOiJmcm9udGlmeS1leHBsb3JlciJ9LCJwYXRoIjoiZnJvbnRpZnlcL2ZpbGVcL0NXelBLbmd1YnE2RXYzQUJYUXNBLndlYnAifQ:frontify:WIL1GZHA2x_RTYdBd9y5d6Tt9fUgXYMUd9tmcYwtc_c"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eb612f01-65b5-4016-917e-643496e2a272"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "c5d3aa7c-e703-4906-b6d7-872f387ceb46"
+      Hint: Title
+      Value: 3. Brand Affiliation and Networking
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240808T094128Z

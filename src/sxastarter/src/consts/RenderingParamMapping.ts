@@ -1,0 +1,10 @@
+export const RenderingParamMapping: { [key: string]: string } = {
+  '{2BE08CCD-A342-428F-9223-3592EE09AAD0}': 'solid',
+  '{EAE7BE68-76BB-4A4A-A159-CC36A2921CFE}': 'outline',
+  '{83B16E62-595F-418A-9561-02567B8CC0E7}': 'none',
+  '{017CCF74-CC2D-4B07-B217-4BAE547FDDD4}': 'primary',
+  '{F9D87116-FBC8-4F3D-A6AC-0E448DD920EC}': 'secondary',
+  '{83C51B8E-5C44-47EB-B280-977760CE5751}': 'monochromLight',
+  '{7C1DDBC6-0AD3-4FEB-8B9E-02A9F762485E}': 'monochromDark',
+  '{EE874F79-0CED-4C5D-960D-AF6820537084}': 'brand',
+};

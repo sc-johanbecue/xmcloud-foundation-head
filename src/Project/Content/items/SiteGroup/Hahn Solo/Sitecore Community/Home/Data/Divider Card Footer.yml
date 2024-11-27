@@ -1,0 +1,44 @@
+﻿---
+ID: "2594bf0d-5abb-4928-bcac-8ae357f0230f"
+Parent: "63504693-4f8c-4801-a3e8-646a618a5fc6"
+Template: "91da1426-2bf0-4a5d-bc84-24b3b449ea6d"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/Data/Divider Card Footer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "09d38b15-3260-4702-8563-d105ac28ee10"
+      Hint: Cta
+      Value: |
+        <link linktype="internal" id="57aa58e2-ef66-429b-be16-2885e35224f4" anchor="" querystring="" target="" class="" text="Get in touch" title=""/>
+    - ID: "0ae57c44-d32c-462c-880e-c9533ebcbc8e"
+      Hint: Subtitle
+      Value: "Just follow the link and get part of it, now!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240606T065553Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "388fb9ea-b693-4330-b426-5e9fc85f3242"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "c5d3aa7c-e703-4906-b6d7-872f387ceb46"
+      Hint: Title
+      Value: "Interested to get in touch with the Amazing Sitecore Community?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240801T082230Z

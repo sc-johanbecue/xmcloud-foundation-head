@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Foundation.Shared",
+  "items": {
+    "includes": [
+ {
+        "name": "Templates",
+        "path": "/sitecore/templates/Foundation/Shared"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Foundation/Shared"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Foundation/Shared"
+      },
+      {
+        "name": "System",
+        "path": "/sitecore/system/Settings/Foundation/Shared"
+      },
+      {
+        "name": "Templates.Banches",
+        "path": "/sitecore/templates/Branches/Foundation/Shared"
+      },
+	  {
+        "name": "Placeholder",
+        "path": "/sitecore/layout/Placeholder Settings/Foundation/Shared"
+      }
+    ]
+  }
+}

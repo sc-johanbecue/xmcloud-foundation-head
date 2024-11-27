@@ -1,0 +1,26 @@
+﻿---
+ID: "6d7e6e64-4325-4ee7-bc16-bc629724f233"
+Parent: "86e6d6c3-c90d-4331-adff-1a978ead8bf0"
+Template: "6f2f67e0-99bd-403e-90bf-cf83499d016a"
+Path: /sitecore/system/Settings/Foundation/AI/Available AI Actions/Make longer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231012T172919Z
+    - ID: "38b303e2-4b3c-4b96-8cdc-143625264c08"
+      Hint: Title
+      Value: Make longer
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bfb584dc-5e55-4921-a008-4dcd8eefa8c6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tzoxyd3zg1
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231012T172936Z

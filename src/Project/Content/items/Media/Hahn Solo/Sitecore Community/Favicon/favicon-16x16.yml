@@ -1,0 +1,60 @@
+﻿---
+ID: "093abd19-9917-482e-bc55-1303547f949c"
+Parent: "6b70a5df-58cb-45a1-b006-a7109b2bf02d"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/Hahn Solo/Sitecore Community/Favicon/favicon-16x16"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/093ABD199917482EBC551303547F949C.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 16
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "33fd8fb9-787f-49ac-bdc8-8f9a46d1cd32"
+  Value: iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACo1BMVEUAAAA5GR0AW1gACAQdDA//AAAGHRohCw4lDxILDxFgBQ16CxUAIBYSGRtVBQ0UDQ8AKSJGBw4gCw43Oj0XDQ81MyrWChwCFxYAAAJ/dlM8KCs8MxOPkZFFOxL///8EBAQRERBLHRI5OToQEhPoCRyam5saCg0QEBEACAIACABVWFiWWF5JDBJOCQ9PCQ9CDRQxFBdUDhU1Cg8ABgAaExVCCA0xBQkhAwYmBAc9BwyXKzTDFCS0DR2IDBg0EhU+DhM/BgsZBQd3EhvUDyGJEx4MFhVBCQ81BQrDDh5cCxJKCRE4BQpTChGWDBkABwAzDBBcDBS1DR0TCgwyQkR3TlSpDRwACQMVFRNXVkaZhmxoaWqur693BhFVUDquoW/dxW7jvDCTkIiyrqOmpKQ3JigfGACskzqtrq+Bg4NIPRORdxyFbReSeR+qjB6np6gQEQ8LCwpKGxN0JhjIyMkpKSqACRSlOELm5uZ7e3sAAACNIiytr68AAAADBARcEhmch4m+qatOVlUAHwZkDRWHDBi0FCPXrrLr7u329/f9///hy83HSVXYECLgDB/dDSC/NUFpREcOAgMAAQEQCQnZECLiDyILAQM4EBRGCQ4NAQN8CBPbDyHjECOyDh1RBg0QAAKUCBXfDyLIDh+yChq2P0ppbm5MJSinCxnWDyGvEyLbl529wMClpqaOYGTFDB2hRDqWiYvb3d2KPkbQqCicjFHt7evhv0TfuCnbtCPmvSXfuSW/pDy9q2vg3tnDnx/HhRy1bUfq6OHQ0NC7vLycKRnWFx7QOknx7Ozt7e309PTNGyzjDCDSLTze1NXl5eX29vapfoLGLDrYESPObHXJycm4u7ra3Nz4+vrCw8PJo6baq7Dr6OjCuruybXPGTVjXgor///9VrLl/AAAAkXRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABM3MQUKLRcBAlfF7OaMlubMdRkKs/7+/rUPLMH0TSCr/KIDE73MECLLsgcGVfD7+3Yhoe3+9/rwOw2x9kYiknS4+IkBAiXdzhVn/PdMCrqaAgxI294kAUmy7P79/f39/f39/fxhmLmgQgAAAAFiS0dEHnIKICsAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAHdElNRQfoBx4HEQaL0F9TAAABD0lEQVQY02NgYGTS0dXTNzA0MmZmAAEWE1MzcwtLK2sbWztWNqAAu73DxEmTHZ2mTHV2ceUACnByublPmz5j5qzZczw8uXmAIrx8Xt4+c+fNX7Bwka8fP8gUAUH/gMVLli5bviIwSAhsrnBwyMpVq9esXRcaJgLii4ZHRK7fEBW9cVOMmDgDg4RkbFx8wuYtiUlbk1OkgPLSqWnbtu/YuWv3nr3pGTJAAdnMrOyc3H37Dxw8dDhPTp6BQSG/QLGw6MjRY8dPnCwuUQIZqqxSWnbq9Jmz586XV6iCBNQqqy5cvHT5ytVr16tr1Bk0NGvr6m/cvHX7zt179xsatRiamlta29o7Oru6e3r7+idoAwA9ZGGRER5zCAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNC0wNy0zMFQwNzoxNzowNiswMDowMHRo0uYAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjQtMDctMzBUMDc6MTc6MDYrMDA6MDAFNWpaAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1482
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 16 x 16
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 16
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240730T152050Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Favicon 16X16
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0f0ffb2-c8f0-450d-ac1d-fa0b507a3de0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T152324Z

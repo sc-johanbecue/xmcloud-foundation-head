@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Christian Hahn",
+    "email": "christian.hahn@sitecore.com",
+    "password": 1234,
+    "Role": "Premium",
+    "image": "https://emea-solution-engineering-demo-hahn-2.sitecoresandbox.cloud/api/public/content/56f6a0ba26f84952acfe8f14627239a6?v=0ec73fb0",
+    "OCEmail": "christian-hahn1@gmx.net",
+    "OCPassword": "Sitecore1234",
+    "CHubEmail": "christian@hahn-solo.net",
+    "CHubPassword": "Sitecore1234"
+  },
+  {
+    "id": "2",
+    "name": "Peter Premium (OC Only)",
+    "email": "test.premium@sitecore.com",
+    "password": 1234,
+    "Role": "Premium",
+    "image": "https://emea-solution-engineering-demo-hahn-2.sitecoresandbox.cloud/api/public/content/ffe86542970c48b3a675d341850d9d96?v=09ffeb94",
+    "OCEmail": "christian-hahn1@gmx.net",
+    "OCPassword": "Sitecore1234",
+    "CHubEmail": "",
+    "CHubPassword": ""
+  },
+  {
+    "id": "3",
+    "name": "Frank Free (OC Only)",
+    "email": "test.free@sitecore.com",
+    "password": 1234,
+    "Role": "Free",
+    "image": "https://emea-solution-engineering-demo-hahn-2.sitecoresandbox.cloud/api/public/content/abe7e7b8a16544599595679db4378c77?v=6cc771c3",
+    "OCEmail": "christian-hahn1@gmx.net",
+    "OCPassword": "Sitecore1234",
+    "CHubEmail": "",
+    "CHubPassword": ""
+  }
+]

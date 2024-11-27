@@ -1,0 +1,43 @@
+﻿---
+ID: "6e1d3c9c-63ab-460e-9dd3-ced3f17d2f27"
+Parent: "b5b5ce08-d58e-4120-a221-1a7de961509e"
+Template: "91da1426-2bf0-4a5d-bc84-24b3b449ea6d"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/Cart/Data/Teaser Left
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0ae57c44-d32c-462c-880e-c9533ebcbc8e"
+      Hint: Subtitle
+      Value: "Easy Navigation: A shopping cart allows customers to effortlessly add, remove, or modify items as they browse through the store. This streamlined process enhances the overall shopping experience. Centralized Management: Customers can view all selected items in one place, making it easier to review and manage their purchases before proceeding to checkout. "
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240808T094621Z
+    - ID: "30a5f762-4c87-4e13-a289-9834812a324e"
+      Hint: Text
+      Value: 
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d717958d-d83f-45ba-8117-c208c4dfcf3d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "c5d3aa7c-e703-4906-b6d7-872f387ceb46"
+      Hint: Title
+      Value: Convenience and Efficiency
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240808T100019Z

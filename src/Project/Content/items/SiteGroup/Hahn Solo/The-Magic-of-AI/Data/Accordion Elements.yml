@@ -1,0 +1,31 @@
+﻿---
+ID: "dc4bb8b0-eaab-45cf-aa58-6301138f5c3c"
+Parent: "9fe4dbd9-5e88-4027-a0d2-8e6c77411eae"
+Template: "4e4fe910-da72-4844-90c7-e9c59ec45aa1"
+Path: "/sitecore/content/Hahn Solo/The-Magic-of-AI/Data/Accordion Elements"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240202T114718Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e2427d3-3461-4207-ae04-17dd5905b3d7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240202T114718Z

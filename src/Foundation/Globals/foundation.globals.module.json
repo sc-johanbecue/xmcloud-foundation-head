@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Foundation.Globals",
+  "items": {
+    "includes": [
+	  {
+        "name": "Workflows.ExtendedWorkflow",
+        "path": "/sitecore/system/Workflows/Extended Workflow",
+		"allowedPushOperations": "createOnly"
+      },
+	  {
+        "name": "Workflows.StandardWorkflow",
+        "path": "/sitecore/system/Workflows/Standard Page Workflow",
+		"allowedPushOperations": "createOnly"
+      },
+      {
+        "name": "SPE.Feature",
+        "path": "/sitecore/system/Modules/PowerShell/Script Library/Feature",
+        "allowedPushOperations": "createOnly",
+		"scope": "SingleItem"
+      }	  
+    ]
+  },
+   "roles": [
+      {
+        "domain": "sitecore",
+        "pattern": "Internal Editor"
+      }
+    ]
+}

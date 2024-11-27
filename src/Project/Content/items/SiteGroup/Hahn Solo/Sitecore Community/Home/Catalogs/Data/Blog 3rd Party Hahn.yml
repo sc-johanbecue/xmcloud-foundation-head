@@ -1,0 +1,52 @@
+﻿---
+ID: "ab671654-bb5a-46a2-9baa-da6f763df698"
+Parent: "bfae28c5-6866-4344-bfa7-29dfcf1dc637"
+Template: "91da1426-2bf0-4a5d-bc84-24b3b449ea6d"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/Catalogs/Data/Blog 3rd Party Hahn
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "09d38b15-3260-4702-8563-d105ac28ee10"
+      Hint: Cta
+      Value: |
+        <link text="3rd Party Integration" linktype="external" url="https://hachweb.wordpress.com/2024/05/05/sitecore-xm-cloud-now-you-also-need-a-3rd-party-product-data-integration-sure-why-not/" anchor="" title="Blog post 3rd Party Integration" target="" />
+    - ID: "0ae57c44-d32c-462c-880e-c9533ebcbc8e"
+      Hint: Subtitle
+      Value: Extend Sitecore XM Cloud in a modern way
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240723T121439Z
+    - ID: "30a5f762-4c87-4e13-a289-9834812a324e"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><p>This blog post focuses on simplifying the integration of third-party data into Sitecore XM Cloud for editors and developers. It explores the challenges of incorporating external data, presents the traditional monolith approach, and introduces a more modern method, demonstrating its implementation with an OrderCloud integration. The new approach eliminates the need for importing and synchronizing external data, offering flexibility for any data use case.</p></div>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc985a03-bf25-4769-8b0f-fe9ab1754495"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "c5d3aa7c-e703-4906-b6d7-872f387ceb46"
+      Hint: Title
+      Value: "Sitecore XM Cloud – Now you also need a 3rd Party product data integration? Sure, why not!"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240731T122221Z
+    - ID: "e50c1c31-a240-4bfd-b46d-049b54e4aa27"
+      Hint: Image
+      Value: |
+        <image mediaid="656506ca-1cf2-47f7-9415-dd09667351d5" />

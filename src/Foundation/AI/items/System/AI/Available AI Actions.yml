@@ -1,0 +1,23 @@
+﻿---
+ID: "86e6d6c3-c90d-4331-adff-1a978ead8bf0"
+Parent: "273dfe7b-07e5-4d9c-b1bb-a535ab94595a"
+Template: "c022df99-d104-40d1-8c77-43acb60acc1f"
+Path: /sitecore/system/Settings/Foundation/AI/Available AI Actions
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231012T171013Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1087616e-c4bf-4aac-89bb-7e8ddef1811a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tzoxyd3zg1
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231012T171024Z

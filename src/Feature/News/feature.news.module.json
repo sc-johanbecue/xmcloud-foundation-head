@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Feature.News",
+  "references": ["Foundation.Globals"],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/News"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Feature/News"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/News"
+      },
+      {
+        "name": "System",
+        "path": "/sitecore/system/Settings/Feature/News"
+      },
+      {
+        "name": "Templates.Banches",
+        "path": "/sitecore/templates/Branches/Feature/News"
+      }
+    ]
+  }
+}

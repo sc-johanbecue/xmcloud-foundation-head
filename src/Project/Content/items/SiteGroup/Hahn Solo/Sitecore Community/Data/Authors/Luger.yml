@@ -1,0 +1,45 @@
+﻿---
+ID: "0fa7fdd7-9b78-4caf-8cac-f44cc32860cf"
+Parent: "40e45c36-cd39-4c23-b46e-deacc23e3fa8"
+Template: "b811a410-7dcd-4df4-81d8-2e8e4d841d46"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Data/Authors/Luger
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0eb2f9cb-910a-4c8f-9cd2-5245524bbf32"
+      Hint: LinkedIn
+      Value: "https://www.linkedin.com/in/katharina-luger/"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240605T100619Z
+    - ID: "4a9daf09-fe96-46e7-acc1-3c9fa6284a63"
+      Hint: ShortDescription
+      Value: Katharina Luger, a Solutions Architect at Sitecore, excels in crafting sophisticated technical solutions to enhance digital strategies. Leveraging her extensive expertise in Sitecore&rsquo;s platform, she collaborates with clients to design robust, scalable solutions that optimize customer engagement and streamline content management. Known for her analytical prowess and innovative approach, Katharina is a key player in driving digital transformation and ensuring alignment with business goals.
+    - ID: "52d3a90f-238e-45a1-aea7-c18d6c96c64b"
+      Hint: LongDescription
+      Value: Katharina Luger is a Solutions Architect at Sitecore, a renowned company specializing in digital experience management software. With extensive expertise in designing and implementing sophisticated technical solutions, Katharina plays a pivotal role in helping organizations optimize their digital strategies. She leverages her deep knowledge of Sitecore&rsquo;s platform to tailor solutions that enhance customer engagement, streamline content management, and drive digital transformation. Known for her analytical prowess and innovative approach, Katharina collaborates closely with clients to understand their unique business needs, ensuring that the solutions she architects are robust, scalable, and aligned with their goals. Her commitment to excellence and her ability to navigate complex technical landscapes make her an invaluable asset to Sitecore and its clients.
+    - ID: "5898462b-3407-40b5-9eb7-85fde0b4d157"
+      Hint: GitHub
+      Value: "https://github.com/katho2404"
+    - ID: "6260b96f-a1e6-4f9a-a07a-82792c7a2238"
+      Hint: Image
+      Value: |
+        <image mediaid="{B0137DE6-6F8E-42F4-AD8A-A3DAB775D441}" />
+    - ID: "850e56fd-a015-410a-8d71-f8e13ca43551"
+      Hint: Title
+      Value: Solution Architect
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f2df343c-636b-459f-be38-9ab71e154396"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240607T121536Z
+    - ID: "da6e8871-fe26-4ebf-977f-c876cf6b3209"
+      Hint: Name
+      Value: Katharina Luger

@@ -1,0 +1,209 @@
+﻿---
+ID: "cae49324-e689-428b-bf9a-497c00c370f0"
+Parent: "f53b17a3-2d07-4776-b33c-94f46892fed8"
+Template: "40edd6e0-4564-4e4d-a76e-2a603b9639d6"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/News/Sitecore Search
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{395B65AE-8C9E-4620-AFD8-CAC5FE75BF25}"
+- ID: "899a49f0-caea-4964-b700-8581c200155d"
+  Hint: Author
+  Value: "{DDF3394B-1709-4EF3-9C1F-72D72C15B7B7}"
+- ID: "a1a12a61-a1b8-462b-a0be-84bcc3909e94"
+  Hint: Tag
+  Value: "{7217E574-88CB-46B0-A6FE-11AC199E7C34}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{02C7EA06-C3AA-4420-B083-91AF8662CFA9}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{22ADED23-B226-4E87-8164-24B92A93FC8C}" />
+- ID: "e3c3a0eb-a7ef-4937-8b4e-a0933a4ae25f"
+  Hint: FaviconReference
+  Value: "{2D02373A-8511-4DCB-BABB-1398ABC03940}"
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240117T140901Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{074D3F8F-BDE5-45F1-986C-C45CD619331E}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f7f6933-24c7-4497-96c5-4bf70f689e01"
+    - ID: "a0095e8a-4e88-4811-a41a-14f5615a4a90"
+      Hint: Abstract
+      Value: "Sitecore Search ist ein KI-gesteuertes Tool, das personalisierte Suchergebnisse liefert, indem es die Suchabsicht vorhersagt. Es verbessert die Kundenerfahrung, steigert den Umsatz und erhöht die Kundenzufriedenheit und -loyalität für Unternehmen, die Sitecore verwenden."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T073811Z
+    - ID: "ef29a858-472c-431f-8847-b08ac5f11d60"
+      Hint: Content
+      Value: |
+        Sitecore Search ist ein KI-gesteuertes Suchwerkzeug, das die Suchabsicht vorhersagt und individualisierte Ergebnisse anzeigt, um ein personalisiertes Sucherlebnis zu bieten.
+        
+        Sitecore Search bietet das beste Sucherlebnis für Kunden. Es ermöglicht Unternehmen, die Sitecore verwenden, Kunden einzubinden, zu informieren und zu befähigen, schnellere Kaufentscheidungen zu treffen - was das Kundenvertrauen, den langfristigen Umsatz sowie die allgemeine Kundenzufriedenheit und -loyalität steigert.
+    - ID: "fc59833e-5445-4756-bb8a-94ae76e4e23c"
+      Hint: Title
+      Value: "Verbesserung der Kundenerfahrung mit Sitecore Search: KI-gesteuerte personalisierte Ergebnisse"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240117T135746Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{1734D2D8-4BF8-4562-81F4-91076F402F4F}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sitecore Search
+    - ID: "505bce75-e9b7-493a-9c01-4d3d85982d3c"
+      Hint: OgTitle
+      Value: Sitecore Search
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5831ed13-2878-48f6-95e6-bef1bd2ae9e9"
+      Hint: OgDescription
+      Value: With the release of Sitecore Search. Sitecore now offers a full blown SaaS native, AI supported search tool
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "6d98c466-99fa-480c-8b35-36b3827630a4"
+      Hint: PublicationDate
+      Value: 20230406T000000Z
+    - ID: "871f2c9f-0d7a-413e-aa79-f6095b235c67"
+      Hint: OgImage
+      Value: |
+        <image mediaid="{DF367893-E3EF-4E7C-A27E-44E047D555BF}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fa59435c-1bbf-4d28-983b-089f01d062ba"
+    - ID: "a0095e8a-4e88-4811-a41a-14f5615a4a90"
+      Hint: Abstract
+      Value: "Sitecore Search is an AI-powered tool that provides personalized search results by predicting search intent. It enhances customer experience, boosts revenue, and improves customer satisfaction and loyalty for companies using Sitecore."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d927d364-6b7f-49b3-8fa6-45823d848fac"
+      Hint: Image
+      Value: |
+        <image mediaid="{92D69CAD-02D8-4506-9E73-0FBAAD14E59D}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240806T122846Z
+    - ID: "ef29a858-472c-431f-8847-b08ac5f11d60"
+      Hint: Content
+      Value: |
+        Sitecore Search is an AI-Powered search tool that predicts search intent and displays individualized results to deliver a personalized search experience.
+        
+        Sitecore Search offers the best search experience for customers. It enables companies using Sitecore to engage, educate, and empower shoppers to make faster purchase decisions - increasing customer confidence, long-term revenue, and overall customer satisfaction and loyalty.
+    - ID: "fc59833e-5445-4756-bb8a-94ae76e4e23c"
+      Hint: Title
+      Value: "Enhancing Customer Experience with Sitecore Search: AI-Powered Personalized Results"
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240117T140909Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{074D3F8F-BDE5-45F1-986C-C45CD619331E}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c76a61e2-e201-4972-b081-12e98b4918a0"
+    - ID: "a0095e8a-4e88-4811-a41a-14f5615a4a90"
+      Hint: Abstract
+      Value: Sitecore Search est un outil alimenté par l'IA qui fournit des résultats de recherche personnalisés en prédisant l'intention de recherche. Il améliore l'expérience client, augmente les revenus et améliore la satisfaction et la fidélité des clients pour les entreprises utilisant Sitecore.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T073811Z
+    - ID: "ef29a858-472c-431f-8847-b08ac5f11d60"
+      Hint: Content
+      Value: |
+        Sitecore Search est un outil de recherche alimenté par l'IA qui prédit l'intention de recherche et affiche des résultats personnalisés pour offrir une expérience de recherche personnalisée.
+        
+        Sitecore Search offre la meilleure expérience de recherche pour les clients. Il permet aux entreprises utilisant Sitecore d'impliquer, d'éduquer et de donner du pouvoir aux acheteurs pour prendre des décisions d'achat plus rapides - augmentant ainsi la confiance des clients, les revenus à long terme et la satisfaction et la fidélité globales des clients.
+    - ID: "fc59833e-5445-4756-bb8a-94ae76e4e23c"
+      Hint: Title
+      Value: "Améliorer l'expérience client avec Sitecore Search : Résultats personnalisés alimentés par l'IA"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240117T140919Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{074D3F8F-BDE5-45F1-986C-C45CD619331E}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\l0iUFq5IWk
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0f2cdad-64b8-4b59-8e22-85fb84493152"
+    - ID: "a0095e8a-4e88-4811-a41a-14f5615a4a90"
+      Hint: Abstract
+      Value: Sitecore Searchは、検索意図を予測して個別の検索結果を提供するAIパワードツールです。Sitecoreを使用する企業において、顧客エクスペリエンスを向上させ、収益を増加させ、顧客満足度とロイヤリティを向上させます。
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T073811Z
+    - ID: "ef29a858-472c-431f-8847-b08ac5f11d60"
+      Hint: Content
+      Value: |
+        Sitecore Searchは、検索意図を予測し、個別の結果を表示してパーソナライズされた検索体験を提供するAIパワードの検索ツールです。
+        
+        Sitecore Searchは、顧客に最高の検索体験を提供します。Sitecoreを使用する企業に、ショッパーがより速い購入決定をするために関与し、教育し、力を与えることができます。これにより、顧客の信頼、長期的な収益、総合的な顧客満足度とロイヤリティが向上します。
+    - ID: "fc59833e-5445-4756-bb8a-94ae76e4e23c"
+      Hint: Title
+      Value: Sitecore検索による顧客体験の向上：AIパワードのパーソナライズされた結果

@@ -1,0 +1,44 @@
+﻿---
+ID: "212a22ac-5ec0-429d-a508-982bd4c59075"
+Parent: "2e6d4a05-dc0d-4acb-8e45-7f98f79bf324"
+Template: "e17a2d35-e506-47f6-83ee-77ab4a49c36c"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/My Sitecore Community/Data/Faq
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240723T122333Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f94a3c7-d710-4104-98e1-694c68686833"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "c40d6f97-0af1-4cf2-b978-f28c3be30e8e"
+      Hint: Faqs
+      Value: |
+        {B7CF0A0E-98EF-449C-903F-E4FFF4AE610B}
+        {4414A2D0-F09F-404B-9F0C-E64F9FE49E24}
+        {81DF897A-E723-4A86-9927-D6A7E34D56EF}
+        {6620EFB7-3A74-4E76-AC00-07651CDC2600}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240723T123229Z
+    - ID: "f585d738-26b8-4ced-9e0c-e83933d6443a"
+      Hint: Title
+      Value: 

@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Feature.Navigation",
+  "references": [ "Foundation.Globals" ],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Navigation"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Feature/Navigation"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Navigation"
+      },
+      {
+        "name": "System",
+        "path": "/sitecore/system/Settings/Feature/Navigation"
+      },
+      {
+        "name": "Templates.Banches",
+        "path": "/sitecore/templates/Branches/Feature/Navigation"
+      }
+    ]
+  }
+}

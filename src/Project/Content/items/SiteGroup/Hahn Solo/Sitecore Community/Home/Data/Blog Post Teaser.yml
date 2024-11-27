@@ -1,0 +1,48 @@
+﻿---
+ID: "3b91ecfa-6950-4980-a56e-5e3a50a700bb"
+Parent: "63504693-4f8c-4801-a3e8-646a618a5fc6"
+Template: "91da1426-2bf0-4a5d-bc84-24b3b449ea6d"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/Data/Blog Post Teaser
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "09d38b15-3260-4702-8563-d105ac28ee10"
+      Hint: Cta
+      Value: |
+        <link linktype="external" url="https://hachweb.wordpress.com/2024/06/17/sitecore-xm-cloud-enhance-your-site-with-full-blown-gated-content-capabilities/" text="GATED CONTENT"/>
+    - ID: "0ae57c44-d32c-462c-880e-c9533ebcbc8e"
+      Hint: Subtitle
+      Value: Welcome back to a brand new article about XM Cloud implementations. This time I would like to write about common gated content scenarios and how to achieve those within a typical XM Cloud implementation.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240808T081428Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f61d473f-a623-4316-a1d9-7a058e977563"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "c5d3aa7c-e703-4906-b6d7-872f387ceb46"
+      Hint: Title
+      Value: "Gated-Content case and XMC"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240808T082341Z
+    - ID: "e50c1c31-a240-4bfd-b46d-049b54e4aa27"
+      Hint: Image
+      Value: |
+        <image mediaid="{87887C28-733C-4942-AE3B-2D376335A9B4}" />

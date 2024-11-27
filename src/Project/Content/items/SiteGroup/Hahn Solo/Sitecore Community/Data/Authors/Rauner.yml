@@ -1,0 +1,45 @@
+﻿---
+ID: "ddf3394b-1709-4ef3-9c1f-72d72c15b7b7"
+Parent: "40e45c36-cd39-4c23-b46e-deacc23e3fa8"
+Template: "b811a410-7dcd-4df4-81d8-2e8e4d841d46"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Data/Authors/Rauner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0eb2f9cb-910a-4c8f-9cd2-5245524bbf32"
+      Hint: LinkedIn
+      Value: "https://www.linkedin.com/in/jonathan-rauner/"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240605T100625Z
+    - ID: "4a9daf09-fe96-46e7-acc1-3c9fa6284a63"
+      Hint: ShortDescription
+      Value: "Jonathan Rauner, a Sales Engineer at Sitecore, expertly combines technical knowledge and sales skills to drive client success. He demonstrates Sitecore&rsquo;s platform capabilities, addresses technical queries, and designs tailored solutions for prospective clients. Known for his ability to translate complex concepts into compelling value propositions, Jonathan plays a crucial role in fostering strong client relationships and supporting the sales team. His dedication to excellence and customer-focused approach significantly contribute to Sitecore&rsquo;s success in delivering superior digital experiences."
+    - ID: "52d3a90f-238e-45a1-aea7-c18d6c96c64b"
+      Hint: LongDescription
+      Value: "Jonathan Rauner is a Sales Engineer at Sitecore, a leading provider of digital experience management software. In his role, Jonathan combines technical expertise with sales acumen to support the sales team and ensure client success. He is responsible for demonstrating the capabilities of Sitecore&rsquo;s platform, addressing technical queries, and designing customized solutions that meet the unique needs of prospective clients. Jonathan's deep understanding of the product, coupled with his ability to translate complex technical concepts into clear, compelling value propositions, makes him an essential asset in driving sales and fostering strong client relationships. His commitment to excellence and customer-focused approach contribute significantly to Sitecore's success in delivering top-tier digital experiences."
+    - ID: "5898462b-3407-40b5-9eb7-85fde0b4d157"
+      Hint: GitHub
+      Value: "https://github.com/sitecorejora"
+    - ID: "6260b96f-a1e6-4f9a-a07a-82792c7a2238"
+      Hint: Image
+      Value: |
+        <image mediaid="{56174C34-2E8B-468A-A392-5D1481DBE8A5}" />
+    - ID: "850e56fd-a015-410a-8d71-f8e13ca43551"
+      Hint: Title
+      Value: Senior Sales Engineer
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2004305a-b31d-448a-bca6-07257b175c13"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240607T121536Z
+    - ID: "da6e8871-fe26-4ebf-977f-c876cf6b3209"
+      Hint: Name
+      Value: Jonathan Rauner

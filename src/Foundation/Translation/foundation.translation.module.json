@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Foundation.Translation",
+  "references": ["Foundation.Globals"],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Foundation/Translation"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Foundation/Translation"
+      },
+      {
+        "name": "System",
+        "path": "/sitecore/system/Settings/Foundation/Translation"
+      },
+      {
+        "name": "Templates.Banches",
+        "path": "/sitecore/templates/Branches/Foundation/Translation"
+      }
+    ]
+  }
+}

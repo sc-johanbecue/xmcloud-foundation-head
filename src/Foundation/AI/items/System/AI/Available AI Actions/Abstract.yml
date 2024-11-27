@@ -1,0 +1,32 @@
+﻿---
+ID: "d3f43323-d5a3-4380-a077-1c63cd7b49ce"
+Parent: "86e6d6c3-c90d-4331-adff-1a978ead8bf0"
+Template: "6f2f67e0-99bd-403e-90bf-cf83499d016a"
+Path: /sitecore/system/Settings/Foundation/AI/Available AI Actions/Abstract
+SharedFields:
+- ID: "34c34b7c-4890-4d81-82e2-4e574818af91"
+  Hint: Prompt
+  Value: |
+    Generate a small Abstract with maximal 500 characters for the following given Text: {0}
+    Just output the short Abstract and nothing else
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231012T171321Z
+    - ID: "38b303e2-4b3c-4b96-8cdc-143625264c08"
+      Hint: Title
+      Value: Generate Abstract
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f2269ffb-7aaf-442f-8987-c5be08bed299"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tzoxyd3zg1
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231012T171352Z

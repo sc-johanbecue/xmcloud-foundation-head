@@ -1,0 +1,34 @@
+﻿---
+ID: "d181116d-5875-453a-832d-5aac4434f5c5"
+Parent: "31f0f727-f1b6-4cdc-887e-bf4a50f50d71"
+Template: "31f0f727-f1b6-4cdc-887e-bf4a50f50d71"
+Path: /sitecore/templates/Feature/Authentication/Datasources/Login Module/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221231T111933Z
+    - ID: "3619f958-a9b3-4a1e-bf29-14e613850c3f"
+      Hint: Title
+      Value: $name
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e55a1bb-1a74-45eb-b5b8-f390826bb290"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221231T111939Z

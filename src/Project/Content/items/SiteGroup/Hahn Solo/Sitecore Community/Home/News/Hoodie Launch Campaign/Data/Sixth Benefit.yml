@@ -1,0 +1,48 @@
+﻿---
+ID: "5d2a43a7-afe0-4698-86f9-af02d756137e"
+Parent: "50481362-66bc-4866-a4b4-9e8ff5bf8339"
+Template: "91da1426-2bf0-4a5d-bc84-24b3b449ea6d"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/News/Hoodie Launch Campaign/Data/Sixth Benefit
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "09d38b15-3260-4702-8563-d105ac28ee10"
+      Hint: Cta
+      Value: |
+        <link linktype="external" url="http://www.google.de" text="Perfect Gift for Tech Lovers"/>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240605T105903Z
+    - ID: "30a5f762-4c87-4e13-a289-9834812a324e"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><p>If you’re looking for a thoughtful gift for a friend or colleague who is passionate about technology, the Sitecore Hoodie is an excellent choice. It’s practical, stylish, and carries the prestige of being associated with a leading tech company. Whether for a birthday, holiday, or professional achievement, this hoodie is sure to be appreciated by anyone in the tech community.&nbsp;</p></div>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8603cfe3-ad47-46ad-8f83-76bf0c3ecb58"
+      Hint: ExternalImage
+      Value: "https://cdn-assets-cloud.frontify.com/s3/frontify-cloud-files-us/eyJvYXV0aCI6eyJjbGllbnRfaWQiOiJmcm9udGlmeS1leHBsb3JlciJ9LCJwYXRoIjoiZnJvbnRpZnlcL2ZpbGVcL1JHanFUeXhuUWo1Z256VVZxRFVpLndlYnAifQ:frontify:o-pPxkcN5LafD6lesMJojWm3eLrOusqyWWBkY_Ed1GM"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7a28a0e-c927-43db-9d3a-92f8ee02553d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "c5d3aa7c-e703-4906-b6d7-872f387ceb46"
+      Hint: Title
+      Value: 6. Perfect Gift for Tech Lovers
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240808T094156Z

@@ -1,0 +1,40 @@
+﻿---
+ID: "aab6fbf5-7b73-4e82-aade-6cd26e85e2ab"
+Parent: "1974aa1e-4a73-4624-a449-2272af57d80b"
+Template: "4bb9ba64-4587-4f4b-9358-7c56d7e79d09"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Settings/Standard Values/Site Collection Templates/Product Page
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F5804967-54C8-4567-828F-EC5D4A0FBC73}" />
+- ID: "e3c3a0eb-a7ef-4937-8b4e-a0933a4ae25f"
+  Hint: FaviconReference
+  Value: "{2D02373A-8511-4DCB-BABB-1398ABC03940}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240730T074922Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Product Page
+    - ID: "505bce75-e9b7-493a-9c01-4d3d85982d3c"
+      Hint: OgTitle
+      Value: Product Page
+    - ID: "8696e26d-38ad-43cf-87a9-2f9707cee8a8"
+      Hint: Title
+      Value: Product Page
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "168cf9fb-e515-4c54-9a75-199954cffd62"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T074957Z

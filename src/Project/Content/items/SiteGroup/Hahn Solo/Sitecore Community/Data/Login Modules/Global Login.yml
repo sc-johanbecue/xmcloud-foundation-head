@@ -1,0 +1,37 @@
+﻿---
+ID: "9c74b3a2-ba91-4d4a-a9bd-c86aa653b4af"
+Parent: "3ee3c0a1-fd33-4f0a-8a8c-85036371c36c"
+Template: "31f0f727-f1b6-4cdc-887e-bf4a50f50d71"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Data/Login Modules/Global Login
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0c1fb428-5563-49bb-b0f8-7d48c44ba470"
+      Hint: RedirectItem
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240131T073222Z
+    - ID: "3619f958-a9b3-4a1e-bf29-14e613850c3f"
+      Hint: Title
+      Value: Global Login
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6f98cb0-1eb9-4c93-956b-de05d411218d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240619T082542Z

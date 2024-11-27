@@ -1,0 +1,86 @@
+@import '@sass/abstracts/vars';
+@import '@sass/abstracts/mixins';
+
+.product {
+  &-field-image {
+    overflow: hidden;
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &-addToCart {
+    padding-top: 1em;
+
+    &-quantiy {
+      width: 80%;
+      display: inline-block;
+      font-size: x-large;
+      font-weight: bold;
+    }
+
+    &-counter {
+      display: inline-block;
+    }
+
+    &-minus {
+      width: 20%;
+      display: inline-block;
+      border-radius: 10px;
+      margin-left: 1em;
+      margin-right: 1em;
+      &:hover {
+        background-color: darkgray;
+      }
+    }
+
+    &-plus {
+      width: 20%;
+      display: inline-block;
+      border-radius: 10px;
+      margin-left: 1em;
+      margin-right: 1em;
+      &:hover {
+        background-color: darkgray;
+      }
+    }
+
+    &-add {
+      width: 35%;
+      border-radius: 10px;
+      display: inline-block;
+      &:hover {
+        background-color: darkgray;
+      }
+    }
+
+    &-response {
+      padding-top: 3em;
+      font-weight: bold;
+    }
+  }
+
+  &-description {
+    padding-bottom: 0.8em;
+  }
+
+  &-headline {
+    font-size: xx-large;
+    text-align: center;
+  }
+
+  &-availability {
+    padding-top: 0.8em;
+    padding-bottom: 0.6em;
+  }
+
+  &-price {
+    font-size: xx-large;
+    text-align: center;
+  }
+  &-stocklevel {
+    text-align: center;
+  }
+}
+

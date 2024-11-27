@@ -1,0 +1,75 @@
+@import '@sass/abstracts/mixins';
+@import 'variables';
+
+.chakra-ui-light {
+  footer {
+    @include respond-to(mobile-large) {
+      padding-top: 0;
+    }
+    .container-dark-background {
+      background-color: var(--chakra-colors-FooterColor-100);
+    }
+
+    .container-fluid {
+      background-color: var(--chakra-colors-FooterColor-100);
+    }
+
+    .contacts {
+      font-size: $text-size-14;
+
+      a {
+        color: var(--chakra-colors-BrandedTextColor-900);
+      }
+
+      p,
+      span {
+        color: var(--chakra-colors-BrandedTextColor-900);
+      }
+    }
+
+    .indent-inner {
+      padding: 65px;
+
+      @include respond-to(mobile-large) {
+        padding: 40px 0;
+      }
+    }
+  }
+}
+
+.chakra-ui-dark {
+  footer {
+    @include respond-to(mobile-large) {
+      padding-top: 0;
+    }
+    .container-dark-background {
+      background-color: var(--chakra-colors-FooterColor-900);
+    }
+
+    .container-fluid {
+      background-color: var(--chakra-colors-FooterColor-900);
+    }
+
+    .contacts {
+      font-size: $text-size-14;
+
+      a {
+        color: var(--chakra-colors-BrandedTextColor-100);
+      }
+
+      p,
+      span {
+        color: var(--chakra-colors-BrandedTextColor-100);
+      }
+    }
+
+    .indent-inner {
+      padding: 65px;
+
+      @include respond-to(mobile-large) {
+        padding: 40px 0;
+      }
+    }
+  }
+}
+

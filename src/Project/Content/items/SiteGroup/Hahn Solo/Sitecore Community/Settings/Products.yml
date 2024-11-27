@@ -1,0 +1,31 @@
+﻿---
+ID: "eebbc285-9145-42c1-b5d8-2a0d8da511b6"
+Parent: "e4c74a37-3920-49b7-aa38-53db73248a67"
+Template: "473d4a8a-5fbf-461c-a52c-e01316da7e1d"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Settings/Products
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240124T104324Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22903de2-db07-4238-a875-b0d70232c4ff"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240124T104324Z

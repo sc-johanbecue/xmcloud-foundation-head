@@ -1,0 +1,79 @@
+﻿---
+ID: "f72b046b-7059-43bc-ba5b-64debea13219"
+Parent: "a1737eaa-849f-422a-8e10-45c456c7288f"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Presentation/Partial Designs/Search Header
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "search-header"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{8D422593-3ED0-41D3-9E3F-CB9A333F1391}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B90D17D3-28B9-44D0-9D1F-46C064BA9F99}"
+              p:before="*"
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-header" />
+            <r
+              uid="{28723022-8ECA-40AE-98B4-FF6A950D0411}"
+              p:after="r[@uid='{B90D17D3-28B9-44D0-9D1F-46C064BA9F99}']"
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7BF6FDDF61-C60E-46D1-A4A7-978EBDBE9620%7D%7C%7BB706790E-8CB2-4A93-B341-6E7171734B61%7D%7C%7B5266EA70-882C-43C1-9E46-8660459EBE59%7D&amp;ColumnWidth2=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7B81225C08-5783-4BED-A86A-AB2B87198885%7D%7C%7B1B189E02-FFC9-4ADC-84E5-D2AB5F6EC0FB%7D&amp;ColumnWidth3=%7C%7B31A49E90-E4B4-4F04-A3C7-E15B6835990F%7D%7C%7B734E4854-1D0D-4AAE-A879-245EBD7F0297%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B89251DD2-C10F-4593-9FC1-A6FF62A0C5F2%7D&amp;SplitterSize=3&amp;EnabledPlaceholders=1%2C2%2C3&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="/headless-header/container-1" />
+            <r
+              uid="{215077E3-AF8C-437D-80B0-2EB2A2A0A952}"
+              p:after="r[@uid='{28723022-8ECA-40AE-98B4-FF6A950D0411}']"
+              s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B73C15C10-E5C0-4A57-AB5E-93EBE06425D8%7D&amp;Styles=%7C%7B52DDD2DB-F571-4828-A821-789EBA3B8053%7D%7C%7BFA09A7F4-E69C-46F2-98F7-05C028165FBA%7D&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA5B4C448-4764-4C76-8737-94270639BAFD%7D&amp;Filter&amp;Flattened&amp;AddRoot&amp;SerializerFieldNames&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles"
+              s:ph="/headless-header/container-1/column-2-2" />
+            <r
+              uid="{F3CB3642-7624-49F4-AD52-B394E9926F7C}"
+              p:after="r[@uid='{215077E3-AF8C-437D-80B0-2EB2A2A0A952}']"
+              s:ds="local:/Data/Text 1"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B644DA9F1-DE7A-4CEB-8E43-D5D0A3B3DA4D%7D&amp;FieldNames=%7B83633DFE-75A4-4DA5-98A4-84F62852EF9D%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-header/container-1/column-1-2" />
+            <r
+              uid="{67356A42-44B2-409E-A358-E4C95D57EC4B}"
+              p:after="*[1=2]"
+              s:id="{A5AD4823-1EF3-4E30-8E40-7562B68174DF}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Color=%7BEE874F79-0CED-4C5D-960D-AF6820537084%7D&amp;Variant=%7B2BE08CCD-A342-428F-9223-3592EE09AAD0%7D&amp;ButtonColor=%7B83C51B8E-5C44-47EB-B280-977760CE5751%7D&amp;ButtonVariant=%7B2BE08CCD-A342-428F-9223-3592EE09AAD0%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="/headless-header/container-1/column-3-2" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240222T124603Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4de70072-f2af-4d06-bc85-5d701ac5748b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240607T121503Z

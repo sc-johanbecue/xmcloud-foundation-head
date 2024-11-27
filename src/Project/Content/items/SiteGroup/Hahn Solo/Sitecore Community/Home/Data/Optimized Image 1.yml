@@ -1,0 +1,35 @@
+﻿---
+ID: "98d60e68-280a-470e-89aa-94f8d374829e"
+Parent: "63504693-4f8c-4801-a3e8-646a618a5fc6"
+Template: "805a0897-fa17-4d49-a846-1676d22fa03a"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/Data/Optimized Image 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240214T081618Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4e4350ae-99c7-4377-ac58-b10bb5d83039"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240607T121535Z
+    - ID: "edf8580e-5d7f-4d22-9b90-5dfe8dd56f17"
+      Hint: Image
+      Value: |
+        <image mediaid="CAC07957-8498-46EC-B6D5-3DE2E99D8961" />

@@ -1,0 +1,26 @@
+﻿---
+ID: "3e759d8c-4f1f-4b51-a2ef-5dffc67c604e"
+Parent: "1edee73a-4a5d-48bd-9cec-9c202aba1fca"
+Template: "291b6c5a-fb76-452f-88ff-4cee544458de"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Data/Authorization Roles/Social
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240617T123308Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fcaf5a78-ba0d-45d1-b9ad-e54de7ee101d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "cb54b68d-fb73-4576-b7b8-4eab515d1245"
+      Hint: Name
+      Value: Social
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240617T123308Z

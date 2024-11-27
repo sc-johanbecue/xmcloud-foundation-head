@@ -1,0 +1,37 @@
+﻿---
+ID: "e1613a51-1e4f-448a-acae-ad6f76c876b8"
+Parent: "9003b5de-d523-4a36-9ae8-3ac2fe54d2a5"
+Template: "9003b5de-d523-4a36-9ae8-3ac2fe54d2a5"
+Path: /sitecore/templates/Feature/News/Rendering Parameters/News Grid/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221201T141403Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "7221acaa-6cad-4c8f-8b03-bf7385dcd09c"
+      Hint: NumberOfNews
+      Value: 12
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "45df62ab-5d70-4b81-a913-00f102304e1c"
+    - ID: "8ce72555-8ec2-4a53-8dc8-547b4c5325c7"
+      Hint: NumberOfNewsPerGrid
+      Value: 3
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221209T122604Z

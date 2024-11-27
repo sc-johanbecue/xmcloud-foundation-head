@@ -1,0 +1,50 @@
+﻿---
+ID: "9313b9bd-4549-4a23-b0d2-2458313a7195"
+Parent: "a229bcaf-afaa-4bc0-a6b7-7ee295c49470"
+Template: "91da1426-2bf0-4a5d-bc84-24b3b449ea6d"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Data/Cards/Merchandise
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "09d38b15-3260-4702-8563-d105ac28ee10"
+      Hint: Cta
+      Value: |
+        <link linktype="external" url="/catalogs/Hahn-Solo-Merchandise" text="COMMUNITY MERCHANDISE" anchor=""/>
+    - ID: "0ae57c44-d32c-462c-880e-c9533ebcbc8e"
+      Hint: Subtitle
+      Value: "Gear up in Sitecore style with our exclusive merchandise! From comfy tees to sleek accessories, we've got everything you need to showcase your passion for Sitecore. Whether you're attending events or working from home, our high-quality items make a statement. Join the community in style and explore our collection today!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240213T154409Z
+    - ID: "30a5f762-4c87-4e13-a289-9834812a324e"
+      Hint: Text
+      Value: 
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8603cfe3-ad47-46ad-8f83-76bf0c3ecb58"
+      Hint: ExternalImage
+      Value: "https://cdn-assets-cloud.frontify.com/s3/frontify-cloud-files-us/eyJvYXV0aCI6eyJjbGllbnRfaWQiOiJmcm9udGlmeS1leHBsb3JlciJ9LCJwYXRoIjoiZnJvbnRpZnlcL2ZpbGVcL0FHakp5NGZCQXdkdTlZZEF1QlFhLndlYnAifQ:frontify:9cz9vjoTvvz962XSHAaaDlz2iRKUOu0NNlqoKOywVd8"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b667065b-c71a-4bcf-8ce8-a5be6d1bd162"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "c5d3aa7c-e703-4906-b6d7-872f387ceb46"
+      Hint: Title
+      Value: Sitecore Community Merchandise
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240808T082155Z
+    - ID: "e50c1c31-a240-4bfd-b46d-049b54e4aa27"
+      Hint: Image
+      Value: 

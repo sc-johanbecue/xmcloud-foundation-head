@@ -1,0 +1,26 @@
+﻿---
+ID: "332c9152-c7ce-4a4d-be19-3ddf2f065ab7"
+Parent: "b5b5ce08-d58e-4120-a221-1a7de961509e"
+Template: "536bb962-ae09-4f7d-b462-a2ca2e6cb037"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/Cart/Data/New Product 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240723T113641Z
+    - ID: "857fde69-864e-4c83-b802-9dbef010cc2c"
+      Hint: ProductId
+      Value: j6MBPIEuIkWNbRHjwL9rpA
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dff111d8-1b04-49d6-a64e-3d08b5498254"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\7ygaJPHCo6
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240723T113744Z

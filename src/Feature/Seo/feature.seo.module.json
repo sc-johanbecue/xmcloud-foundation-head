@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Feature.Seo",
+  "references": [ "Foundation.Globals" ],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Seo"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Feature/Seo"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Seo"
+      },
+      {
+        "name": "System",
+        "path": "/sitecore/system/Settings/Feature/Seo"
+      },
+      {
+        "name": "Templates.Banches",
+        "path": "/sitecore/templates/Branches/Feature/Seo"
+      },
+	  {
+		  "name": "Templates.Foundation.ExperienceAccelerator.Multisite.Page",
+		  "path": "/sitecore/templates/Foundation/Experience Accelerator/Multisite/Content/Page"
+	  }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+﻿---
+ID: "6f5a1bcd-d75c-4f2d-b74f-ebd4a322598f"
+Parent: "cca4997a-7596-43ea-8007-dce781fee0bf"
+Template: "cca4997a-7596-43ea-8007-dce781fee0bf"
+Path: /sitecore/templates/Feature/Products/Rendering Parameters/Product Search/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d9faecc-6319-4d27-a271-abbaeceadfce"
+      Hint: NumberProductsPerGrid
+      Value: 3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221201T141403Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eaa3637b-d209-47f8-8a00-c4af8b58e1a2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d527ec42-1c77-4f5d-a056-aba3a1d743b7"
+      Hint: NumberProducts
+      Value: 12
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240508T123249Z

@@ -1,0 +1,38 @@
+﻿---
+ID: "84162830-dff5-48cd-a2df-5af3fbc13409"
+Parent: "b5b5ce08-d58e-4120-a221-1a7de961509e"
+Template: "7f6710e8-c9c4-46af-b1c0-344e2d3b1102"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/Cart/Data/Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240808T093817Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "89076c9b-5e99-42d6-b809-b28160d251fe"
+      Hint: Image
+      Value: |
+        <image mediaid="{05562498-06CA-4EFE-823A-442BCDD4DE59}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "af3313d9-7b2f-491a-8fd5-dcdfc717265a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240808T093917Z
+    - ID: "e7688e3f-8360-407d-b74a-ad3959108394"
+      Hint: Title
+      Value: Your Cart

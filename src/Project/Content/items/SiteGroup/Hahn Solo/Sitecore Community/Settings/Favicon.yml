@@ -1,0 +1,44 @@
+﻿---
+ID: "2d02373a-8511-4dcb-babb-1398abc03940"
+Parent: "e4c74a37-3920-49b7-aa38-53db73248a67"
+Template: "16545721-b748-4a4c-96ce-50fec4c7850f"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Settings/Favicon
+SharedFields:
+- ID: "2c282617-b279-47cc-b9d0-c0e63ef865d9"
+  Hint: IconWebmanifest
+  Value: |
+    <file mediapath="/Project/Hahn Solo/Sitecore Community/Favicon/favicon-16x16" mediaid="{75B9003F-920C-472A-89BB-D66DF997E886}" src="-/media/75B9003F920C472A89BBD66DF997E886.ashx" />
+- ID: "5f208697-a656-4c13-8463-c473069e08f5"
+  Hint: IconAppleTouchIcon
+  Value: |
+    <image mediaid="{DB7DB9D0-9853-4980-AE35-1F13C3908D1C}" />
+- ID: "6e2dc8c8-5808-4df2-b8b9-e66842a962f4"
+  Hint: IconSafariPinnedTab
+  Value: |
+    <image mediaid="{497A2689-583B-4EB3-9E1B-32D9DFE6B514}" />
+- ID: "915a5c5a-8f1a-4e3d-a85e-62ab2ef92223"
+  Hint: Icon32
+  Value: |
+    <image mediaid="{306FA56D-1D40-4D31-91FF-00928B57CB57}" />
+- ID: "c21954a1-b519-433f-8f0c-4a125c9ec03c"
+  Hint: Icon16
+  Value: |
+    <image mediaid="{093ABD19-9917-482E-BC55-1303547F949C}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240730T071625Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3f7adc88-f258-4015-9743-e86256ce303d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T152255Z

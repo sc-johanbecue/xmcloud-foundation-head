@@ -1,0 +1,45 @@
+﻿---
+ID: "90cfe511-cb7f-4cbc-93fe-e7e37decbf67"
+Parent: "a229bcaf-afaa-4bc0-a6b7-7ee295c49470"
+Template: "91da1426-2bf0-4a5d-bc84-24b3b449ea6d"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Data/Cards/Events
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "09d38b15-3260-4702-8563-d105ac28ee10"
+      Hint: Cta
+      Value: |
+        <link linktype="external" url="/catalogs/Hahn-Solo-Services" target="" text="COMMUNITY EVENTS" title="" class=""/>
+    - ID: "0ae57c44-d32c-462c-880e-c9533ebcbc8e"
+      Hint: Subtitle
+      Value: "Visiting a Sitecore community events page connects you to a hub of innovation and networking. It's the perfect place to learn from industry leaders, discover cutting-edge solutions, and engage with peers. Whether you’re seeking growth, collaboration, or insights into the latest Sitecore features, this page is your gateway to success!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240513T113905Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5f8928e-2267-41c6-8e32-c193a44e5ae4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "c5d3aa7c-e703-4906-b6d7-872f387ceb46"
+      Hint: Title
+      Value: Sitecore Community Events 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240607T121536Z
+    - ID: "e50c1c31-a240-4bfd-b46d-049b54e4aa27"
+      Hint: Image
+      Value: |
+        <image mediaid="0BBBCBF6-9A42-45E6-A429-F7B523826B37" />

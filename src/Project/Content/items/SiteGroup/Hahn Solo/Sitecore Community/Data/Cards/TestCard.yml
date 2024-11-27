@@ -1,0 +1,59 @@
+﻿---
+ID: "e7dea5bb-073f-4b8e-8e3a-dac16fed10a3"
+Parent: "a229bcaf-afaa-4bc0-a6b7-7ee295c49470"
+Template: "91da1426-2bf0-4a5d-bc84-24b3b449ea6d"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Data/Cards/TestCard
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B0121227-57A4-4AB2-9E32-83903C8A5380}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "09d38b15-3260-4702-8563-d105ac28ee10"
+      Hint: Cta
+      Value: |
+        <link linktype="internal" id="856FCF75-309B-43EF-B55C-6E24BCEBCBF2" anchor="" querystring="" target="" class="" text="FOLLOW US" title=""/>
+    - ID: "0ae57c44-d32c-462c-880e-c9533ebcbc8e"
+      Hint: Subtitle
+      Value: FANCY
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240128T095535Z
+    - ID: "30a5f762-4c87-4e13-a289-9834812a324e"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><p data-placeholder="[No text in field]">The Sitecore community stands out due to its collaborative spirit and rich resource pool. Members share best practices, offer problem-solving insights, and provide support, fostering an environment of continuous learning. With regular meetups, webinars, and an active online presence, the community ensures that both new and experienced users can maximize their use of the Sitecore platform effectively.</p></div>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{730BBBAD-D2E0-4160-B25C-8D6D03CFC128}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8603cfe3-ad47-46ad-8f83-76bf0c3ecb58"
+      Hint: ExternalImage
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "46745358-76dd-4e6a-9f8a-38c6d6f8725a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "c5d3aa7c-e703-4906-b6d7-872f387ceb46"
+      Hint: Title
+      Value: My Title
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240607T121536Z
+    - ID: "e50c1c31-a240-4bfd-b46d-049b54e4aa27"
+      Hint: Image
+      Value: |
+        <image mediaid="47FE9FE2-2BA1-493F-BCF7-F8D02D11D004" />

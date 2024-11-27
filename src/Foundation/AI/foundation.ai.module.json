@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Foundation.AI",
+  "references": ["Foundation.Globals"],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Foundation/AI"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Foundation/AI"
+      },
+      {
+        "name": "System",
+        "path": "/sitecore/system/Settings/Foundation/AI"
+      },
+      {
+        "name": "Templates.Banches",
+        "path": "/sitecore/templates/Branches/Foundation/AI"
+      }
+    ]
+  }
+}

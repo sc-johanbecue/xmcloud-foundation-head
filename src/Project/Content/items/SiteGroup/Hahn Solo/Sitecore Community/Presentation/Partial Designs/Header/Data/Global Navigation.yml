@@ -1,0 +1,26 @@
+﻿---
+ID: "6f4b2928-4e8a-4213-8f20-dc4af4530260"
+Parent: "e9747304-6c5d-4e4e-8aa2-ad6cac251a45"
+Template: "f06c489c-4ba9-4dfe-82f8-ca3bb878f756"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Presentation/Partial Designs/Header/Data/Global Navigation
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240621T114411Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc265ab9-7dc2-41ba-8e6c-fa5b3287eb85"
+    - ID: "a609beda-5c40-4dee-ac00-8ab8ecb878cc"
+      Hint: Root
+      Value: "{856FCF75-309B-43EF-B55C-6E24BCEBCBF2}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240624T082518Z

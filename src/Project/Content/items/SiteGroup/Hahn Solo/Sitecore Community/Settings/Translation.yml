@@ -1,0 +1,38 @@
+﻿---
+ID: "6d350221-4b9b-422a-9561-d11e67ddf2ce"
+Parent: "e4c74a37-3920-49b7-aa38-53db73248a67"
+Template: "d7514b2e-0319-4c1c-930d-53a0048d00d3"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Settings/Translation
+SharedFields:
+- ID: "cc47fd88-6b94-4e5d-9fa7-221f243d1ba7"
+  Hint: Target Languages
+  Value: |
+    {59B76901-B059-405A-A752-095AD6507273}
+    {B8F68DD6-FA20-4BE5-BCEA-A38080FBEC0A}
+    {DAF984C8-10CC-45B5-A34C-96B7D24DB01F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240124T104300Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f92cf5cc-9ba9-4a87-bc35-caf88c594386"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240731T063259Z

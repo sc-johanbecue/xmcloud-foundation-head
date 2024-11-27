@@ -1,0 +1,82 @@
+﻿---
+ID: "f53b17a3-2d07-4776-b33c-94f46892fed8"
+Parent: "856fcf75-309b-43ef-b55c-6e24bcebcbf2"
+Template: "a527704c-2a91-4dce-a604-efb1693f0a1b"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/News
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B0121227-57A4-4AB2-9E32-83903C8A5380}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{BB2659F0-EC01-4D82-90E3-AB39B501F343}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E8B84700-A2D4-42ED-910F-ED9D3DEB015C}"
+              p:before="*"
+              s:ds="f53b17a3-2d07-4776-b33c-94f46892fed8"
+              s:id="{52DD83A8-CE20-4A73-8242-D14FFB1622BC}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberOfNews=12&amp;NumberOfNewsPerGrid=3&amp;FieldNames=%7BB0E9CE5C-76B1-4081-807A-06B7ED0ACC56%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{CA19FEFF-D13F-448D-A3DD-90379AF7D687}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Banner"
+              s:id="{9BC3E69F-E6E9-40B3-AB16-2C31CCCB16EF}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="/headless-main/sxa-standard-default-page/container-6" />
+          </d>
+        </r>
+    - ID: "1bb37cb2-d7b8-4936-9d4a-2e2cf15f81bb"
+      Hint: Title
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240730T074342Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{730BBBAD-D2E0-4160-B25C-8D6D03CFC128}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: News
+    - ID: "505bce75-e9b7-493a-9c01-4d3d85982d3c"
+      Hint: OgTitle
+      Value: News Overview
+    - ID: "5831ed13-2878-48f6-95e6-bef1bd2ae9e9"
+      Hint: OgDescription
+      Value: See all relevant news on one page...
+    - ID: "8696e26d-38ad-43cf-87a9-2f9707cee8a8"
+      Hint: Title
+      Value: 
+    - ID: "871f2c9f-0d7a-413e-aa79-f6095b235c67"
+      Hint: OgImage
+      Value: |
+        <image mediaid="{679F9EDA-3914-4CD0-90CA-5DA33CE44650}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d8f4b38-6090-478d-97d5-1a55553d4248"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240806T132824Z

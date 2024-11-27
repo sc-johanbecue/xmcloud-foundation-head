@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.Content",
+  "references": ["Foundation.Globals",
+		  "Foundation.Shared",
+          "Foundation.Translation",
+          "Foundation.AI",
+		  "Feature.Authentication",
+          "Feature.Assets",
+		  "Feature.Products",
+		  "Feature.Forms",
+          "Feature.News",
+          "Feature.Seo",
+		  "Feature.Content"],
+  "items": {
+    "includes": [
+	{
+        "name": "Templates",
+        "path": "/sitecore/templates/Project/Hahn Solo",
+		"allowedPushOperations": "createOnly"
+      },
+	  {
+        "name": "SiteGroup",
+        "path": "/sitecore/content/Hahn Solo",
+		"allowedPushOperations": "createOnly"
+      },
+	   {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Project/Hahn Solo",
+		"allowedPushOperations": "createOnly"
+      },
+	   {
+        "name": "PlaceholderSettings",
+        "path": "/sitecore/layout/Placeholder Settings/Project/Hahn Solo",
+		"allowedPushOperations": "createOnly"
+      },
+	  {
+        "name": "Media",
+        "path": "/sitecore/media library/Project/Hahn Solo",
+		"allowedPushOperations": "createOnly"
+      },
+    ]
+  }
+}

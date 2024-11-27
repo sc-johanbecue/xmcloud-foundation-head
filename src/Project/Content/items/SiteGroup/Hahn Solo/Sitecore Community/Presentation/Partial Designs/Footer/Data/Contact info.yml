@@ -1,0 +1,40 @@
+﻿---
+ID: "48bc7f23-6ee7-42ab-ad6d-f0b406d5be46"
+Parent: "04566717-4e43-43f1-a6e5-658dda402657"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Presentation/Partial Designs/Footer/Data/Contact info
+BranchID: "8204a950-cbaa-4d06-878b-11ced5ddc1ad"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{24280E66-0C0C-42B5-9B03-B8D789E81922}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240124T104329Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><blockquote><p data-placeholder="[No text in field]"><span><strong>X:</strong> @hahn1christian</span></p><p><span><strong>LinkedIn: </strong></span><a href="https://www.linkedin.com/in/christian-hahn-209727131/"><span>https://www.linkedin.com/in/christian-hahn-209727131/</span></a></p><p><span><strong>Slack:</strong> christian.hahn</span></p><p><span><strong>Blog:</strong> https://hachweb.wordpress.com/</span></p><p><strong>Mail: </strong><a href="mailto:christian.hahn@sitecore.com">christian.hahn@sitecore.com</a></p><p><strong>Mail2: </strong>christian@hahn-solo.net</p></blockquote></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0f9993b-1b52-49d6-bebd-2672c0805157"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240508T110648Z

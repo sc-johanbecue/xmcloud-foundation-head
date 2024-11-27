@@ -1,0 +1,42 @@
+﻿---
+ID: "9fa410eb-6c7a-4084-a13a-fffa51dd408c"
+Parent: "a914c5b8-e8da-45d1-bee6-e9683bd283e8"
+Template: "45b5d66a-5929-471b-8a08-24c3d77c2392"
+Path: /sitecore/system/Workflows/Comment Workflow/Moderating/BAD/Notify Author
+SharedFields:
+- ID: "70bcf39c-e567-4bc5-9dfa-3503810ef820"
+  Hint: Enabled
+  Value: 1
+- ID: "f9f59338-045d-4da8-80f0-ce7f7d92e4af"
+  Hint: Url
+  Value: "https://webhooks.eu.workato.com/webhooks/rest/993b2633-cd7e-46eb-b77a-c88e7caaeff9/notify"
+Languages:
+- Language: en
+  Fields:
+  - ID: "305fa64b-5785-4171-aa73-de715e21ae21"
+    Hint: Description
+    Value: Notify Author in case Moderating result is BAD
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230420T124138Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "91f99438-94b8-44c1-afe6-f3d8f76a63a8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230420T124234Z

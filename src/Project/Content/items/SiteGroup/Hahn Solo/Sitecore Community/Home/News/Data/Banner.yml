@@ -1,0 +1,38 @@
+﻿---
+ID: "92dd0446-4ee2-4bc6-b740-b619f6e20948"
+Parent: "ed0df415-046f-449d-abe5-ea4ec899a1af"
+Template: "7f6710e8-c9c4-46af-b1c0-344e2d3b1102"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/News/Data/Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240806T132751Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "89076c9b-5e99-42d6-b809-b28160d251fe"
+      Hint: Image
+      Value: |
+        <image mediaid="{2C2B424C-5CFE-434A-97B3-C8EAC8365AB0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a85044cd-b0c8-49c1-9822-ca190d151144"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240806T132852Z
+    - ID: "e7688e3f-8360-407d-b74a-ad3959108394"
+      Hint: Title
+      Value: News Overview

@@ -1,0 +1,74 @@
+@import '@sass/abstracts/vars';
+@import '@sass/abstracts/mixins';
+
+.productTeaser {
+  border: 1px solid white;
+  background-color: #5043cc;
+  padding: 0.5em;
+  height: 100%;
+  position: relative;
+  margin-bottom: 7em;
+  padding: 5px;
+  color: white;
+
+  .product-field-image {
+    padding-bottom: 1em;
+  }
+
+  &-component-content {
+    padding: 0.1em;
+    text-align: center;
+  }
+
+  &-headline {
+    font-size: xx-large;
+    padding-bottom: 0.5em;
+  }
+
+  &-text-field {
+    &-availability {
+      padding-top: 0.8em;
+    }
+    &-price {
+      font-size: xx-large;
+      text-align: center;
+    }
+    &-stocklevel {
+      text-align: center;
+    }
+  }
+
+  &-cta {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #3c2ca1;
+    background-color: #3c2ca1;
+    border-radius: 10%;
+    text-align: center;
+    padding: 1em;
+    font-weight: bold;
+
+    a {
+      font-size: large;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      background-color: #3c2ca1;
+    }
+    a:hover {
+      color: black;
+    }
+  }
+  &-cta:hover {
+    background-color: #928bde;
+    a {
+      background-color: #928bde;
+      color: black;
+    }
+  }
+}
+

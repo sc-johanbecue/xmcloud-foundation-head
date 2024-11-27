@@ -1,0 +1,26 @@
+﻿---
+ID: "acce2761-0f23-47ea-a550-a74be73acce4"
+Parent: "05ed6704-8de8-437e-b814-7a83f84c7ea4"
+Template: "536bb962-ae09-4f7d-b462-a2ca2e6cb037"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Data/Product Teasers/Hoodie News Campaign
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240605T102321Z
+    - ID: "857fde69-864e-4c83-b802-9dbef010cc2c"
+      Hint: ProductId
+      Value: 88xt7pXTDUujeC1pC9Hrjg
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b54adbe2-ea87-4bd3-9479-e0abb606ade8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\7ygaJPHCo6
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240606T130852Z

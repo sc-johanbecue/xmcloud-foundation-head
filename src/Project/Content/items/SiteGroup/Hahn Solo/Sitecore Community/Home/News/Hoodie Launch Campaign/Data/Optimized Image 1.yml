@@ -1,0 +1,35 @@
+﻿---
+ID: "335e70de-96c7-4c9d-a76b-577a01147319"
+Parent: "50481362-66bc-4866-a4b4-9e8ff5bf8339"
+Template: "805a0897-fa17-4d49-a846-1676d22fa03a"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Home/News/Hoodie Launch Campaign/Data/Optimized Image 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240605T102950Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "247521f2-beb0-481f-923a-89ab923ff60a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240607T121528Z
+    - ID: "edf8580e-5d7f-4d22-9b90-5dfe8dd56f17"
+      Hint: Image
+      Value: |
+        <image mediaid="721ADF2B-1794-479A-8EDA-A5B8FA70072B" />

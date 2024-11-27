@@ -1,0 +1,43 @@
+﻿---
+ID: "8e7cdac6-1ed6-4257-813b-44a52b29489a"
+Parent: "803318f7-baa6-4f50-99db-84d2d2c01542"
+Template: "5bfe0cbe-4bbe-4b34-b17a-50f76002baa9"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Settings/Standard Values/Rendering Parameters/Card
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e71c303-5e92-46d5-8740-d73332d3c709"
+      Hint: Variant
+      Value: "{2BE08CCD-A342-428F-9223-3592EE09AAD0}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240202T091019Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "75e95fd3-390e-4e1c-b584-878528351d58"
+      Hint: ButtonVariant
+      Value: "{2BE08CCD-A342-428F-9223-3592EE09AAD0}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6b1c45f1-6e5d-4385-b8de-18b93089827d"
+    - ID: "93b3e833-1de7-4692-93d4-e17e55192416"
+      Hint: Color
+      Value: "{EE874F79-0CED-4C5D-960D-AF6820537084}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d11dac3b-2e50-4379-a465-fa5351135036"
+      Hint: ButtonColor
+      Value: "{83C51B8E-5C44-47EB-B280-977760CE5751}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240202T092925Z

@@ -1,0 +1,38 @@
+﻿---
+ID: "1432e243-5d23-4703-b2bf-b4a29cb2f839"
+Parent: "97f61c07-2876-418a-bdab-17bee2a7109f"
+Template: "7f6710e8-c9c4-46af-b1c0-344e2d3b1102"
+Path: "/sitecore/content/Hahn Solo/Sitecore Community/Home/Error-Pages/404/Data/404"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240613T181534Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "89076c9b-5e99-42d6-b809-b28160d251fe"
+      Hint: Image
+      Value: |
+        <image mediaid="{52BDC455-9AD9-4BAD-9964-A1677C0120D0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "786d95b2-d44b-47b3-a609-8221b06a9397"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240613T182153Z
+    - ID: "e7688e3f-8360-407d-b74a-ad3959108394"
+      Hint: Title
+      Value: 

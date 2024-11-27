@@ -1,0 +1,46 @@
+.row {
+  padding-bottom: 1.5rem;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+.space-s {
+  padding: 2px !important;
+}
+
+.space-bottom-s {
+  padding-bottom: 0.5rem !important;
+}
+.space-bottom-m {
+  padding-bottom: 1rem !important;
+}
+.space-right-m {
+  padding-right: 1rem !important;
+}
+.space-top-m {
+  padding-top: 1rem !important;
+}
+
+.successMessage {
+  color: green;
+}
+
+.inStock {
+  color: lightseagreen;
+}
+
+.outOfStock {
+  color: lightcoral;
+}
+
+option {
+  color: #000000;
+}

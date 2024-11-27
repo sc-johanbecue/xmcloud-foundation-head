@@ -1,0 +1,33 @@
+﻿---
+ID: "681370dc-ace1-4e70-a730-86abeab389fa"
+Parent: "ceb5980c-a37d-47f9-9261-c800aa110fae"
+Template: "ceb5980c-a37d-47f9-9261-c800aa110fae"
+Path: /sitecore/templates/Feature/Content/Folders/Optimized Image Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {805A0897-FA17-4D49-A846-1676D22FA03A}
+    {CEB5980C-A37D-47F9-9261-C800AA110FAE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071508Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f897caf5-a63d-48a5-8fbf-fea08c452135"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\christian.hahn@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240214T074209Z

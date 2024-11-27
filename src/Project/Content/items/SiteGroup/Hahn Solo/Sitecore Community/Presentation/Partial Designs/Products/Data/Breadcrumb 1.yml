@@ -1,0 +1,23 @@
+﻿---
+ID: "8afa482a-e234-468a-9063-ba32b4013524"
+Parent: "685a2a87-b71e-4f9d-b526-a5ac2ded35bd"
+Template: "c4a92087-6344-4757-b2bb-0b4170670cab"
+Path: /sitecore/content/Hahn Solo/Sitecore Community/Presentation/Partial Designs/Products/Data/Breadcrumb 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240805T072928Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a3154124-74a5-4937-93a3-1afc933834bb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Christian Hahn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240805T072928Z
