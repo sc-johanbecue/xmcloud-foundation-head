@@ -33,7 +33,7 @@ export const Default = (props: LynkAndCoHeaderProps): JSX.Element => {
         <div style={{ height: '72px' }}>
           <header className="header-bar_header__9Zu+o">
             <div className="header-bar_headerCover__9tGKA"></div>
-            <span className="logo_logo__yeurP">
+            <span className="logo_logo__yeurP M">
               <Link href="/en">
                 <div className="image no-hover">
                   <div>
