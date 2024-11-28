@@ -55,7 +55,7 @@ export const Default = (props: AmmegaCopyrightFooterProps): JSX.Element => {
                   <span className="white-slash">/</span>
                   <li>
                     <Link href="/general-conditions" title="Resources">
-                      General-Conditions
+                      General Conditions
                     </Link>
                   </li>
                 </ul>
