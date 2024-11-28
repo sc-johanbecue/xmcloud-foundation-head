@@ -21,7 +21,7 @@ type LynkAndCoHeaderProps = {
 const LynkAndCoHeaderDefaultComponent = (props: LynkAndCoHeaderProps): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
-      <span className="is-empty-hint"></span>
+      <span className="is-empty-hint">i</span>
     </div>
   </div>
 );
